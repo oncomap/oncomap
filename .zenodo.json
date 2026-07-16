@@ -23,7 +23,9 @@
   ],
   "creators": [
     {
-      "name": "Samuriwo, Tendayi"
+      "name": "Samuriwo, Tendayi",
+      "affiliation": "OncoMap (independent research initiative)",
+      "orcid": "0000-0001-9888-5430"
     }
   ],
   "related_identifiers": [
@@ -31,6 +33,11 @@
       "identifier": "https://github.com/oncomap/oncomap",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.21398322",
+      "relation": "isDocumentedBy",
+      "scheme": "doi"
     }
   ]
 }

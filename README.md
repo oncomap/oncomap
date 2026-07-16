@@ -2,10 +2,7 @@
 
 **A curated, literature-grounded metadata map of oncology omics datasets.**
 
-<!-- After minting the v0.1 DOI (see docs/RELEASE.md), replace XXXXXXX below with
-     the Zenodo record id in the badge, the DOI links, and the Cite section. -->
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21398323.svg)](https://doi.org/10.5281/zenodo.21398323)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 
@@ -17,14 +14,14 @@ This is a **data/schema-first project**, not a UI project. The load-bearing arti
 
 ## Documentation
 
-| Doc                                                      | Purpose                                                                                                     |
-| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [`docs/OncoMap-SPEC.md`](docs/OncoMap-SPEC.md)           | Strategy, scope boundaries, data model (4 node types), curation workflow, roadmap                           |
-| [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md)           | Registry of source repositories, atlases, aggregators, spatial DBs, and controlled vocabularies             |
-| [`docs/SECURITY.md`](docs/SECURITY.md)                   | Data-classification policy, lightweight threat model, secrets procedure                          |
-| [`docs/DEPLOY.md`](docs/DEPLOY.md)                       | Hosting the browsable view at www.oncomap.org via Netlify / Cloudflare Pages (free)           |
-| [`docs/RELEASE.md`](docs/RELEASE.md)                     | Cutting a versioned release and minting the Zenodo DOI                                           |
-| [`docs/INCIDENT_RESPONSE.md`](docs/INCIDENT_RESPONSE.md) | Data-incident runbook: severity, demotion, corrective-action register                            |
+| Doc                                                      | Purpose                                                                                         |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [`docs/OncoMap-SPEC.md`](docs/OncoMap-SPEC.md)           | Strategy, scope boundaries, data model (4 node types), curation workflow, roadmap               |
+| [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md)           | Registry of source repositories, atlases, aggregators, spatial DBs, and controlled vocabularies |
+| [`docs/SECURITY.md`](docs/SECURITY.md)                   | Data-classification policy, lightweight threat model, secrets procedure                         |
+| [`docs/DEPLOY.md`](docs/DEPLOY.md)                       | Hosting the browsable view at www.oncomap.org via Netlify / Cloudflare Pages (free)             |
+| [`docs/RELEASE.md`](docs/RELEASE.md)                     | Cutting a versioned release and minting the Zenodo DOI                                          |
+| [`docs/INCIDENT_RESPONSE.md`](docs/INCIDENT_RESPONSE.md) | Data-incident runbook: severity, demotion, corrective-action register                           |
 
 ## Repository layout
 
@@ -139,26 +136,30 @@ www.oncomap.org ([`docs/DEPLOY.md`](docs/DEPLOY.md)).
 
 ## Cite
 
-If you use OncoMap, please cite the archived release. Citation metadata lives in
-[`CITATION.cff`](CITATION.cff) (GitHub renders a "Cite this repository" panel);
-the DOI is minted per [`docs/RELEASE.md`](docs/RELEASE.md). Once minted, replace
-`XXXXXXX` below with the Zenodo record id.
+If you use OncoMap, please cite the preprint that describes it. Citation metadata
+lives in [`CITATION.cff`](CITATION.cff), whose `preferred-citation` block points
+GitHub's "Cite this repository" panel at the preprint below.
 
-> Samuriwo, T. (2026). _OncoMap: a curated, literature-grounded catalog of
-> oncology spatial-omics datasets_ (Version 0.1.0) [Data set]. Zenodo.
-> https://doi.org/10.5281/zenodo.XXXXXXX
+> Samuriwo, T. (2026). _OncoMap: a curated, literature-grounded catalogue of
+> oncology spatial-omics datasets_ [Preprint]. Zenodo.
+> https://doi.org/10.5281/zenodo.21398323
 
 ```bibtex
-@dataset{oncomap,
+@misc{oncomap,
   author    = {Samuriwo, Tendayi},
-  title     = {OncoMap: a curated, literature-grounded catalog of oncology spatial-omics datasets},
+  title     = {OncoMap: a curated, literature-grounded catalogue of oncology spatial-omics datasets},
   year      = {2026},
-  version   = {0.1.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.21398323},
+  url       = {https://doi.org/10.5281/zenodo.21398323},
+  note      = {Preprint}
 }
 ```
+
+The catalog records are not yet archived under their own DOI. When the v0.1
+Zenodo data deposit is minted ([`docs/RELEASE.md`](docs/RELEASE.md)), its DOI is
+added here and as a top-level `doi:` in [`CITATION.cff`](CITATION.cff) - cite
+that alongside the preprint when you reuse the records themselves.
 
 ## License
 

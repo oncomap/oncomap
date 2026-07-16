@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use OncoMap, please cite it as below."
+message: "If you use OncoMap, please cite the preprint under preferred-citation."
 title: "OncoMap: a curated, literature-grounded catalog of oncology spatial-omics datasets"
 abstract: >-
   OncoMap is a curated metadata catalog of publicly available oncology
@@ -17,6 +17,8 @@ url: "https://www.oncomap.org"
 authors:
   - family-names: Samuriwo
     given-names: Tendayi
+    orcid: "https://orcid.org/0000-0001-9888-5430"
+    affiliation: "OncoMap (independent research initiative)"
 keywords:
   - spatial transcriptomics
   - spatial proteomics
@@ -26,3 +28,20 @@ keywords:
   - metadata catalog
   - FAIR data
   - OncoTree
+# The catalog itself has no DOI yet; cite the preprint that describes it.
+# Add a top-level `doi:` here once the Zenodo data deposit is minted.
+preferred-citation:
+  type: generic
+  title: "OncoMap: a curated, literature-grounded catalogue of oncology spatial-omics datasets"
+  authors:
+    - family-names: Samuriwo
+      given-names: Tendayi
+      orcid: "https://orcid.org/0000-0001-9888-5430"
+      affiliation: "OncoMap (independent research initiative)"
+  year: 2026
+  month: 7
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.21398323"
+  url: "https://doi.org/10.5281/zenodo.21398323"
+  notes: "Preprint"
