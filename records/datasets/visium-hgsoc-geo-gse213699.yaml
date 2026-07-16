@@ -1,0 +1,16 @@
+id: visium-hgsoc-geo-gse213699
+title: "Small cell carcinoma of the ovary hypercalcemic type (SCCOHT): A review and novel case with dual germline SMARCA4 and BRCA2 mutations"
+cancer_type: HGSOC
+tissue: "UBERON:0000992"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 8
+accession:
+  - GSE213699
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; platform confirmed at sample level). Visium spatial transcriptomics of 8 ovarian tumour samples. Source labels them generically 'ovarian cancer'; HGSOC assumed as the dominant type. Depth record for ovarian, complementing visium-hgsoc-geo-gse288483.
+source_paper: sanders-2022-hgsoc
+last_verified: "2026-07-09"
+deposition_year: 2022
+curation_status: verified

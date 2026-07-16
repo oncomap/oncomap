@@ -1,0 +1,13 @@
+id: visium-ocs-htan-htapp
+title: "HTAN HTAPP visium spatial transcriptomics of OCS"
+cancer_type: OCS
+tissue: "UBERON:0000992"
+modality: spatial_transcriptomics
+platform: visium
+n_patients: 1
+accession:
+  - SYNAPSE:syn25997881
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN HTAPP visium spatial transcriptomics; cancer_type OCS derived from the ICD-O organ + morphology of 1 participant(s) / 4 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

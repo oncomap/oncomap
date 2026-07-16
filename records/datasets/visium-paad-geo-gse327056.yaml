@@ -1,0 +1,20 @@
+id: visium-paad-geo-gse327056
+title: "Visium spatial transcriptomic profiling of human pancreatic ductal adenocarcinoma"
+cancer_type: PAAD
+cancer_type_ncit: C8294
+tissue: "UBERON:0001264"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+n_samples: 4
+accession:
+  - GSE327056
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Visium from Series_overall_design ("the 10x Genomics
+  Visium platform"). Series includes normal pancreatic tissue alongside PDAC;
+  select tumour sections at review. Depth record for pancreatic on Visium,
+  complementing the st_array st-array-paad-geo-gse111672.
+deposition_year: 2026
+curation_status: human_reviewed

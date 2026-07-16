@@ -1,0 +1,16 @@
+id: visium-brca-cxg-wu-2021
+title: A single-cell and spatially resolved atlas of human breast cancers
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 6
+accession:
+  - "CELLxGENE:dea97145-f712-431c-a223-6b5f565f362a"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover: tissue (UBERON), assay (EFO) and disease are CELLxGENE-curated. 6 spatial datasets on Visium. cancer_type mapped from CELLxGENE disease 'breast carcinoma' to OncoTree BRCA.
+source_paper: wu-2021-brca
+last_verified: "2026-07-09"
+curation_status: verified

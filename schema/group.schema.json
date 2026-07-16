@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oncomap.org/schema/group.schema.json",
+  "title": "OncoMap Group",
+  "description": "A research lab / PI that generated one or more datasets. See docs/OncoMap-SPEC.md §3.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Lab or PI name.",
+      "minLength": 2
+    },
+    "institution": { "type": "string" },
+    "country": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 country code.",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "focus_areas": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "datasets": {
+      "type": "array",
+      "description": "ids of Dataset nodes produced by this group.",
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    },
+    "ror": {
+      "type": "string",
+      "description": "ROR id for the institution, e.g. 02mhbdp94",
+      "pattern": "^0[a-hj-km-np-tv-z0-9]{6}[0-9]{2}$"
+    },
+    "orcid": {
+      "type": "string",
+      "description": "ORCID iD of the PI.",
+      "pattern": "^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$"
+    }
+  }
+}

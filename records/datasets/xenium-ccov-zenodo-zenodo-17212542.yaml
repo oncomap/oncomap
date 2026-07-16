@@ -1,0 +1,16 @@
+id: xenium-ccov-zenodo-zenodo-17212542
+title: "Deep Spatial Transcriptomic Profiling of Ovarian Clear Cell Carcinoma in the Real-World Setting"
+cancer_type: CCOV
+cancer_type_ncit: C40076
+tissue: "UBERON:0000992"
+modality: spatial_transcriptomics
+platform: xenium
+accession:
+  - 10.5281/zenodo.17212542
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as xenium and cancer_type classified as CCOV from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: le-2026-ccov
+last_verified: "2026-07-12"
+deposition_year: 2025
+curation_status: verified

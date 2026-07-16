@@ -1,0 +1,16 @@
+id: slide-seq-rcc-cxg-liu-2022
+title: Spatial maps of T cell receptors and transcriptomes reveal distinct immune niches and interactions in the adaptive immune response
+cancer_type: RCC
+cancer_type_ncit: C9385
+tissue: "UBERON:0002113"
+modality: spatial_transcriptomics
+platform: slide_seq
+n_samples: 9
+accession:
+  - "CELLxGENE:02b01703-bf1b-48de-b99a-23bef8cccc81"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover (collection 02b01703); the renal cell carcinoma subset of a Slide-seqV2 TCR/transcriptome study. 9 samples (kidney primary + lung metastases); tissue and disease are CELLxGENE-curated.
+source_paper: liu-2022-tcr-spatial
+last_verified: "2026-07-09"
+curation_status: verified

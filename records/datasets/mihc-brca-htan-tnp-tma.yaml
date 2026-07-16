@@ -1,0 +1,13 @@
+id: mihc-brca-htan-tnp-tma
+title: "HTAN TNP - TMA mihc spatial proteomics of BRCA"
+cancer_type: BRCA
+tissue: "UBERON:0000310"
+modality: spatial_proteomics
+platform: mihc
+n_patients: 42
+accession:
+  - SYNAPSE:syn26341994
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN TNP - TMA mihc spatial proteomics; cancer_type BRCA derived from the ICD-O organ + morphology of 42 participant(s) / 216 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

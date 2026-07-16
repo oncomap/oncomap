@@ -1,0 +1,13 @@
+id: merfish-brca-htan-htapp
+title: "HTAN HTAPP merfish spatial transcriptomics of BRCA"
+cancer_type: BRCA
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: merfish
+n_patients: 9
+accession:
+  - SYNAPSE:syn25510468
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN HTAPP merfish spatial transcriptomics; cancer_type BRCA derived from the ICD-O organ + morphology of 9 participant(s) / 12 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

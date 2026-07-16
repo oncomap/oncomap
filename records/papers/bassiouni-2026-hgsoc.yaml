@@ -1,0 +1,8 @@
+id: bassiouni-2026-hgsoc
+doi: 10.1158/2767-9764.CRC-25-0795
+pmid: "42007974"
+title: "Integrated Single-Cell Whole-Genome Sequencing and Spatial Transcriptomics Reveal Intratumoral Heterogeneity in Ovarian Cancer"
+year: 2026
+venue: "Cancer research communications"
+datasets:
+  - visium-hgsoc-zenodo-zenodo-17418856

@@ -1,0 +1,24 @@
+id: visium-cesc-geo-gse208654
+title: "Visium spatial transcriptomics of persistent HPV infection across cervical precancer-to-cancer stages"
+cancer_type: CESC
+cancer_type_ncit: C4028
+tissue: "UBERON:0000002"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+accession:
+  - GSE208654
+n_samples: 4
+access: open
+reuse_notes: >-
+  Reconciled against the GEO record: GSE208654 is the "[Spatial Transcriptomics]"
+  subseries with 4 ST sections spanning a progression series - N_HPV (normal),
+  HSIL_HPV (precancer), CA_HPV (cervical cancer), plus one more. Only the
+  cancer-stage section is malignant (HPV+ cervical squamous cell carcinoma); the
+  study's "nine samples" figure combines scRNA-seq + ST across the whole study,
+  not this ST subseries alone. Platform confirmed at sample level ("10X Chromium
+  Spatial Gene Expression Slide"). Paper: Guo C et al., Clin Transl Med 2023.
+source_paper: guo-2023-cesc
+last_verified: "2026-07-09"
+deposition_year: 2023
+curation_status: verified

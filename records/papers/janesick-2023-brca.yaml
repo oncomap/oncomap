@@ -1,0 +1,9 @@
+id: janesick-2023-brca
+doi: 10.1038/s41467-023-43458-x
+pmid: "38114474"
+title: "High resolution mapping of the tumor microenvironment using integrated single-cell, spatial and in situ analysis"
+year: 2023
+venue: "Nature communications"
+datasets:
+  - visium-brca-geo-gse243275
+  - xenium-brca-geo-gse243168

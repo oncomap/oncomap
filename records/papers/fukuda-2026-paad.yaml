@@ -1,0 +1,8 @@
+id: fukuda-2026-paad
+doi: 10.1016/j.canlet.2026.218348
+pmid: "41722836"
+title: "MIF-CD74 axis facilitates MDSC infiltration in the tumor microenvironment of pancreatic ductal adenocarcinoma"
+year: 2026
+venue: "Cancer letters"
+datasets:
+  - visium-paad-geo-gse299970

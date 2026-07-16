@@ -1,0 +1,8 @@
+id: salie-2025-hcc
+doi: 10.1136/gutjnl-2024-332837
+title: "Spatial single-cell profiling and neighbourhood analysis reveal the determinants of immune architecture connected to checkpoint inhibitor therapy outcome in hepatocellular carcinoma"
+year: 2025
+venue: "Gut"
+datasets:
+  - imc-hcc-zenodo-zenodo-10793609
+  - imc-hcc-zenodo-zenodo-10794904

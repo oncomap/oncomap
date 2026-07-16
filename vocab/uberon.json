@@ -1,0 +1,135 @@
+{
+  "source": "UBERON via EBI OLS4",
+  "url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms",
+  "retrieved": "2026-07-10",
+  "seed": "vocab/uberon_tissue_seed.txt",
+  "term_count": 42,
+  "terms": {
+    "UBERON:0000002": {
+      "label": "uterine cervix"
+    },
+    "UBERON:0000007": {
+      "label": "pituitary gland"
+    },
+    "UBERON:0000029": {
+      "label": "lymph node"
+    },
+    "UBERON:0000059": {
+      "label": "large intestine"
+    },
+    "UBERON:0000167": {
+      "label": "oral cavity"
+    },
+    "UBERON:0000178": {
+      "label": "blood"
+    },
+    "UBERON:0000310": {
+      "label": "breast"
+    },
+    "UBERON:0000473": {
+      "label": "testis"
+    },
+    "UBERON:0000945": {
+      "label": "stomach"
+    },
+    "UBERON:0000955": {
+      "label": "brain"
+    },
+    "UBERON:0000977": {
+      "label": "pleura"
+    },
+    "UBERON:0000992": {
+      "label": "ovary"
+    },
+    "UBERON:0000995": {
+      "label": "uterus"
+    },
+    "UBERON:0001013": {
+      "label": "adipose tissue"
+    },
+    "UBERON:0001043": {
+      "label": "esophagus"
+    },
+    "UBERON:0001044": {
+      "label": "saliva-secreting gland"
+    },
+    "UBERON:0001155": {
+      "label": "colon"
+    },
+    "UBERON:0001235": {
+      "label": "adrenal cortex"
+    },
+    "UBERON:0001255": {
+      "label": "urinary bladder"
+    },
+    "UBERON:0001264": {
+      "label": "pancreas"
+    },
+    "UBERON:0001474": {
+      "label": "bone element"
+    },
+    "UBERON:0001723": {
+      "label": "tongue"
+    },
+    "UBERON:0001728": {
+      "label": "nasopharynx"
+    },
+    "UBERON:0001768": {
+      "label": "uvea"
+    },
+    "UBERON:0001987": {
+      "label": "placenta"
+    },
+    "UBERON:0002046": {
+      "label": "thyroid gland"
+    },
+    "UBERON:0002048": {
+      "label": "lung"
+    },
+    "UBERON:0002097": {
+      "label": "skin of body"
+    },
+    "UBERON:0002106": {
+      "label": "spleen"
+    },
+    "UBERON:0002107": {
+      "label": "liver"
+    },
+    "UBERON:0002108": {
+      "label": "small intestine"
+    },
+    "UBERON:0002110": {
+      "label": "gallbladder"
+    },
+    "UBERON:0002113": {
+      "label": "kidney"
+    },
+    "UBERON:0002185": {
+      "label": "bronchus"
+    },
+    "UBERON:0002358": {
+      "label": "peritoneum"
+    },
+    "UBERON:0002367": {
+      "label": "prostate gland"
+    },
+    "UBERON:0002370": {
+      "label": "thymus"
+    },
+    "UBERON:0002371": {
+      "label": "bone marrow"
+    },
+    "UBERON:0002384": {
+      "label": "connective tissue"
+    },
+    "UBERON:0002394": {
+      "label": "bile duct"
+    },
+    "UBERON:0003688": {
+      "label": "omentum"
+    },
+    "UBERON:0003889": {
+      "label": "fallopian tube"
+    }
+  }
+}

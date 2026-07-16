@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oncomap.org/schema/paper.schema.json",
+  "title": "OncoMap Paper",
+  "description": "A source publication describing one or more cataloged datasets. See docs/OncoMap-SPEC.md §3.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "year"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "doi": {
+      "type": "string",
+      "description": "Bare DOI, e.g. 10.1038/s41586-023-00000-0",
+      "pattern": "^10\\.[0-9]{4,9}/[-._;()/:a-zA-Z0-9]+$"
+    },
+    "pmid": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "year": { "type": "integer", "minimum": 1990, "maximum": 2100 },
+    "venue": { "type": "string" },
+    "datasets": {
+      "type": "array",
+      "description": "ids of Dataset nodes described in this paper.",
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "uniqueItems": true
+    }
+  }
+}

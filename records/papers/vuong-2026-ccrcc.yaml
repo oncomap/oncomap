@@ -1,0 +1,8 @@
+id: vuong-2026-ccrcc
+doi: 10.1016/j.ccell.2026.05.007
+pmid: "42242232"
+title: Hypoxia shapes both therapeutic response and resistance in metastatic clear cell renal cell carcinoma
+year: 2026
+venue: Cancer Cell
+datasets:
+  - visium-ccrcc-geo-gse294006

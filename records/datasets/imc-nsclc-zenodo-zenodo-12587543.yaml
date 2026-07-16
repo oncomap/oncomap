@@ -1,0 +1,13 @@
+id: imc-nsclc-zenodo-zenodo-12587543
+title: "Spatial Architecture of Myeloid and T Cells Orchestrates Immune Evasion and Clinical Outcome in Lung Cancer"
+cancer_type: NSCLC
+tissue: "UBERON:0002048"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - 10.5281/zenodo.12587543
+access: on_request
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as imc and cancer_type classified as NSCLC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft. NOTE: the Zenodo files are restricted (record metadata is public but the data itself is gated at source); cataloged as a pointer, access on_request.
+deposition_year: 2024
+curation_status: machine_draft

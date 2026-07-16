@@ -1,0 +1,8 @@
+id: ji-2020-cscc-multimodal
+doi: 10.1016/j.cell.2020.05.039
+pmid: "32579974"
+title: "Multimodal Analysis of Composition and Spatial Architecture in Human Squamous Cell Carcinoma"
+year: 2020
+venue: "Cell"
+datasets:
+  - st-array-cscc-geo-gse144239

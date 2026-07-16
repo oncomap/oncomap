@@ -1,0 +1,17 @@
+id: visium-hd-blca-geo-gse299573
+title: "Spatial transcriptomics of bladder cancer with squamous differentiation"
+cancer_type: BLCA
+cancer_type_ncit: C39851
+tissue: "UBERON:0001255"
+modality: spatial_transcriptomics
+platform: visium_hd
+n_samples: 1
+accession:
+  - GSE299573
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium_hd from the GEO series title/summary ("bladder cancer" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: haga-2026-blca
+last_verified: "2026-07-10"
+deposition_year: 2025
+curation_status: verified

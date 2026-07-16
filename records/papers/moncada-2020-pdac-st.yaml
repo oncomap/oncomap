@@ -1,0 +1,8 @@
+id: moncada-2020-pdac-st
+doi: 10.1038/s41587-019-0392-8
+pmid: "31932730"
+title: "Integrating microarray-based spatial transcriptomics and single-cell RNA-seq reveals tissue architecture in pancreatic ductal adenocarcinomas"
+year: 2020
+venue: "Nature Biotechnology"
+datasets:
+  - st-array-paad-geo-gse111672

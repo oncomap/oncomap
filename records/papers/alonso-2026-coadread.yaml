@@ -1,0 +1,8 @@
+id: alonso-2026-coadread
+doi: 10.1016/j.ccell.2026.04.009
+pmid: "42167227"
+title: Concurrent genetic and non-genetic resistance mechanisms to KRAS inhibition in colorectal cancer
+year: 2026
+venue: Cancer Cell
+datasets:
+  - cosmx-coadread-geo-gse293124

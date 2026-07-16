@@ -1,0 +1,16 @@
+id: slide-seq-skcm-cxg-liu-2022
+title: Spatial maps of T cell receptors and transcriptomes reveal distinct immune niches and interactions in the adaptive immune response
+cancer_type: SKCM
+cancer_type_ncit: C3510
+tissue: "UBERON:0000029"
+modality: spatial_transcriptomics
+platform: slide_seq
+n_samples: 7
+accession:
+  - "CELLxGENE:02b01703-bf1b-48de-b99a-23bef8cccc81"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover (collection 02b01703); the metastatic melanoma subset of a Slide-seqV2 TCR/transcriptome study. 7 lymph-node metastasis samples; tissue and disease are CELLxGENE-curated.
+source_paper: liu-2022-tcr-spatial
+last_verified: "2026-07-09"
+curation_status: verified

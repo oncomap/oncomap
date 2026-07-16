@@ -1,0 +1,8 @@
+id: knisely-2025-hgsoc
+doi: 10.1158/1078-0432.CCR-25-0512
+pmid: "40748258"
+title: "Surgical and Blood-Based Minimal Residual Disease in Patients with Ovarian Cancer after First-line Therapy: Clinical Outcomes and Translational Opportunities"
+year: 2025
+venue: "Clinical cancer research : an official journal of the American Association for Cancer Research"
+datasets:
+  - visium-hgsoc-geo-gse284100

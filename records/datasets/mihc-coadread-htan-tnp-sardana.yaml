@@ -1,0 +1,13 @@
+id: mihc-coadread-htan-tnp-sardana
+title: "HTAN TNP SARDANA mihc spatial proteomics of COADREAD"
+cancer_type: COADREAD
+tissue: "UBERON:0001155"
+modality: spatial_proteomics
+platform: mihc
+n_patients: 1
+accession:
+  - SYNAPSE:syn26433422
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN TNP SARDANA mihc spatial proteomics; cancer_type COADREAD derived from the ICD-O organ + morphology of 1 participant(s) / 3 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

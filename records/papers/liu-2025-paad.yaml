@@ -1,0 +1,8 @@
+id: liu-2025-paad
+doi: 10.1016/j.ccell.2025.03.004
+pmid: "40154487"
+title: "Conserved spatial subtypes and cellular neighborhoods of cancer-associated fibroblasts revealed by single-cell spatial multi-omics"
+year: 2025
+venue: "Cancer cell"
+datasets:
+  - visium-paad-geo-gse274103

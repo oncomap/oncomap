@@ -1,0 +1,20 @@
+id: xenium-pcm-geo-gse299193
+title: "Xenium spatial architecture of multiple myeloma in human bone marrow trephines"
+cancer_type: PCM
+cancer_type_ncit: C3242
+tissue: "UBERON:0002371"
+modality: spatial_transcriptomics
+platform: xenium
+n_samples: 22
+accession:
+  - GSE299193
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Xenium from Series_overall_design ("Xenium profiling
+  on bone marrow trephines"). cancer_type PCM (Plasma Cell Myeloma) is OncoTree's
+  code for multiple myeloma. Tissue is bone marrow trephine biopsy.
+source_paper: yip-2025-pcm
+last_verified: "2026-07-09"
+deposition_year: 2025
+curation_status: verified

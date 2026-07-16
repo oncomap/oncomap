@@ -1,0 +1,9 @@
+id: sonpatki-2026-gb
+doi: 10.1038/s41467-026-69716-2
+pmid: "41714633"
+title: "A spatially resolved human glioblastoma atlas reveals distinct cellular and molecular patterns of anatomical niches"
+year: 2026
+venue: "Nature communications"
+datasets:
+  - visium-gb-zenodo-zenodo-17572905
+  - xenium-gb-zenodo-zenodo-17622242

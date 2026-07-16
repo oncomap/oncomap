@@ -1,0 +1,21 @@
+id: visium-acc-geo-gse252108
+title: "Visium spatial transcriptomics dissecting intra- and intertumoral heterogeneity of adrenocortical carcinoma"
+cancer_type: ACC
+cancer_type_ncit: C9325
+tissue: "UBERON:0001235"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+n_samples: 7
+accession:
+  - GSE252108
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Points at GSE252108, the spatial subseries of SuperSeries GSE252113. Platform
+  confirmed at sample level ("10X Visium ... gene expression slides"). The
+  subseries includes some normal adrenal sections alongside tumour; select
+  tumour sections and set the tumour count at review. Tissue set to adrenal
+  cortex (UBERON:0001235), added to the UBERON seed for this record.
+deposition_year: 2025
+curation_status: human_reviewed

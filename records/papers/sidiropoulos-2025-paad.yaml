@@ -1,0 +1,8 @@
+id: sidiropoulos-2025-paad
+doi: 10.1158/2326-6066.CIR-25-0387
+pmid: "40815230"
+title: "Neoadjuvant Immunotherapy Promotes the Formation of Mature Tertiary Lymphoid Structures in a Remodeled Pancreatic Tumor Microenvironment"
+year: 2025
+venue: "Cancer immunology research"
+datasets:
+  - visium-paad-geo-gse277116

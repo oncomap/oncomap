@@ -1,0 +1,17 @@
+# Netlify build config for the static browsable view. Serves the static
+# browsable view for free at a custom domain (oncomap.org). Cloudflare Pages uses the same
+# build command + publish dir set in its dashboard (see docs/DEPLOY.md).
+[build]
+  command = "bash scripts/build_site.sh"
+  publish = "_site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+  NODE_VERSION = "20"
+
+# SPA fallback: the React Router app serves every route from index.html, so deep
+# links (/catalog, /dataset/:id) resolve on direct load / refresh instead of 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

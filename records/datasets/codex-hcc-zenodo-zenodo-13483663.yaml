@@ -1,0 +1,13 @@
+id: codex-hcc-zenodo-zenodo-13483663
+title: "Multi-omics analysis reveals the link between Treg distribution and therapy efficacy in Hepatocellular Carcinoma patients treated with tremelimumab plus durvalumab"
+cancer_type: HCC
+tissue: "UBERON:0002107"
+modality: spatial_proteomics
+platform: codex
+accession:
+  - 10.5281/zenodo.13483663
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as codex and cancer_type classified as HCC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2025
+curation_status: machine_draft

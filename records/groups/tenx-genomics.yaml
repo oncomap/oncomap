@@ -1,0 +1,9 @@
+id: tenx-genomics
+name: "10x Genomics (vendor reference datasets)"
+institution: "10x Genomics"
+country: US
+focus_areas:
+  - spatial_transcriptomics
+  - platform_reference_data
+datasets:
+  - visium-brca-10x-2023-001

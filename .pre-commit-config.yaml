@@ -1,0 +1,20 @@
+# Pre-commit gate. Install once: `uv run pre-commit install`.
+repos:
+  - repo: local
+    hooks:
+      - id: oncomap-validate
+        name: Validate OncoMap records (schema + trust gate + refs)
+        entry: python build/validate.py
+        language: system
+        pass_filenames: false
+        files: ^(records/|schema/|build/validate\.py)
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=512"]

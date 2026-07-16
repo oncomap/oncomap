@@ -1,0 +1,8 @@
+id: perelmuter-2024-brca
+doi: 10.3390/ijms252011109
+pmid: "39456890"
+title: "Characterization of EpCAM-Positive and EpCAM-Negative Tumor Cells in Early-Stage Breast Cancer"
+year: 2024
+venue: "International journal of molecular sciences"
+datasets:
+  - visium-brca-geo-gse242311

@@ -1,0 +1,8 @@
+id: ren-2023-gb
+doi: 10.1038/s41467-023-36707-6
+pmid: "36823172"
+title: "Spatial transcriptomics reveals niche-specific enrichment and vulnerabilities of radial glial stem-like cells in malignant gliomas"
+year: 2023
+venue: "Nature communications"
+datasets:
+  - visium-gb-geo-gse194329

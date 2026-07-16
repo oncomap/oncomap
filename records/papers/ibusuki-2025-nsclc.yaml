@@ -1,0 +1,8 @@
+id: ibusuki-2025-nsclc
+doi: 10.1186/s12943-025-02493-6
+pmid: '41152910'
+title: IFITM3-MET interaction drives osimertinib resistance through AKT pathway activation in EGFR-mutant non-small cell lung cancer
+year: 2025
+venue: Molecular cancer
+datasets:
+- visium-hd-nsclc-geo-gse301973

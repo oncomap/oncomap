@@ -1,0 +1,7 @@
+id: finne-2026-brca
+doi: 10.1038/s41523-026-00943-y
+title: "Stromal-based proteome data improve stratification of hormone receptor-positive breast cancer"
+year: 2026
+venue: "npj Breast Cancer"
+datasets:
+  - imc-brca-zenodo-zenodo-18254639

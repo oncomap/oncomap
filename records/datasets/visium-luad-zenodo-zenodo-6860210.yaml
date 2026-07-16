@@ -1,0 +1,14 @@
+id: visium-luad-zenodo-zenodo-6860210
+title: "Mapping of cell types in the tumor microenvironment from tissue images via deep learning trained by spatial transcriptomics of lung adenocarcinoma"
+cancer_type: LUAD
+cancer_type_ncit: C3512
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - 10.5281/zenodo.6860210
+access: on_request
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as visium and cancer_type classified as LUAD from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2022
+curation_status: machine_draft

@@ -1,0 +1,17 @@
+id: visium-skcm-geo-gse320041
+title: "High-resolution and noninvasive profiling of the tumor microenvironment with spatial ecotypes [Visium]"
+cancer_type: SKCM
+cancer_type_ncit: C3510
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 17
+accession:
+  - GSE320041
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("melanoma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: zhang-2026-skcm
+last_verified: "2026-07-10"
+deposition_year: 2026
+curation_status: verified

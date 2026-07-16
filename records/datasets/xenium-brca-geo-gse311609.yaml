@@ -1,0 +1,17 @@
+id: xenium-brca-geo-gse311609
+title: "Single-Cell Spatial Transcriptomics of Archival Human Lung and Breast Tumor FFPE Samples"
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: xenium
+n_samples: 41
+accession:
+  - GSE311609
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as xenium from the GEO series title/summary ("breast cancer" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: bilous-2026-brca
+last_verified: "2026-07-10"
+deposition_year: 2026
+curation_status: verified

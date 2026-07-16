@@ -1,0 +1,9 @@
+id: coutant-2023-brca
+doi: 10.1016/j.labinv.2023.100258
+pmid: "37813278"
+title: "Spatial Transcriptomics Reveal Pitfalls and Opportunities for the Detection of Rare High-Plasticity Breast Cancer Subtypes"
+year: 2023
+venue: "Laboratory investigation; a journal of technical methods and pathology"
+datasets:
+  - visium-brca-cxg-coutant-2023
+  - visium-brca-zenodo-zenodo-20727406

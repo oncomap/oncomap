@@ -1,0 +1,15 @@
+id: visium-hd-cscc-geo-gse319968
+title: "Spatial and Bulk Transcriptomic Profiling Defines the Molecular Evolution of Cutaneous Squamous Cell Carcinoma and Reveals Stage-Specific Biomarkers of Clinical Relevance [GeoMx]"
+cancer_type: CSCC
+cancer_type_ncit: C4819
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: visium_hd
+n_samples: 105
+accession:
+  - GSE319968
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium_hd from the GEO series title/summary ("cutaneous squamous cell carcinoma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

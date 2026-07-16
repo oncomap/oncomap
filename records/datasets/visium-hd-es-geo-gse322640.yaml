@@ -1,0 +1,18 @@
+id: visium-hd-es-geo-gse322640
+title: "Trabectedin and low-dose irinotecan to target EWS::FLI1 in Ewing sarcoma: a phase 1/2 trial"
+cancer_type: ES
+cancer_type_ncit: C4817
+tissue: "UBERON:0001474"
+modality: spatial_transcriptomics
+platform: visium_hd
+sequencer: "Illumina NovaSeq X Plus"
+n_samples: 10
+accession:
+  - GSE322640
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; platform confirmed at sample level). Visium HD (CytAssist) spatial transcriptomics of EWS::FLI1-positive Ewing sarcoma needle biopsies (pre/post treatment) from a phase 1 trial. Tissue set to bone.
+source_paper: grohar-2026-es
+last_verified: "2026-07-09"
+deposition_year: 2026
+curation_status: verified

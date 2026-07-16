@@ -1,0 +1,8 @@
+id: dai-2025-dlbclnos
+doi: 10.1038/s41588-025-02353-5
+pmid: '41120574'
+title: Multi-modal spatial characterization of tumor immune microenvironments identifies targetable inflammatory niches in diffuse large B cell lymphoma
+year: 2025
+venue: Nature genetics
+datasets:
+- cosmx-dlbcl-geo-gse289194

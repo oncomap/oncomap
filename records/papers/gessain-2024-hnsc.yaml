@@ -1,0 +1,8 @@
+id: gessain-2024-hnsc
+doi: 10.1158/2159-8290.CD-24-0018
+pmid: "39270324"
+title: "TREM2-Expressing Multinucleated Giant Macrophages Are a Biomarker of Good Prognosis in Head and Neck Squamous Cell Carcinoma"
+year: 2024
+venue: "Cancer discovery"
+datasets:
+  - visium-hnsc-ae-e-mtab-14409

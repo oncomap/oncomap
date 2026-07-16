@@ -1,0 +1,8 @@
+id: lee-2025-stad
+doi: 10.1136/gutjnl-2024-332901
+pmid: "39580151"
+title: "Spatial dissection of tumour microenvironments in gastric cancers reveals the immunosuppressive crosstalk between CCL2+ fibroblasts and STAT3-activated macrophages"
+year: 2025
+venue: "Gut"
+datasets:
+  - visium-stad-geo-gse251950

@@ -1,0 +1,14 @@
+id: visium-hcc-ae-e-mtab-15756
+title: "Spatial transcriptomics and proteomics of post-transplant HCC recurrence using 10x Visium CytAssist"
+cancer_type: HCC
+cancer_type_ncit: C3099
+tissue: "UBERON:0002107"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - E-MTAB-15756
+access: open
+reuse_notes: >-
+  Machine-drafted by the ArrayExpress/BioStudies harvester. E-MTAB accession; study Organism attribute is Homo sapiens. Platform detected as visium and cancer_type classified as HCC from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

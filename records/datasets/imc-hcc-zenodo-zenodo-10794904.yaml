@@ -1,0 +1,15 @@
+id: imc-hcc-zenodo-zenodo-10794904
+title: "Characterization of the tumor-immune microenvironment in hepatocellular carcinoma patients undergoing immune checkpoint inhibitor therapy by highly multiplexed imaging mass cytometry"
+cancer_type: HCC
+tissue: "UBERON:0002107"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - 10.5281/zenodo.10794904
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as imc and cancer_type classified as HCC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: salie-2025-hcc
+last_verified: "2026-07-13"
+deposition_year: 2024
+curation_status: verified

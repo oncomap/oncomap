@@ -1,0 +1,99 @@
+name: Add a dataset
+description: Propose a spatial-transcriptomics dataset for the catalog. Every field maps to a schema field, fillable by reading the paper and its data-availability section.
+title: "[dataset] <cancer type> <platform> - <accession>"
+labels: ["dataset", "curation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. This form collects exactly what a `records/datasets/*.yaml`
+        record needs. You do not need to write YAML - a curator turns your answers into a
+        record and opens the PR. See [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) and
+        [the data model](../blob/main/docs/OncoMap-SPEC.md).
+
+        Scope reminder: human tumour **spatial transcriptomics** only. Single-cell/bulk-only
+        studies, spatial *proteomics* (CODEX/IMC/GeoMx), and non-human data are out of scope.
+  - type: input
+    id: title
+    attributes:
+      label: Study title
+      description: The dataset/series title, or the paper title if the deposit has none.
+    validations:
+      required: true
+  - type: input
+    id: accession
+    attributes:
+      label: Accession(s)
+      description: A resolvable id - GEO (GSE...), ArrayExpress (E-MTAB-...), a Zenodo DOI (10.5281/zenodo...), or a CELLxGENE collection. Semicolon-separate multiple.
+      placeholder: GSE267401
+    validations:
+      required: true
+  - type: input
+    id: cancer_type
+    attributes:
+      label: Cancer type (OncoTree code)
+      description: The OncoTree code, e.g. COADREAD, BRCA, GB. Look it up at oncotree.mskcc.org. A curator confirms it against the frozen vocabulary.
+      placeholder: COADREAD
+    validations:
+      required: true
+  - type: input
+    id: tissue
+    attributes:
+      label: Tissue (UBERON term)
+      description: The UBERON CURIE for the tissue of origin, e.g. UBERON:0001155 (colon). Leave blank if unsure - a curator will map it.
+      placeholder: "UBERON:0001155"
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Spatial platform
+      description: The spatial assay (NOT the sequencer). Confirm from the methods / sample design.
+      options:
+        - st_array
+        - visium
+        - visium_hd
+        - xenium
+        - merfish
+        - merscope
+        - cosmx
+        - slide_seq
+        - stereo_seq
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Data access
+      description: open = files directly downloadable; on_request/controlled = files gated at source (a pointer only).
+      options:
+        - open
+        - on_request
+        - controlled
+    validations:
+      required: true
+  - type: input
+    id: source_paper
+    attributes:
+      label: Source publication (DOI or PMID)
+      description: The paper the dataset was generated for. Required to reach the verified trust tier.
+      placeholder: "10.1038/s41586-023-06367-z"
+  - type: input
+    id: n_samples
+    attributes:
+      label: Number of spatial samples/sections
+      description: Spatial-only count if you can separate it from scRNA/bulk; otherwise note the total.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / provenance
+      description: Anything a curator needs - how the platform was confirmed, tissue caveats, sample-count nuances, licence.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: The accession resolves (the link opens the record at its source).
+          required: true
+        - label: The samples are human tumour tissue (not a mouse/PDX/organoid/cell-line model).
+          required: true
+        - label: This is spatial transcriptomics (not proteomics, single-cell-only, or bulk).
+          required: true

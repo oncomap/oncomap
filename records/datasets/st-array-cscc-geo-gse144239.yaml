@@ -1,0 +1,22 @@
+id: st-array-cscc-geo-gse144239
+title: "Spatial Transcriptomics of human cutaneous squamous cell carcinoma (Ji et al., ST subseries)"
+cancer_type: CSCC
+cancer_type_ncit: C4819
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: st_array
+sequencer: "Illumina NextSeq 500"
+n_samples: 16
+accession:
+  - GSE144239
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Points at GSE144239, the "[ST]" spatial subseries (16 samples) of SuperSeries
+  GSE144240 - deliberately NOT the SuperSeries, which also spans scRNA-seq, WES,
+  and CRISPR subseries. Platform is the original spot-based Spatial
+  Transcriptomics array (Stahl et al. 2016).
+source_paper: ji-2020-cscc-multimodal
+last_verified: "2026-07-09"
+deposition_year: 2020
+curation_status: verified

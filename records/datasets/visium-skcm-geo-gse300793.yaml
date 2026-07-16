@@ -1,0 +1,21 @@
+id: visium-skcm-geo-gse300793
+title: "Spatial tumour-immune ecosystems shape the efficacy of anti-PD1 immunotherapy in primary cutaneous melanoma"
+cancer_type: SKCM
+cancer_type_ncit: C3510
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+accession:
+  - GSE300793
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Visium from Series_overall_design. n_samples
+  intentionally omitted: the GEO series (57 total) mixes bulk RNA-seq, snRNA-seq
+  and Visium - the spatial-section count must be extracted at review. Stage III
+  cutaneous melanoma.
+source_paper: pham-2026-skcm
+last_verified: "2026-07-12"
+deposition_year: 2026
+curation_status: verified

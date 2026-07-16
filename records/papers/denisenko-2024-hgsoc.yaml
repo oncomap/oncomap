@@ -1,0 +1,8 @@
+id: denisenko-2024-hgsoc
+doi: 10.1038/s41467-024-47271-y
+pmid: "38570491"
+title: "Spatial transcriptomics reveals discrete tumour microenvironments and autocrine loops within ovarian cancer subclones"
+year: 2024
+venue: "Nature communications"
+datasets:
+  - visium-hgsoc-geo-gse211956

@@ -1,0 +1,36 @@
+{
+  "title": "OncoMap: a curated, literature-grounded catalog of oncology spatial-omics datasets",
+  "description": "OncoMap is a curated metadata catalog of publicly available oncology spatial-omics datasets - spatial transcriptomics and spatial proteomics - with the tumour microenvironment as its focus. Each record is a dataset, paper, method, or group node validated against JSON Schema and a three-tier curation trust gate (machine_draft to human_reviewed to verified); a verified record requires a live-resolving accession, a last_verified date, and a linked source publication. Cancer types are coded in OncoTree (with NCI Thesaurus cross-maps) and tissues in UBERON, from frozen, membership-enforced vocabulary snapshots. The v0.1 snapshot contains 247 datasets across 42 cancer types: 175 spatial-transcriptomics (Visium, Visium HD, Xenium, CosMx, MERFISH, Slide-seq, Stereo-seq, ST arrays) and 72 spatial-proteomics (CODEX, CyCIF, MxIF, mIHC, MIBI, IMC, Orion, GeoMx), harvested from GEO, ArrayExpress, CZ CELLxGENE, Zenodo, HTAN, and the EBI BioImage Archive. Data records are released under CC-BY-4.0; the build tooling is MIT-licensed.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "0.1.0",
+  "language": "eng",
+  "keywords": [
+    "spatial transcriptomics",
+    "spatial proteomics",
+    "spatial omics",
+    "tumor microenvironment",
+    "oncology",
+    "cancer genomics",
+    "metadata catalog",
+    "FAIR data",
+    "Visium",
+    "Xenium",
+    "CosMx",
+    "OncoTree",
+    "GEO"
+  ],
+  "creators": [
+    {
+      "name": "Samuriwo, Tendayi"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/oncomap/oncomap",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

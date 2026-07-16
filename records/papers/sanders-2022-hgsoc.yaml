@@ -1,0 +1,8 @@
+id: sanders-2022-hgsoc
+doi: 10.1016/j.gore.2022.101077
+pmid: "36249907"
+title: "Small cell carcinoma of the ovary hypercalcemic type (SCCOHT): A review and novel case with dual germline SMARCA4 and BRCA2 mutations"
+year: 2022
+venue: "Gynecologic oncology reports"
+datasets:
+  - visium-hgsoc-geo-gse213699

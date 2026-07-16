@@ -1,0 +1,8 @@
+id: wu-2025-paad
+doi: 10.1007/s13402-025-01100-6
+pmid: "40855036"
+title: "Integrating multi-modal transcriptomics identifies cellular subtypes with distinct roles in PDAC progression"
+year: 2025
+venue: "Cellular oncology (Dordrecht, Netherlands)"
+datasets:
+  - xenium-paad-geo-gse267680

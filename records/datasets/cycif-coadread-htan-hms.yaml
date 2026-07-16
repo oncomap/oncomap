@@ -1,0 +1,13 @@
+id: cycif-coadread-htan-hms
+title: "HTAN HMS cycif spatial proteomics of COADREAD"
+cancer_type: COADREAD
+tissue: "UBERON:0001155"
+modality: spatial_proteomics
+platform: cycif
+n_patients: 89
+accession:
+  - SYNAPSE:syn25665299
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN HMS cycif spatial proteomics; cancer_type COADREAD derived from the ICD-O organ + morphology of 89 participant(s) / 363 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

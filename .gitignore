@@ -1,0 +1,81 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Claude Code local state
+.claude/command-history.log
+.claude/settings.local.json
+.claude/agent-metrics.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Web app build output + the generated site.json copy (records -> compile.py is
+# the source of truth; web/public/site.json is a mirror refreshed at dev/build)
+web/dist/
+web/public/site.json
+
+# Generated artifacts (records + schema are the source of truth; build/ scripts
+# are tracked - only their compiled output is ignored)
+build/dist/
+build/_generated/
+site/dist/
+site/_build/
+_site/
+site/site.json
+
+# Data working files
+*.parquet
+*.log
+.env
+.env.*
+!.env.example
+extract/proposals/
+
+# graphify knowledge-graph output (local analysis artifact, not project source)
+graphify-out/
+
+# Structured run logs - a run artifact, uploaded by CI, not source
+logs/
+
+# Paper + figures + their generation code are NOT part of the public repo.
+# The paper lives on bioRxiv/Zenodo; figures and the notebooks/scripts that
+# generate them are scratch. Directory ignores plus belt-and-suspenders globs
+# so a stray artifact anywhere in the tree can never be committed.
+paper/
+oncomap-figures/
+_to_delete/
+**/figures/
+*.ipynb
+figure*.py
+figure*.png
+figure*.svg
+figure*.pdf
+make_paper_figures.py
+*.pdf
+*.docx
+*.pptx
+
+# Internal session handoff notes / scratch docs
+handoff.md
+
+# graph-layer/ - WIP API component, deferred until it's ready for public release
+graph-layer/
+
+# Brand source images (only the derived favicons in web/public/ are tracked)
+logo/

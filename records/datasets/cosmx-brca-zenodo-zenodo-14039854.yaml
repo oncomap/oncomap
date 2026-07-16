@@ -1,0 +1,16 @@
+id: cosmx-brca-zenodo-zenodo-14039854
+title: "Data associated with spatial profiling of residual breast cancer after neoadjuvant chemotherapy"
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: cosmx
+accession:
+  - 10.5281/zenodo.14039854
+access: on_request
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as cosmx and cancer_type classified as BRCA from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: seo-2025-brca
+last_verified: "2026-07-12"
+deposition_year: 2024
+curation_status: verified

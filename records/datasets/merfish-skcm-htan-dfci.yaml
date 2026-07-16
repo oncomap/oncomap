@@ -1,0 +1,13 @@
+id: merfish-skcm-htan-dfci
+title: "HTAN DFCI merfish spatial transcriptomics of SKCM"
+cancer_type: SKCM
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: merfish
+n_patients: 12
+accession:
+  - SYNAPSE:syn61399885
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN DFCI merfish spatial transcriptomics; cancer_type SKCM derived from the ICD-O organ + morphology of 12 participant(s) / 14 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

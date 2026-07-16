@@ -1,0 +1,13 @@
+id: xenium-hcc-biad-s-biad2339
+title: "Spatial in situ transcriptomics of post-transplant HCC recurrence using 10x Genomics Xenium"
+cancer_type: HCC
+tissue: "UBERON:0002107"
+modality: spatial_transcriptomics
+platform: xenium
+accession:
+  - S-BIAD2339
+access: open
+reuse_notes: >-
+  Machine-drafted by the BioImage Archive/BioStudies harvester. S-BIAD accession; study Biosample Organism is Homo sapiens. Platform detected as xenium and cancer_type classified as HCC from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail, histology and data licence, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

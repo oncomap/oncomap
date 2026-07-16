@@ -1,0 +1,13 @@
+id: visium-ccrcc-htan-wustl
+title: "HTAN WUSTL visium spatial transcriptomics of CCRCC"
+cancer_type: CCRCC
+tissue: "UBERON:0002113"
+modality: spatial_transcriptomics
+platform: visium
+n_patients: 12
+accession:
+  - SYNAPSE:syn50917844
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN WUSTL visium spatial transcriptomics; cancer_type CCRCC derived from the ICD-O organ + morphology of 12 participant(s) / 12 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

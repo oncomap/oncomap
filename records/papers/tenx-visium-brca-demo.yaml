@@ -1,0 +1,6 @@
+id: tenx-visium-brca-demo
+title: "10x Genomics Visium Spatial Gene Expression: human breast cancer (example)"
+year: 2023
+venue: "10x Genomics application note"
+datasets:
+  - visium-brca-10x-2023-001

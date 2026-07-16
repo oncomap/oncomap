@@ -1,0 +1,13 @@
+id: imc-cscc-biad-s-biad2962
+title: "Spatial immune profiling characterizes tumor microenvironment heterogeneity between metastatic and non-metastatic cutaneous squamous cell carcinoma in organ transplant patients"
+cancer_type: CSCC
+tissue: "UBERON:0002097"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - S-BIAD2962
+access: open
+reuse_notes: >-
+  Machine-drafted by the BioImage Archive/BioStudies harvester. S-BIAD accession; study Biosample Organism is Homo sapiens. Platform detected as imc and cancer_type classified as CSCC from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail, histology and data licence, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

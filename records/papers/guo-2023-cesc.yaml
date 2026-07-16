@@ -1,0 +1,8 @@
+id: guo-2023-cesc
+doi: 10.1002/ctm2.1219
+pmid: '36967539'
+title: 'Spatiotemporally deciphering the mysterious mechanism of persistent HPV-induced malignant transition and immune remodelling from HPV-infected normal cervix, precancer to cervical cancer: Integrating single-cell RNA-sequencing and spatial transcriptome'
+year: 2023
+venue: Clinical and translational medicine
+datasets:
+- visium-cesc-geo-gse208654

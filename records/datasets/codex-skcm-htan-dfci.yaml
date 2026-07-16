@@ -1,0 +1,13 @@
+id: codex-skcm-htan-dfci
+title: "HTAN DFCI codex spatial proteomics of SKCM"
+cancer_type: SKCM
+tissue: "UBERON:0002097"
+modality: spatial_proteomics
+platform: codex
+n_patients: 8
+accession:
+  - SYNAPSE:syn68695405
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN DFCI codex spatial proteomics; cancer_type SKCM derived from the ICD-O organ + morphology of 8 participant(s) / 23 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

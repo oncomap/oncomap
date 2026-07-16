@@ -1,0 +1,8 @@
+id: meylan-2026-gb
+doi: 10.1016/j.cell.2025.12.055
+pmid: "41679299"
+title: "Persistent T cell activation and cytotoxicity against glioblastoma following single oncolytic virus treatment in a clinical trial"
+year: 2026
+venue: "Cell"
+datasets:
+  - xenium-gb-geo-gse296577

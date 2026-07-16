@@ -1,0 +1,9 @@
+id: liu-2022-tcr-spatial
+doi: 10.1016/j.immuni.2022.09.002
+pmid: "36223726"
+title: Spatial maps of T cell receptors and transcriptomes reveal distinct immune niches and interactions in the adaptive immune response
+year: 2022
+venue: Immunity
+datasets:
+  - slide-seq-rcc-cxg-liu-2022
+  - slide-seq-skcm-cxg-liu-2022

@@ -1,0 +1,8 @@
+id: mints-2026-hnsc
+doi: 10.1016/j.xcrm.2026.102715
+pmid: "41923630"
+title: "Single-cell analysis highlights the significance of malignant cell IFN/MHC-II for immunotherapy response in head and neck squamous cell carcinoma"
+year: 2026
+venue: "Cell reports. Medicine"
+datasets:
+  - visium-hnsc-geo-gse268014

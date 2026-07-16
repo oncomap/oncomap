@@ -1,0 +1,13 @@
+id: imc-hcc-zenodo-zenodo-10020271
+title: "Immunotherapy response induces divergent tertiary lymphoid structure morphologies in hepatocellular carcinoma"
+cancer_type: HCC
+tissue: "UBERON:0002107"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - 10.5281/zenodo.10020271
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as imc and cancer_type classified as HCC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2024
+curation_status: machine_draft

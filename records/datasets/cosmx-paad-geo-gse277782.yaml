@@ -1,0 +1,17 @@
+id: cosmx-paad-geo-gse277782
+title: "Spatial mapping of transcriptomic and lineage plasticity in metastatic pancreatic cancer [CosMx]"
+cancer_type: PAAD
+cancer_type_ncit: C8294
+tissue: "UBERON:0001264"
+modality: spatial_transcriptomics
+platform: cosmx
+n_samples: 7
+accession:
+  - GSE277782
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO platform sweep. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as cosmx and cancer_type classified as PAAD from a distinctive disease term in the GEO series title/summary. n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: pei-2025-paad
+last_verified: "2026-07-10"
+deposition_year: 2025
+curation_status: verified

@@ -1,0 +1,9 @@
+id: mccord-2026-hnsc
+doi: 10.1126/sciimmunol.aec3133
+pmid: "41961948"
+title: "Single-cell TCR mapping reveals spatially coordinated T cell states in head and neck cancer"
+year: 2026
+venue: "Science immunology"
+datasets:
+  - xenium-hnsc-geo-gse287301
+  - xenium-hnsc-geo-gse300147

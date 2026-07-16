@@ -1,0 +1,8 @@
+id: tanjak-2024-coadread
+doi: 10.1007/s10238-024-01515-9
+pmid: "39499374"
+title: "Tumor-immune hybrid cells evade the immune response and potentiate colorectal cancer metastasis through CTLA4"
+year: 2024
+venue: "Clinical and experimental medicine"
+datasets:
+  - visium-coadread-geo-gse267401

@@ -1,0 +1,8 @@
+id: bilous-2026-brca
+doi: 10.1038/s41592-026-03089-8
+pmid: "42062553"
+title: "Resolving sensitivity, specificity and signal contamination in Xenium spatial transcriptomics"
+year: 2026
+venue: "Nature methods"
+datasets:
+  - xenium-brca-geo-gse311609

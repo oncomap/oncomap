@@ -1,0 +1,8 @@
+id: liao-2025-thpa
+doi: 10.1016/j.xcrm.2025.102043
+pmid: "40157360"
+title: A spatially resolved transcriptome landscape during thyroid cancer progression
+year: 2025
+venue: Cell Reports Medicine
+datasets:
+  - visium-thpa-geo-gse250521

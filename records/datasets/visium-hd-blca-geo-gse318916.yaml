@@ -1,0 +1,21 @@
+id: visium-hd-blca-geo-gse318916
+title: "Visium HD spatial transcriptomics of high-grade T1 bladder cancer intra-tumor heterogeneity"
+cancer_type: BLCA
+cancer_type_ncit: C39851
+tissue: "UBERON:0001255"
+modality: spatial_transcriptomics
+platform: visium_hd
+sequencer: "Illumina NovaSeq X Plus"
+n_samples: 2
+accession:
+  - GSE318916
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Genomics Visium HD from Series_overall_design
+  ("performed using the 10x Genomics Visium HD platform", FFPE). Cancer type
+  BLCA (Bladder Urothelial Carcinoma); high-grade T1 disease.
+source_paper: bellmunt-2026-blca
+last_verified: "2026-07-09"
+deposition_year: 2026
+curation_status: verified

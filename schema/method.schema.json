@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oncomap.org/schema/method.schema.json",
+  "title": "OncoMap Method",
+  "description": "An assay, processing pipeline, or model that produced or analyzed a dataset. See docs/OncoMap-SPEC.md §3.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "type"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 2 },
+    "type": {
+      "type": "string",
+      "enum": ["assay", "pipeline", "model"]
+    },
+    "version": { "type": "string" },
+    "repo_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "reference_paper": {
+      "type": "string",
+      "description": "id of a Paper node describing this method.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
+  }
+}

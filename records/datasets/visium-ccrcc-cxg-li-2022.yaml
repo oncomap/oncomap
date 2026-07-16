@@ -1,0 +1,16 @@
+id: visium-ccrcc-cxg-li-2022
+title: Mapping single-cell transcriptomes in the intra-tumoral and associated territories of kidney cancer
+cancer_type: CCRCC
+cancer_type_ncit: C4033
+tissue: "UBERON:0002113"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 18
+accession:
+  - "CELLxGENE:f7cecffa-00b4-4560-a29a-8ad626b8ee08"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover: tissue (UBERON), assay (EFO) and disease are CELLxGENE-curated. 18 spatial datasets on Visium. cancer_type mapped from CELLxGENE disease 'nonpapillary renal cell carcinoma' to OncoTree CCRCC.
+source_paper: li-2022-ccrcc
+last_verified: "2026-07-09"
+curation_status: verified

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use OncoMap, please cite it as below."
+title: "OncoMap: a curated, literature-grounded catalog of oncology spatial-omics datasets"
+abstract: >-
+  OncoMap is a curated metadata catalog of publicly available oncology
+  spatial-omics datasets - spatial transcriptomics and spatial proteomics -
+  focused on the tumour microenvironment. Records are validated against JSON
+  Schema and a three-tier curation trust gate, with cancer types coded in
+  OncoTree (NCIt cross-mapped) and tissues in UBERON. Data records are
+  CC-BY-4.0; the build tooling is MIT.
+type: dataset
+version: 0.1.0
+date-released: "2026-07-15"
+license: CC-BY-4.0
+repository-code: "https://github.com/oncomap/oncomap"
+url: "https://www.oncomap.org"
+authors:
+  - family-names: Samuriwo
+    given-names: Tendayi
+keywords:
+  - spatial transcriptomics
+  - spatial proteomics
+  - spatial omics
+  - tumor microenvironment
+  - oncology
+  - metadata catalog
+  - FAIR data
+  - OncoTree

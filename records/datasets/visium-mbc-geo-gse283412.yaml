@@ -1,0 +1,23 @@
+id: visium-mbc-geo-gse283412
+title: "Integrated methylation and Visium spatial transcriptomic profiling of metaplastic breast cancer"
+cancer_type: MBC
+cancer_type_ncit: C5164
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+n_patients: 4
+accession:
+  - GSE283412
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Visium from Series_overall_design ("spatial
+  transcriptomics analysis using Visium (10X Genomics)"). Four cases of mixed
+  metaplastic breast cancer, 7 regions of interest; n_samples omitted (ROI
+  count vs section count to be resolved at review). First real primary-breast
+  record alongside the placeholder example visium-brca-10x-2023-001.
+source_paper: feng-2025-mbc
+last_verified: "2026-07-09"
+deposition_year: 2025
+curation_status: verified

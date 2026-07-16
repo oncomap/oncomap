@@ -1,0 +1,14 @@
+id: visium-prad-zenodo-zenodo-17411292
+title: "Visium spatial transcriptomic data of hormone therapy-naïve localised prostate cancer and adjacent benign tissue"
+cancer_type: PRAD
+cancer_type_ncit: C2919
+tissue: "UBERON:0002367"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - 10.5281/zenodo.17411292
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as visium and cancer_type classified as PRAD from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2025
+curation_status: machine_draft

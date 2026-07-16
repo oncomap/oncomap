@@ -1,0 +1,9 @@
+id: khan-2025-gb
+doi: 10.1101/2025.04.04.647096
+pmid: "40235981"
+title: Mapping the spatial architecture of glioblastoma from core to edge delineates niche-specific tumor cell states and intercellular interactions
+year: 2025
+venue: bioRxiv (preprint)
+datasets:
+  - visium-gb-geo-gse318562
+  - xenium-gb-geo-gse335275

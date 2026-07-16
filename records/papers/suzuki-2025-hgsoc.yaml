@@ -1,0 +1,8 @@
+id: suzuki-2025-hgsoc
+doi: 10.1038/s41698-025-01122-1
+pmid: '41219363'
+title: Exploring drug resistance via intercellular crosstalk using spatial transcriptomics in high-grade serous ovarian carcinoma
+year: 2025
+venue: NPJ precision oncology
+datasets:
+- visium-hgsoc-geo-gse288483

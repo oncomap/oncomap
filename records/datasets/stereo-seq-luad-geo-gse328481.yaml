@@ -1,0 +1,19 @@
+id: stereo-seq-luad-geo-gse328481
+title: "Stereo-seq spatial transcriptomics of ectopic germinal-centre-like niches in lung adenocarcinoma"
+cancer_type: LUAD
+cancer_type_ncit: C3512
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: stereo_seq
+sequencer: "DNBSEQ-T7"
+n_samples: 11
+n_patients: 11
+accession:
+  - GSE328481
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as Stereo-seq (design: "Stereo-seq was performed ...
+  Stereo-XCR-seq"). 11 LUAD patient tissues.
+deposition_year: 2026
+curation_status: human_reviewed

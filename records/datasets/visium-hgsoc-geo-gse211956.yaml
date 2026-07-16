@@ -1,0 +1,16 @@
+id: visium-hgsoc-geo-gse211956
+title: "Spatial transcriptomics reveals ovarian cancer subclones with different microenvironments"
+cancer_type: HGSOC
+tissue: "UBERON:0000992"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 13
+accession:
+  - GSE211956
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("ovarian cancer" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: denisenko-2024-hgsoc
+last_verified: "2026-07-10"
+deposition_year: 2022
+curation_status: verified

@@ -1,0 +1,8 @@
+id: haga-2026-blca
+doi: 10.1007/s12672-026-04927-z
+pmid: "41917522"
+title: "Spatial transcriptomics of urothelial carcinoma with basal/squamous differentiation identifies Galectin-7 as a specific marker of squamous lineage commitment"
+year: 2026
+venue: "Discover oncology"
+datasets:
+  - visium-hd-blca-geo-gse299573

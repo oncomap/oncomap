@@ -1,0 +1,16 @@
+id: slide-seq-brca-cxg-klughammer-2024
+title: A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: slide_seq
+n_samples: 15
+accession:
+  - "CELLxGENE:a96133de-e951-4e2d-ace6-59db8b3bfb1d"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover: tissue (UBERON), assay (EFO) and disease are CELLxGENE-curated. 15 spatial datasets on Slide-seqV2. cancer_type mapped from CELLxGENE disease 'breast cancer' to OncoTree BRCA.
+source_paper: klughammer-2024-brca
+last_verified: "2026-07-09"
+curation_status: verified

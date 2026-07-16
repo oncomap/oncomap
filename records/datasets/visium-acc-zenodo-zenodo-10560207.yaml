@@ -1,0 +1,14 @@
+id: visium-acc-zenodo-zenodo-10560207
+title: "Spatial transcriptomics processed data of adrenocortical carcinoma"
+cancer_type: ACC
+cancer_type_ncit: C9325
+tissue: "UBERON:0001235"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - 10.5281/zenodo.10560207
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as visium and cancer_type classified as ACC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2024
+curation_status: machine_draft

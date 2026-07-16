@@ -1,0 +1,8 @@
+id: park-2024-coadread
+doi: 10.1016/j.celrep.2024.113912
+pmid: "38446659"
+title: "Cellular senescence is associated with the spatial evolution toward a higher metastatic phenotype in colorectal cancer"
+year: 2024
+venue: "Cell reports"
+datasets:
+  - visium-coadread-geo-gse226997

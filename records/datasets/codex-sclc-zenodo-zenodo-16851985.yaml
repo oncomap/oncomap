@@ -1,0 +1,13 @@
+id: codex-sclc-zenodo-zenodo-16851985
+title: "CODEX multiplexed immunofluorescence in non-small cell lung cancer - Part 1 of 2"
+cancer_type: SCLC
+tissue: "UBERON:0002048"
+modality: spatial_proteomics
+platform: codex
+accession:
+  - 10.5281/zenodo.16851985
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as codex and cancer_type classified as SCLC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

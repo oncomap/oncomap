@@ -1,0 +1,8 @@
+id: seo-2025-brca
+doi: 10.1016/j.xcrm.2025.102164
+pmid: "40482645"
+title: "Spatial and genomic profiling of residual breast cancer after neoadjuvant chemotherapy unveil divergent fates for each breast cancer subtype"
+year: 2025
+venue: "Cell reports. Medicine"
+datasets:
+  - cosmx-brca-zenodo-zenodo-14039854

@@ -1,0 +1,16 @@
+id: visium-coadread-cxg-valdeolivas-2024
+title: Profiling the heterogeneity of colorectal cancer consensus molecular subtypes using spatial transcriptomics
+cancer_type: COADREAD
+cancer_type_ncit: C5105
+tissue: "UBERON:0001155"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 14
+accession:
+  - "CELLxGENE:68cba939-4e72-4405-80ef-512a05044fba"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover: tissue (UBERON), assay (EFO) and disease are CELLxGENE-curated. 14 spatial datasets on Visium. cancer_type mapped from CELLxGENE disease 'colorectal cancer' to OncoTree COADREAD.
+source_paper: valdeolivas-2024-coadread
+last_verified: "2026-07-09"
+curation_status: verified

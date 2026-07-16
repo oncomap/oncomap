@@ -1,0 +1,16 @@
+id: visium-brca-zenodo-zenodo-20727406
+title: "Spatial Transcriptomics Reveal Pitfalls and Opportunities for the Detection of Rare High-Plasticity Breast Cancer Subtypes"
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - 10.5281/zenodo.20727406
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as visium and cancer_type classified as BRCA from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: coutant-2023-brca
+last_verified: "2026-07-12"
+deposition_year: 2026
+curation_status: verified

@@ -1,0 +1,14 @@
+id: xenium-hcc-zenodo-zenodo-21254851
+title: "Spatial multi-omics data of hepatocellular carcinoma at single-cell resolution"
+cancer_type: HCC
+cancer_type_ncit: C3099
+tissue: "UBERON:0002107"
+modality: spatial_transcriptomics
+platform: xenium
+accession:
+  - 10.5281/zenodo.21254851
+access: on_request
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as xenium and cancer_type classified as HCC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

@@ -1,0 +1,8 @@
+id: pei-2025-paad
+doi: 10.1038/s41586-025-08927-x
+pmid: "40269162"
+title: "Spatial mapping of transcriptomic plasticity in metastatic pancreatic cancer"
+year: 2025
+venue: "Nature"
+datasets:
+  - cosmx-paad-geo-gse277782

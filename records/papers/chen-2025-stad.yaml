@@ -1,0 +1,8 @@
+id: chen-2025-stad
+doi: 10.1186/s12943-025-02490-9
+pmid: '41194113'
+title: Spatial and functional dissection of cancer-associated fibroblasts-mediated immune modulation in H. pylori-associated gastric cancer
+year: 2025
+venue: Molecular cancer
+datasets:
+- cosmx-stad-geo-gse308624

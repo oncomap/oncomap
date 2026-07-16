@@ -1,0 +1,16 @@
+id: visium-gb-zenodo-zenodo-17572905
+title: "10x Visium data from: A spatially resolved human glioblastoma atlas reveals distinct cellular and molecular patterns of anatomical niches"
+cancer_type: GB
+cancer_type_ncit: C3058
+tissue: "UBERON:0000955"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - 10.5281/zenodo.17572905
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as visium and cancer_type classified as GB from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: sonpatki-2026-gb
+last_verified: "2026-07-12"
+deposition_year: 2025
+curation_status: verified

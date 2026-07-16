@@ -1,0 +1,13 @@
+id: imc-brca-zenodo-zenodo-10942609
+title: "A stratification system for breast cancer based on basoluminal tumor cells and spatial tumor architecture (IMC data)"
+cancer_type: BRCA
+tissue: "UBERON:0000310"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - 10.5281/zenodo.10942609
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as imc and cancer_type classified as BRCA from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2024
+curation_status: machine_draft

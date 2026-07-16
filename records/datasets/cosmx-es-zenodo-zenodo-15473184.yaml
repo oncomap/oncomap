@@ -1,0 +1,14 @@
+id: cosmx-es-zenodo-zenodo-15473184
+title: "Spatial transcriptomic analyses of Ewing sarcoma reveals absence of human leukocyte antigen class I as a potential mechanism of primary resistance to immunotherapy"
+cancer_type: ES
+cancer_type_ncit: C4817
+tissue: "UBERON:0001474"
+modality: spatial_transcriptomics
+platform: cosmx
+accession:
+  - 10.5281/zenodo.15473184
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as cosmx and cancer_type classified as ES from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2025
+curation_status: machine_draft

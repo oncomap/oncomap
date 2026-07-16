@@ -1,0 +1,8 @@
+id: bellmunt-2026-blca
+doi: 10.7150/thno.129729
+pmid: '42244999'
+title: Epigenetic subtypes of high-grade T1 bladder cancer reveal intra-tumor heterogeneity and distinct interactions with tumor microenvironment
+year: 2026
+venue: Theranostics
+datasets:
+- visium-hd-blca-geo-gse318916

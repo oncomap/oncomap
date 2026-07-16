@@ -1,0 +1,17 @@
+id: visium-paad-geo-gse277116
+title: "Neoadjuvant Immunotherapy Promotes the Formation of Mature Tertiary Lymphoid Structures in a Remodeled Pancreatic Tumor Microenvironment"
+cancer_type: PAAD
+cancer_type_ncit: C8294
+tissue: "UBERON:0001264"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 28
+accession:
+  - GSE277116
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; platform confirmed at sample level). Visium spatial transcriptomics of pancreatic surgical specimens studying neoadjuvant-immunotherapy-induced tertiary lymphoid structures. Depth record for pancreatic.
+source_paper: sidiropoulos-2025-paad
+last_verified: "2026-07-09"
+deposition_year: 2025
+curation_status: verified

@@ -1,0 +1,8 @@
+id: serger-2026-luad
+doi: 10.1126/sciimmunol.aeb6645
+pmid: "42247486"
+title: "Cytotoxic CD39(+) tumor-associated NK cells respond to NKG2A blockade in lung cancer"
+year: 2026
+venue: "Science immunology"
+datasets:
+  - xenium-luad-geo-gse319755

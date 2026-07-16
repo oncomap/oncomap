@@ -1,0 +1,5393 @@
+{
+  "source": "OncoTree (MSKCC)",
+  "version": "oncotree_latest_stable",
+  "release_date": "2025-10-03",
+  "retrieved": "2026-07-10",
+  "url": "https://oncotree.mskcc.org/api/tumorTypes?version=oncotree_latest_stable",
+  "license": "https://oncotree.mskcc.org - cite Kundra et al. JCO CCI 2021",
+  "code_count": 897,
+  "codes": {
+    "AA": {
+      "name": "Aggressive Angiomyxoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C6936"
+    },
+    "ABC": {
+      "name": "Activated B-cell Type",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "ABL": {
+      "name": "Acute Basophilic Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C3164"
+    },
+    "ACA": {
+      "name": "Adrenocortical Adenoma",
+      "main_type": "Adrenocortical Adenoma",
+      "tissue": "Adrenal Gland",
+      "ncit": "C9003"
+    },
+    "ACBC": {
+      "name": "Adenoid Cystic Breast Cancer",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C5130"
+    },
+    "ACC": {
+      "name": "Adrenocortical Carcinoma",
+      "main_type": "Adrenocortical Carcinoma",
+      "tissue": "Adrenal Gland",
+      "ncit": "C9325"
+    },
+    "ACCC": {
+      "name": "Acinic Cell Carcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C3768"
+    },
+    "ACLG": {
+      "name": "Adenoid Cystic Carcinoma of the Lacrimal Gland",
+      "main_type": "Lacrimal Gland Tumor",
+      "tissue": "Eye",
+      "ncit": null
+    },
+    "ACML": {
+      "name": "Atypical Chronic Myeloid Leukemia, BCR-ABL1-",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3519"
+    },
+    "ACN": {
+      "name": "Acinar Cell Carcinoma, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "ACPG": {
+      "name": "Craniopharyngioma, Adamantinomatous Type",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ACPP": {
+      "name": "Atypical Choroid Plexus Papilloma",
+      "main_type": "Choroid Plexus Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C53686"
+    },
+    "ACRM": {
+      "name": "Acral Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": "C4022"
+    },
+    "ACYC": {
+      "name": "Adenoid Cystic Carcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C2970"
+    },
+    "ADIFG": {
+      "name": "Adult-Type Diffuse Glioma",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ADMA": {
+      "name": "Adamantinoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": null
+    },
+    "ADNOS": {
+      "name": "Adenocarcinoma, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "ADPA": {
+      "name": "Aggressive Digital Papillary Adenocarcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C27534"
+    },
+    "ADRENAL_GLAND": {
+      "name": "Adrenal Gland",
+      "main_type": "Adrenal Gland Cancer",
+      "tissue": "Adrenal Gland",
+      "ncit": "C12666"
+    },
+    "AECA": {
+      "name": "Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C6938"
+    },
+    "AFH": {
+      "name": "Angiomatoid Fibrous Histiocytoma",
+      "main_type": "Angiomatoid Fibrous Histiocytoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "AFX": {
+      "name": "Atypical Fibroxanthoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C4246"
+    },
+    "AGA": {
+      "name": "Anal Gland Adenocarcinoma",
+      "main_type": "Anal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C5609"
+    },
+    "AGNG": {
+      "name": "Anaplastic Ganglioglioma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C4717"
+    },
+    "AHCD": {
+      "name": "Alpha Heavy-Chain Disease",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3132"
+    },
+    "AIS": {
+      "name": "Adenocarcinoma In Situ",
+      "main_type": "Adenocarcinoma In Situ",
+      "tissue": "Other",
+      "ncit": "C4123"
+    },
+    "AITL": {
+      "name": "Angioimmunoblastic T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7528"
+    },
+    "ALAL": {
+      "name": "Acute Leukemias of Ambiguous Lineage",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C7464"
+    },
+    "ALCL": {
+      "name": "Anaplastic Large Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3720"
+    },
+    "ALCLALKN": {
+      "name": "Anaplastic Large-Cell Lymphoma ALK Negative",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C37194"
+    },
+    "ALCLALKP": {
+      "name": "Anaplastic Large-Cell Lymphoma ALK Positive",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C37193"
+    },
+    "ALKLBCL": {
+      "name": "ALK Positive Large B-Cell Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7225"
+    },
+    "ALT": {
+      "name": "Atypical Lipomatous Tumor",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "ALUCA": {
+      "name": "Atypical Lung Carcinoid",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C45551"
+    },
+    "AM": {
+      "name": "AML with Maturation",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C3250"
+    },
+    "AMBL": {
+      "name": "Large Cell/Anaplastic Medulloblastoma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C6904"
+    },
+    "AMBLNOS": {
+      "name": "Anaplastic Medulloblastoma, NOS",
+      "main_type": "Large Cell/Anaplastic Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "AMBLNWS": {
+      "name": "Anaplastic Medulloblastoma, Non-WNT, Non-SHH",
+      "main_type": "Large Cell/Anaplastic Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "AMBLNWSG3": {
+      "name": "Anaplastic Medulloblastoma, Group 3",
+      "main_type": "Large Cell/Anaplastic Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "AMBLNWSG4": {
+      "name": "Anaplastic Medulloblastoma, Group 4",
+      "main_type": "Large Cell/Anaplastic Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "AMBLSHH": {
+      "name": "Anaplastic Medulloblastoma, SHH Subtype",
+      "main_type": "Large Cell/Anaplastic Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "AMKL": {
+      "name": "Acute Megakaryoblastic Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C3170"
+    },
+    "AML": {
+      "name": "Acute Myeloid Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C3171"
+    },
+    "AMLBCRABL1": {
+      "name": "AML with BCR-ABL1",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C129785"
+    },
+    "AMLCBFBMYH11": {
+      "name": "AML with inv(16)(p13.1q22) or t(16;16)(p13.1;q22);CBFB-MYH11",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C9287"
+    },
+    "AMLCEBPA": {
+      "name": "AML with Biallelic Mutations of CEBPA",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C129782"
+    },
+    "AMLDEKNUP214": {
+      "name": "AML with t(6;9)(p23;q34.1);DEK-NUP214",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82423"
+    },
+    "AMLGATA2MECOM": {
+      "name": "AML with inv(3)(q21.3q26.2) or t(3;3)(q21.3;q26.2); GATA2, MECOM",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82426"
+    },
+    "AMLMD": {
+      "name": "AML with Minimal Differentiation",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C8460"
+    },
+    "AMLMLLT3KMT2A": {
+      "name": "AML with t(9;11)(p21.3;q23.3);MLLT3-KMT2A",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82403"
+    },
+    "AMLMRC": {
+      "name": "AML with Myelodysplasia-Related Changes",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C7600"
+    },
+    "AMLNOS": {
+      "name": "AML, NOS",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C27753"
+    },
+    "AMLNPM1": {
+      "name": "AML with Mutated NPM1",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82431"
+    },
+    "AMLRARA": {
+      "name": "AML with Variant RARA translocation",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C36055"
+    },
+    "AMLRBM15MKL1": {
+      "name": "AML (megakaryoblastic) with t(1;22)(p13.3;q13.3);RBM15-MKL1",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82427"
+    },
+    "AMLRGA": {
+      "name": "AML with Recurrent Genetic Abnormalities",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C7175"
+    },
+    "AMLRUNX1": {
+      "name": "AML with Mutated RUNX1",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C129786"
+    },
+    "AMLRUNX1RUNX1T1": {
+      "name": "AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C9288"
+    },
+    "AMML": {
+      "name": "Acute Myelomonocytic Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C7463"
+    },
+    "AMOL": {
+      "name": "Acute Monoblastic/Monocytic Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C4861"
+    },
+    "AMPCA": {
+      "name": "Ampullary Carcinoma",
+      "main_type": "Ampullary Cancer",
+      "tissue": "Ampulla of Vater",
+      "ncit": "C3908"
+    },
+    "AMPULLA_OF_VATER": {
+      "name": "Ampulla of Vater",
+      "main_type": "Ampullary Carcinoma",
+      "tissue": "Ampulla of Vater",
+      "ncit": "C13011"
+    },
+    "AN": {
+      "name": "Atypical Nevus",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": null
+    },
+    "ANGL": {
+      "name": "Angiocentric Glioma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C92552"
+    },
+    "ANGS": {
+      "name": "Angiosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3088"
+    },
+    "ANKL": {
+      "name": "Aggressive NK-Cell Leukemia",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C8647"
+    },
+    "ANM": {
+      "name": "Anaplastic Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C4051"
+    },
+    "ANSC": {
+      "name": "Anal Squamous Cell Carcinoma",
+      "main_type": "Anal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C9161"
+    },
+    "APAD": {
+      "name": "Appendiceal Adenocarcinoma",
+      "main_type": "Appendiceal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C7718"
+    },
+    "APE": {
+      "name": "Anaplastic Ependymoma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C4049"
+    },
+    "APLPMLRARA": {
+      "name": "APL with PML-RARA",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C7968"
+    },
+    "APMF": {
+      "name": "Acute Panmyelosis with Myelofibrosis",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C4344"
+    },
+    "APTAD": {
+      "name": "Atypical Pituitary Adenoma",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "APXA": {
+      "name": "Anaplastic Pleomorphic Xanthoastrocytoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ARCH": {
+      "name": "Adenocarcinoma in Retrorectal Cystic Hamartoma",
+      "main_type": "Adenocarcinoma in Retrorectal Cystic Hamartoma",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "ARMM": {
+      "name": "Anorectal Mucosal Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Bowel",
+      "ncit": "C4639"
+    },
+    "ARMS": {
+      "name": "Alveolar Rhabdomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3749"
+    },
+    "ASCT": {
+      "name": "Adenosquamous Carcinoma of the Tongue",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "ASM": {
+      "name": "Aggressive Systemic Mastocytosis",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C9285"
+    },
+    "ASPS": {
+      "name": "Alveolar Soft Part Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3750"
+    },
+    "ASTB": {
+      "name": "Astroblastoma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4324"
+    },
+    "ASTR": {
+      "name": "Astrocytoma, IDH-Mutant",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C60781"
+    },
+    "ASTR2": {
+      "name": "Astrocytoma, IDH-Mutant, Grade 2",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ASTR3": {
+      "name": "Astrocytoma, IDH-Mutant, Grade 3",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ASTR4": {
+      "name": "Astrocytoma, IDH-Mutant, Grade 4",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ATLL": {
+      "name": "Adult T-Cell Leukemia/Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3184"
+    },
+    "ATM": {
+      "name": "Atypical Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C4723"
+    },
+    "ATRT": {
+      "name": "Atypical Teratoid/Rhabdoid Tumor",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C6906"
+    },
+    "AUL": {
+      "name": "Acute Undifferentiated Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C9298"
+    },
+    "AWDNET": {
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Appendix",
+      "main_type": "Gastrointestinal Neuroendocrine Tumor",
+      "tissue": "Bowel",
+      "ncit": "C96422"
+    },
+    "AWM": {
+      "name": "AML without Maturation",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C3249"
+    },
+    "BA": {
+      "name": "Breast Angiosarcoma",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C5184"
+    },
+    "BCAC": {
+      "name": "Basal Cell Adenocarcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "BCC": {
+      "name": "Basal Cell Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C2921"
+    },
+    "BCCA": {
+      "name": "Choriocarcinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C2948"
+    },
+    "BCCP": {
+      "name": "Basal Cell Carcinoma of Prostate",
+      "main_type": "Prostate Cancer",
+      "tissue": "Prostate",
+      "ncit": null
+    },
+    "BCLU": {
+      "name": "B-Cell Lymphoma, Unclassifiable, with Features Intermediate between DLBCL and Classical Hodgkin lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C179721"
+    },
+    "BEC": {
+      "name": "Embryonal Carcinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C7010"
+    },
+    "BFN": {
+      "name": "Breast Fibroepithelial Neoplasms",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C40405"
+    },
+    "BGCT": {
+      "name": "Germ Cell Tumor, Brain",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "BIALCL": {
+      "name": "Breast Implant-Associated Anaplastic Large-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C139012"
+    },
+    "BILIARY_TRACT": {
+      "name": "Biliary Tract",
+      "main_type": "Biliary Tract Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": "C12678"
+    },
+    "BIMT": {
+      "name": "Immature Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C7014"
+    },
+    "BL": {
+      "name": "Burkitt Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C2912"
+    },
+    "BLAD": {
+      "name": "Bladder Adenocarcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C4032"
+    },
+    "BLADDER": {
+      "name": "Bladder/Urinary Tract",
+      "main_type": "Bladder/Urinary Tract Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C12414"
+    },
+    "BLCA": {
+      "name": "Bladder Urothelial Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C39851"
+    },
+    "BLCLC": {
+      "name": "Basaloid Large Cell Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C7266"
+    },
+    "BLL": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C8936"
+    },
+    "BLL11Q": {
+      "name": "Burkitt-Like Lymphoma with 11q Aberration",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C131911"
+    },
+    "BLLBCRABL1": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with t(9;22)(q34.1;q11.2);BCR-ABL1",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80331"
+    },
+    "BLLBCRABL1L": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma, BCR-ABL1 Like",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C129787"
+    },
+    "BLLETV6RUNX1": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with t(12;21)(p13.2;q22.1); ETV6-RUNX1",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80334"
+    },
+    "BLLHYPER": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with Hyperdiploidy",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80335"
+    },
+    "BLLHYPO": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with Hypodiploidy",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80338"
+    },
+    "BLLIAMP21": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with iAMP21",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C130039"
+    },
+    "BLLIL3IGH": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with t(5;14)(q31.1;q32.3) IL3-IGH",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "BLLKMT2A": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80332"
+    },
+    "BLLNOS": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma, NOS",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80326"
+    },
+    "BLLRGA": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with Recurrent Genetic Abnormalities",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80328"
+    },
+    "BLLTCF3PBX1": {
+      "name": "B-Lymphoblastic Leukemia/Lymphoma with t(1;19)(q23;p13.3);TCF3-PBX1",
+      "main_type": "B-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C80341"
+    },
+    "BLPT": {
+      "name": "Borderline Phyllodes Tumor of the Breast",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C5316"
+    },
+    "BLSC": {
+      "name": "Bladder Squamous Cell Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C4031"
+    },
+    "BMGCT": {
+      "name": "Mixed Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4290"
+    },
+    "BMGT": {
+      "name": "Malignant Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C7015"
+    },
+    "BMT": {
+      "name": "Mature Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C7013"
+    },
+    "BNNOS": {
+      "name": "Breast Neoplasm, NOS",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "BONE": {
+      "name": "Bone",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C12366"
+    },
+    "BOWEL": {
+      "name": "Bowel",
+      "main_type": "Bowel Cancer",
+      "tissue": "Bowel",
+      "ncit": "C12736"
+    },
+    "BPDCN": {
+      "name": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+      "main_type": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
+      "tissue": "Myeloid",
+      "ncit": "C7203"
+    },
+    "BPLL": {
+      "name": "B-Cell Prolymphocytic Leukemia",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4753"
+    },
+    "BPSCC": {
+      "name": "Basaloid Penile Squamous Cell Carcinoma",
+      "main_type": "Penile Cancer",
+      "tissue": "Penis",
+      "ncit": "C6980"
+    },
+    "BPT": {
+      "name": "Benign Phyllodes Tumor of the Breast",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C5196"
+    },
+    "BRAIN": {
+      "name": "CNS/Brain",
+      "main_type": "CNS/Brain Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C12438"
+    },
+    "BRAME": {
+      "name": "Adenomyoepithelioma of the Breast",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C6899"
+    },
+    "BRCA": {
+      "name": "Invasive Breast Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C9245"
+    },
+    "BRCANOS": {
+      "name": "Breast Invasive Cancer, NOS",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "BRCNOS": {
+      "name": "Breast Invasive Carcinoma, NOS",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "BREAST": {
+      "name": "Breast",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C12971"
+    },
+    "BRSRCC": {
+      "name": "Breast Carcinoma with Signet Ring",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C5175"
+    },
+    "BTBEOV": {
+      "name": "Brenner Tumor, Benign",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "BTBOV": {
+      "name": "Brenner Tumor, Borderline",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "BTMOV": {
+      "name": "Brenner Tumor, Malignant",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "BTOV": {
+      "name": "Brenner Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C39954"
+    },
+    "BYST": {
+      "name": "Yolk Sac Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "CABC": {
+      "name": "Cervical Adenoid Basal Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40213"
+    },
+    "CACC": {
+      "name": "Cervical Adenoid Cystic Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C6346"
+    },
+    "CAEXPA": {
+      "name": "Carcinoma ex Pleomorphic Adenoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "CAIS": {
+      "name": "Colon Adenocarcinoma In Situ",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": null
+    },
+    "CCBOV": {
+      "name": "Clear Cell Borderline Ovarian Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C40080"
+    },
+    "CCE": {
+      "name": "Clear Cell Ependymoma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C4714"
+    },
+    "CCHDM": {
+      "name": "Conventional Type Chordoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": null
+    },
+    "CCHM": {
+      "name": "Carcinoma with Chondroid Metaplasia",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C47847"
+    },
+    "CCLC": {
+      "name": "Clear Cell Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C4451"
+    },
+    "CCM": {
+      "name": "Clear cell Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C4722"
+    },
+    "CCOC": {
+      "name": "Clear Cell Odontogenic Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C54300"
+    },
+    "CCOV": {
+      "name": "Clear Cell Ovarian Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C40076"
+    },
+    "CCPRC": {
+      "name": "Clear Cell Papillary Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "CCRCC": {
+      "name": "Renal Clear Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C4033"
+    },
+    "CCS": {
+      "name": "Clear Cell Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3745"
+    },
+    "CCSK": {
+      "name": "Clear Cell Sarcoma of Kidney",
+      "main_type": "Clear Cell Sarcoma of Kidney",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "CDRCC": {
+      "name": "Collecting Duct Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C6194"
+    },
+    "CEAD": {
+      "name": "Cervical Adenocarcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C4029"
+    },
+    "CEAIS": {
+      "name": "Cervical Adenocarcinoma In Situ",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C4520"
+    },
+    "CEAS": {
+      "name": "Cervical Adenosquamous Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C4519"
+    },
+    "CECC": {
+      "name": "Cervical Clear Cell Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C6344"
+    },
+    "CEEN": {
+      "name": "Cervical Endometrioid Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C3769"
+    },
+    "CEGCC": {
+      "name": "Glassy Cell Carcinoma of the Cervix",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40212"
+    },
+    "CELI": {
+      "name": "Cervical Leiomyosarcoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": null
+    },
+    "CELNOS": {
+      "name": "Chronic Eosinophilic Leukemia, NOS",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C4563"
+    },
+    "CEMN": {
+      "name": "Mesonephric Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": null
+    },
+    "CEMU": {
+      "name": "Mucinous Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C26712"
+    },
+    "CENE": {
+      "name": "Cervical Neuroendocrine Tumor",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40214"
+    },
+    "CERMS": {
+      "name": "Cervical Rhabdomyosarcoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": null
+    },
+    "CERVIX": {
+      "name": "Cervix",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C12311"
+    },
+    "CESC": {
+      "name": "Cervical Squamous Cell Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C4028"
+    },
+    "CESE": {
+      "name": "Cervical Serous Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": null
+    },
+    "CEVG": {
+      "name": "Villoglandular Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40208"
+    },
+    "CHBL": {
+      "name": "Chondroblastoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C2945"
+    },
+    "CHDM": {
+      "name": "Chordoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C2947"
+    },
+    "CHGL": {
+      "name": "Chordoid Glioma of the Third Ventricle",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C5592"
+    },
+    "CHL": {
+      "name": "Classical Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C7164"
+    },
+    "CHLPTLD": {
+      "name": "Classical Hodgkin Lymphoma PTLD",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "CHM": {
+      "name": "Complete Hydatidiform Mole",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C4871"
+    },
+    "CHOL": {
+      "name": "Cholangiocarcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": "C4436"
+    },
+    "CHOM": {
+      "name": "Chordoid Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C6908"
+    },
+    "CHOS": {
+      "name": "Chondroblastic Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C4021"
+    },
+    "CHRCC": {
+      "name": "Chromophobe Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C4146"
+    },
+    "CHS": {
+      "name": "Chondrosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C2946"
+    },
+    "CLLSLL": {
+      "name": "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7540"
+    },
+    "CLNC": {
+      "name": "Cerebellar Liponeurocytoma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C6905"
+    },
+    "CLPDNK": {
+      "name": "Chronic Lymphoproliferative Disorder of NK Cells",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C39591"
+    },
+    "CM": {
+      "name": "Conjunctival Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Eye",
+      "ncit": "C4550"
+    },
+    "CMC": {
+      "name": "Medullary Carcinoma of the Colon",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C60641"
+    },
+    "CMCD": {
+      "name": "Cutaneous Mastocytosis",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C7137"
+    },
+    "CML": {
+      "name": "Chronic Myelogenous Leukemia",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3172"
+    },
+    "CMLBCRABL1": {
+      "name": "Chronic Myeloid Leukemia, BCR-ABL1+",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3174"
+    },
+    "CMML": {
+      "name": "Chronic Myelomonocytic Leukemia",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3178"
+    },
+    "CMML0": {
+      "name": "Chronic Myelomonocytic Leukemia-0",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C130035"
+    },
+    "CMML1": {
+      "name": "Chronic Myelomonocytic Leukemia-1",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C36061"
+    },
+    "CMML2": {
+      "name": "Chronic Myelomonocytic Leukemia-2",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C36062"
+    },
+    "CMPT": {
+      "name": "Ciliated Muconodular Papillary Tumor of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": null
+    },
+    "CNC": {
+      "name": "Central Neurocytoma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3791"
+    },
+    "CNL": {
+      "name": "Chronic Neutrophilic Leukemia",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3179"
+    },
+    "COAD": {
+      "name": "Colon Adenocarcinoma",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C4349"
+    },
+    "COADREAD": {
+      "name": "Colorectal Adenocarcinoma",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C5105"
+    },
+    "COM": {
+      "name": "Carcinoma with Osseous Metaplasia",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C47848"
+    },
+    "CPC": {
+      "name": "Choroid Plexus Carcinoma",
+      "main_type": "Choroid Plexus Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4715"
+    },
+    "CPP": {
+      "name": "Choroid Plexus Papilloma",
+      "main_type": "Choroid Plexus Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3698"
+    },
+    "CPT": {
+      "name": "Choroid Plexus Tumor",
+      "main_type": "Choroid Plexus Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3473"
+    },
+    "CSCC": {
+      "name": "Cutaneous Squamous Cell Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C4819"
+    },
+    "CSCHW": {
+      "name": "Cellular Schwannoma",
+      "main_type": "Nerve Sheath Tumor",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C4724"
+    },
+    "CSCLC": {
+      "name": "Combined Small Cell Lung Carcinoma",
+      "main_type": "Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C9137"
+    },
+    "CSNOS": {
+      "name": "Breast Invasive Carcinosarcoma, NOS",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "CTAAP": {
+      "name": "Colonic Type Adenocarcinoma of the Appendix",
+      "main_type": "Appendiceal Cancer",
+      "tissue": "Bowel",
+      "ncit": null
+    },
+    "CUP": {
+      "name": "Cancer of Unknown Primary",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": "C3812"
+    },
+    "CUPNOS": {
+      "name": "Cancer of Unknown Primary, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "DA": {
+      "name": "Duodenal Adenocarcinoma",
+      "main_type": "Small Bowel Cancer",
+      "tissue": "Bowel",
+      "ncit": "C7889"
+    },
+    "DASTR": {
+      "name": "Diffuse Astrocytoma, MYB- or MYBL1-Altered",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C7173"
+    },
+    "DCIS": {
+      "name": "Breast Ductal Carcinoma In Situ",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C2924"
+    },
+    "DCS": {
+      "name": "Dendritic Cell Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C9294"
+    },
+    "DDCHDM": {
+      "name": "Dedifferentiated Chordoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C48876"
+    },
+    "DDCHS": {
+      "name": "Dedifferentiated Chondrosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C6476"
+    },
+    "DDLS": {
+      "name": "Dedifferentiated Liposarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3704"
+    },
+    "DES": {
+      "name": "Desmoid/Aggressive Fibromatosis",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C9182"
+    },
+    "DESM": {
+      "name": "Desmoplastic Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": "C37257"
+    },
+    "DF": {
+      "name": "Dermatofibroma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C6801"
+    },
+    "DFL": {
+      "name": "Duodenal-Type Follicular Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C138185"
+    },
+    "DFSP": {
+      "name": "Dermatofibrosarcoma Protuberans",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C4683"
+    },
+    "DHG": {
+      "name": "Diffuse Hemispheric Glioma, H3 G34-Mutant",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DIA": {
+      "name": "Desmoplastic Infantile Astrocytoma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C9476"
+    },
+    "DIFG": {
+      "name": "Diffuse Glioma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DIG": {
+      "name": "Desmoplastic Infantile Ganglioglioma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4738"
+    },
+    "DLBCLCI": {
+      "name": "DLBCL Associated with Chronic Inflammation",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80289"
+    },
+    "DLBCLNOS": {
+      "name": "Diffuse Large B-Cell Lymphoma, NOS",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C45231"
+    },
+    "DLGGMAPK": {
+      "name": "Diffuse Low-Grade Glioma, MAPK Pathway-Altered",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DMBL": {
+      "name": "Desmoplastic/Nodular Medulloblastoma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4956"
+    },
+    "DMBLNOS": {
+      "name": "Desmoplastic/Nodular Medulloblastoma, NOS",
+      "main_type": "Desmoplastic/Nodular Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DMBLSHH": {
+      "name": "Desmoplastic/Nodular Medulloblastoma, SHH Subtype",
+      "main_type": "Desmoplastic/Nodular Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DMG": {
+      "name": "Diffuse Midline Glioma, H3 K27-Altered",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DNT": {
+      "name": "Dysembryoplastic Neuroepithelial Tumor",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C9505"
+    },
+    "DPHGG": {
+      "name": "Diffuse Pediatric-Type High-Grade Glioma, H3-Wildtype and IDH-Wildtype",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "DSRCT": {
+      "name": "Desmoplastic Small-Round-Cell Tumor",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C8300"
+    },
+    "DSTAD": {
+      "name": "Diffuse Type Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C9159"
+    },
+    "DTE": {
+      "name": "Desmoplastic Trichoepithelioma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C27524"
+    },
+    "EATL": {
+      "name": "Enteropathy-Associated T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4737"
+    },
+    "EBOV": {
+      "name": "Endometrioid Borderlin Ovarian Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C7983"
+    },
+    "EBVDLBCLNOS": {
+      "name": "EBV Positive DLBCL, NOS",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80281"
+    },
+    "EBVMCU": {
+      "name": "EBV Positive Mucocutaneous Ulcer",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C131906"
+    },
+    "ECAD": {
+      "name": "Endocervical Adenocarcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C28327"
+    },
+    "ECD": {
+      "name": "Erdheim-Chester Disease",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C53972"
+    },
+    "EGC": {
+      "name": "Esophagogastric Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C9296"
+    },
+    "EGCT": {
+      "name": "Extra Gonadal Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "EHAE": {
+      "name": "Epithelioid Hemangioendothelioma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3800"
+    },
+    "EHCH": {
+      "name": "Extrahepatic Cholangiocarcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": null
+    },
+    "EMALT": {
+      "name": "Extranodal Marginal Zone Lymphoma of Mucosa-Associated Lymphoid Tissue (MALT lymphoma)",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3898"
+    },
+    "EMBC": {
+      "name": "Epithelial Type Metaplastic Breast Cancer",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "EMBCA": {
+      "name": "Embryonal Carcinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": "C6341"
+    },
+    "EMBT": {
+      "name": "Embryonal Tumor",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3264"
+    },
+    "EMCHS": {
+      "name": "Extraskeletal Myxoid Chondrosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C27502"
+    },
+    "EMPD": {
+      "name": "Extramammary Paget Disease",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C3302"
+    },
+    "EMPSGC": {
+      "name": "Endocrine Mucin Producing Sweat Gland Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": null
+    },
+    "EMYOCA": {
+      "name": "Epithelial-Myoepithelial Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C4199"
+    },
+    "ENCG": {
+      "name": "Encapsulated Glioma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ENKL": {
+      "name": "Extranodal NK-/T-Cell Lymphoma, Nasal Type",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "EOV": {
+      "name": "Endometrioid Ovarian Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C7979"
+    },
+    "EP": {
+      "name": "Extraosseous Plasmacytoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4002"
+    },
+    "EPDCA": {
+      "name": "Esophageal Poorly Differentiated Carcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "EPIS": {
+      "name": "Epithelioid Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3714"
+    },
+    "EPM": {
+      "name": "Ependymoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C3017"
+    },
+    "EPMT": {
+      "name": "Ependymomal Tumor",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C6770"
+    },
+    "ERMS": {
+      "name": "Embryonal Rhabdomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C8971"
+    },
+    "ES": {
+      "name": "Ewing Sarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C4817"
+    },
+    "ESCA": {
+      "name": "Esophageal Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C4025"
+    },
+    "ESCC": {
+      "name": "Esophageal Squamous Cell Carcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C4024"
+    },
+    "ESMM": {
+      "name": "Mucosal Melanoma of the Esophagus",
+      "main_type": "Melanoma",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5707"
+    },
+    "ESS": {
+      "name": "Endometrial Stromal Sarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C8973"
+    },
+    "ESST": {
+      "name": "Ewing Sarcoma of Soft Tissue",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "ET": {
+      "name": "Essential Thrombocythemia",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3407"
+    },
+    "ETANTR": {
+      "name": "Embryonal Tumor with Abundant Neuropil and True Rosettes",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4915"
+    },
+    "ETMF": {
+      "name": "Essential Thrombocythemia Myelofibrosis",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "ETPLL": {
+      "name": "Early T-Cell Precursor Lymphoblastic Leukemia",
+      "main_type": "T-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C130043"
+    },
+    "ETT": {
+      "name": "Epithelioid Trophoblastic Tumor",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C6900"
+    },
+    "EVN": {
+      "name": "Extraventricular Neurocytoma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C92555"
+    },
+    "EYE": {
+      "name": "Eye",
+      "main_type": "Eye Cancer",
+      "tissue": "Eye",
+      "ncit": "C12401"
+    },
+    "FA": {
+      "name": "Fibroadenoma",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C3744"
+    },
+    "FDCS": {
+      "name": "Follicular Dendritic Cell Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Myeloid",
+      "ncit": "C9281"
+    },
+    "FHPTLD": {
+      "name": "Florid Follicular Hyperplasia PTLD",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "FHRCC": {
+      "name": "FH-Deficient Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "FIBS": {
+      "name": "Fibrosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3043"
+    },
+    "FIOS": {
+      "name": "Fibroblastic Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C4020"
+    },
+    "FL": {
+      "name": "Follicular Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3209"
+    },
+    "FLC": {
+      "name": "Fibrolamellar Carcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": "C4131"
+    },
+    "FRCT": {
+      "name": "Fibroblastic Reticular Cell Tumor",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "FT": {
+      "name": "Fibrothecoma",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "FTCL": {
+      "name": "Follicular T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C139005"
+    },
+    "GB": {
+      "name": "Glioblastoma, IDH-Wildtype",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C3058"
+    },
+    "GBAD": {
+      "name": "Gallbladder Adenocarcinoma, NOS",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": null
+    },
+    "GBASC": {
+      "name": "Adenosquamous Carcinoma of the Gallbladder",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": null
+    },
+    "GBC": {
+      "name": "Gallbladder Cancer",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": "C3844"
+    },
+    "GCB": {
+      "name": "Germinal Center B-Cell Type",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C36080"
+    },
+    "GCCAP": {
+      "name": "Goblet Cell Adenocarcinoma of the Appendix",
+      "main_type": "Appendiceal Cancer",
+      "tissue": "Bowel",
+      "ncit": null
+    },
+    "GCEMU": {
+      "name": "Gastric Type Mucinous Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": null
+    },
+    "GCLC": {
+      "name": "Giant Cell Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C4452"
+    },
+    "GCT": {
+      "name": "Granular Cell Tumor",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3474"
+    },
+    "GCTB": {
+      "name": "Giant Cell Tumor of Bone",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C121932"
+    },
+    "GCTSTM": {
+      "name": "Germ Cell Tumor with Somatic-Type Malignancy",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": null
+    },
+    "GEJ": {
+      "name": "Adenocarcinoma of the Gastroesophageal Junction",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C9296"
+    },
+    "GHCD": {
+      "name": "Gamma Heavy-Chain Disease",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3083"
+    },
+    "GINET": {
+      "name": "Gastrointestinal Neuroendocrine Tumors",
+      "main_type": "Gastrointestinal Neuroendocrine Tumor",
+      "tissue": "Bowel",
+      "ncit": "C95404"
+    },
+    "GINETES": {
+      "name": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "GIST": {
+      "name": "Gastrointestinal Stromal Tumor",
+      "main_type": "Gastrointestinal Stromal Tumor",
+      "tissue": "Soft Tissue",
+      "ncit": "C3868"
+    },
+    "GMN": {
+      "name": "Germinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3753"
+    },
+    "GN": {
+      "name": "Ganglioneuroma",
+      "main_type": "Peripheral Nervous System",
+      "tissue": "Peripheral Nervous System",
+      "ncit": null
+    },
+    "GNBL": {
+      "name": "Ganglioneuroblastoma",
+      "main_type": "Peripheral Nervous System",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C3790"
+    },
+    "GNC": {
+      "name": "Gangliocytoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C6934"
+    },
+    "GNG": {
+      "name": "Ganglioglioma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C3788"
+    },
+    "GNOS": {
+      "name": "Glioma, NOS",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "GRC": {
+      "name": "Gastric Remnant Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "GRCT": {
+      "name": "Granulosa Cell Tumor",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C3070"
+    },
+    "GS": {
+      "name": "Glomangiosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C4221"
+    },
+    "GSARC": {
+      "name": "Gliosarcoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C3796"
+    },
+    "GTD": {
+      "name": "Gestational Trophoblastic Disease",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C4699"
+    },
+    "HCC": {
+      "name": "Hepatocellular Carcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": "C3099"
+    },
+    "HCCIHCH": {
+      "name": "Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": "C3828"
+    },
+    "HCL": {
+      "name": "Hairy Cell Leukemia",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7402"
+    },
+    "HCL-V": {
+      "name": "Hairy Cell Leukemia-Variant",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7401"
+    },
+    "HDCN": {
+      "name": "Histiocytic and Dendritic Cell Neoplasms",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C3106"
+    },
+    "HDCS": {
+      "name": "Histiocytic Dendritic Cell Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C27349"
+    },
+    "HEAD_NECK": {
+      "name": "Head and Neck",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C12418"
+    },
+    "HEMA": {
+      "name": "Hemangioma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3085"
+    },
+    "HGBCL": {
+      "name": "High-Grade B-Cell Lymphoma, NOS",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80291"
+    },
+    "HGBCLMYCBCL2": {
+      "name": "High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C131913"
+    },
+    "HGESS": {
+      "name": "High-Grade Endometrial Stromal Sarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "HGGNOS": {
+      "name": "High-Grade Glioma, NOS",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "HGNEC": {
+      "name": "High-Grade Neuroendocrine Carcinoma of the Colon and Rectum",
+      "main_type": "Gastrointestinal Neuroendocrine Tumor",
+      "tissue": "Bowel",
+      "ncit": "C96156"
+    },
+    "HGNEE": {
+      "name": "High-Grade Neuroendocrine Carcinoma of the Esophagus",
+      "main_type": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "HGNES": {
+      "name": "High-Grade Neuroendocrine Carcinoma of the Stomach",
+      "main_type": "Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "HGNET": {
+      "name": "High-Grade Neuroepithelial Tumor",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "HGONEC": {
+      "name": "High-Grade Neuroendocrine Carcinoma of the Ovary",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "HGSFT": {
+      "name": "High-Grade Serous Fallopian Tube Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "HGSOC": {
+      "name": "High-Grade Serous Ovarian Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "HGSOS": {
+      "name": "High-Grade Surface Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C53958"
+    },
+    "HHV8DLBCL": {
+      "name": "HHV8 Positive DLBCL, NOS",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "HL": {
+      "name": "Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C9357"
+    },
+    "HMBL": {
+      "name": "Hemangioblastoma",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3801"
+    },
+    "HNMASC": {
+      "name": "Mammary Analogue Secretory Carcinoma of Salivary Gland Origin",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "HNMUCM": {
+      "name": "Head and Neck Mucosal Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "HNNE": {
+      "name": "Head and Neck Neuroendocrine Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "HNSC": {
+      "name": "Head and Neck Squamous Cell Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C34447"
+    },
+    "HNSCUP": {
+      "name": "Head and Neck Squamous Cell Carcinoma of Unknown Primary",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "HPCCNS": {
+      "name": "Hemangiopericytoma of the Central Nervous System",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C4660"
+    },
+    "HPHSC": {
+      "name": "Hypopharynx Squamous Cell Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C4043"
+    },
+    "HS": {
+      "name": "Histiocytic Sarcoma",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "HSTCL": {
+      "name": "Hepatosplenic T-cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C8459"
+    },
+    "HTAT": {
+      "name": "Hyalinizing Trabecular Adenoma of the Thyroid",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C6846"
+    },
+    "HVLL": {
+      "name": "Hydroa Vacciniforme Like Lymphoproliferative Disorder",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C45327"
+    },
+    "IAMPCA": {
+      "name": "Intestinal Ampullary Carcinoma",
+      "main_type": "Ampullary Cancer",
+      "tissue": "Ampulla of Vater",
+      "ncit": "C27415"
+    },
+    "IBC": {
+      "name": "Inflammatory Breast Cancer",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C4001"
+    },
+    "ICEMU": {
+      "name": "Intestinal Type Mucinous Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40203"
+    },
+    "ICPN": {
+      "name": "Intracholecystic Papillary Neoplasm",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": null
+    },
+    "IDC": {
+      "name": "Breast Invasive Ductal Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C4194"
+    },
+    "IDCS": {
+      "name": "Interdigitating Dendritic Cell Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Myeloid",
+      "ncit": "C9282"
+    },
+    "IDCT": {
+      "name": "Indeterminate Dendritic Cell Tumor",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "IFS": {
+      "name": "Infantile Fibrosarcoma",
+      "main_type": "Infantile Fibrosarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "IHCH": {
+      "name": "Intrahepatic Cholangiocarcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": "C35417"
+    },
+    "IHG": {
+      "name": "Infant-Type Hemispheric Glioma",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "IHM": {
+      "name": "Invasive Hydatidiform Mole",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C6985"
+    },
+    "ILC": {
+      "name": "Breast Invasive Lobular Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C7950"
+    },
+    "IMMC": {
+      "name": "Breast Invasive Mixed Mucinous Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C9131"
+    },
+    "IMPTLD": {
+      "name": "Infectious Mononucleosis PTLD",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "IMS": {
+      "name": "Myofibromatosis",
+      "main_type": "Myofibromatosis",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "IMT": {
+      "name": "Inflammatory Myofibroblastic Tumor",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C6481"
+    },
+    "IMTB": {
+      "name": "Inflammatory Myofibroblastic Bladder Tumor",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C6177"
+    },
+    "IMTL": {
+      "name": "Inflammatory Myofibroblastic Lung Tumor",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C39740"
+    },
+    "INTS": {
+      "name": "Intimal Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C53677"
+    },
+    "IOPN": {
+      "name": "Intraductal Oncocytic Papillary Neoplasm",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": null
+    },
+    "IPMN": {
+      "name": "Intraductal Papillary Mucinous Neoplasm",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C38342"
+    },
+    "IPN": {
+      "name": "Intraductal Papillary Neoplasm of the Bile Duct",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": null
+    },
+    "ISFN": {
+      "name": "In Situ Follicular Neoplasia",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C138181"
+    },
+    "ISM": {
+      "name": "Indolent Systemic Mastocytosis",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C9286"
+    },
+    "ISMCL": {
+      "name": "In Situ Mantle Cell Neoplasia",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C138191"
+    },
+    "ISTAD": {
+      "name": "Intestinal Type Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C9157"
+    },
+    "ITLPDGI": {
+      "name": "Indolent T-Cell Lymphoproliferative Disorder of the GI Tract",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C139021"
+    },
+    "ITPN": {
+      "name": "Intraductal Tubulopapillary Neoplasm",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": null
+    },
+    "IUP": {
+      "name": "Inverted Urothelial Papilloma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": null
+    },
+    "IVBCL": {
+      "name": "Intravascular Large B-Cell Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4342"
+    },
+    "JMML": {
+      "name": "Juvenile Myelomonocytic Leukemia",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C9233"
+    },
+    "JSCB": {
+      "name": "Juvenile Secretory Carcinoma of the Breast",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "JXG": {
+      "name": "Disseminated Juvenile Xanthogranuloma",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "KIDNEY": {
+      "name": "Kidney",
+      "main_type": "Kidney Cancer",
+      "tissue": "Kidney",
+      "ncit": "C12415"
+    },
+    "LAIS": {
+      "name": "Lung Adenocarcinoma In Situ",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": null
+    },
+    "LAM": {
+      "name": "Pulmonary Lymphangiomyomatosis",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C38153"
+    },
+    "LAMN": {
+      "name": "Low-grade Appendiceal Mucinous Neoplasm",
+      "main_type": "Appendiceal Cancer",
+      "tissue": "Bowel",
+      "ncit": null
+    },
+    "LATL": {
+      "name": "Lymphoid Atypical",
+      "main_type": "Lymphatic Cancer, NOS",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "LBGN": {
+      "name": "Lymphoid Benign",
+      "main_type": "Lymphatic Cancer, NOS",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "LBLIRF4": {
+      "name": "Large B-Cell Lymphoma with IRF4 Rearrangement",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C133494"
+    },
+    "LCH": {
+      "name": "Langerhans Cell Histiocytosis",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C3107"
+    },
+    "LCIS": {
+      "name": "Breast Lobular Carcinoma In Situ",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C4018"
+    },
+    "LCLC": {
+      "name": "Large Cell Lung Carcinoma",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C4450"
+    },
+    "LCS": {
+      "name": "Langerhans Cell Sarcoma",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "LDCHL": {
+      "name": "Lymphocyte-Depleted Classical Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "LDD": {
+      "name": "Dysplastic Gangliocytoma of the Cerebellum/Lhermitte-Duclos Disease",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C8419"
+    },
+    "LECLC": {
+      "name": "Lymphoepithelioma-like Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C45519"
+    },
+    "LGCOS": {
+      "name": "Low-Grade Central Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C6474"
+    },
+    "LGESS": {
+      "name": "Low-Grade Endometrial Stromal Sarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C4263"
+    },
+    "LGFMS": {
+      "name": "Low-Grade Fibromyxoid Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C45202"
+    },
+    "LGGNOS": {
+      "name": "Low-Grade Glioma, NOS",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "LGNET": {
+      "name": "Polymorphous Low-Grade Neuroepithelial Tumor of the Young",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "LGSOC": {
+      "name": "Low-Grade Serous Ovarian Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "LGT": {
+      "name": "Lacrimal Gland Tumor",
+      "main_type": "Lacrimal Gland Tumor",
+      "tissue": "Eye",
+      "ncit": null
+    },
+    "LIAD": {
+      "name": "Hepatocellular Adenoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": "C3758"
+    },
+    "LIAS": {
+      "name": "Liver Angiosarcoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": "C4438"
+    },
+    "LIHB": {
+      "name": "Hepatoblastoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": "C3728"
+    },
+    "LIMNET": {
+      "name": "Malignant Nonepithelial Tumor of the Liver",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Liver",
+      "ncit": null
+    },
+    "LIPO": {
+      "name": "Liposarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3194"
+    },
+    "LIVER": {
+      "name": "Liver",
+      "main_type": "Liver Cancer",
+      "tissue": "Liver",
+      "ncit": "C12392"
+    },
+    "LM": {
+      "name": "Leiomyoma",
+      "main_type": "Soft Tissue Cancer",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "LMS": {
+      "name": "Leiomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3158"
+    },
+    "LNET": {
+      "name": "Lung Neuroendocrine Tumor",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C5670"
+    },
+    "LNM": {
+      "name": "Lymphoid Neoplasm",
+      "main_type": "Lymphatic Cancer, NOS",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "LPL": {
+      "name": "Lymphoplasmacytic Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3212"
+    },
+    "LRCHL": {
+      "name": "Lymphocyte-Rich Classical Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "LUACC": {
+      "name": "Adenoid Cystic Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C5666"
+    },
+    "LUAD": {
+      "name": "Lung Adenocarcinoma",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C3512"
+    },
+    "LUAS": {
+      "name": "Lung Adenosquamous Carcinoma",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C9133"
+    },
+    "LUCA": {
+      "name": "Lung Carcinoid",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C4038"
+    },
+    "LUMEC": {
+      "name": "Mucoepidermoid Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C45544"
+    },
+    "LUNE": {
+      "name": "Large Cell Neuroendocrine Carcinoma",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C6875"
+    },
+    "LUNG": {
+      "name": "Lung",
+      "main_type": "Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C12468"
+    },
+    "LUPC": {
+      "name": "Pleomorphic Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C45542"
+    },
+    "LUSC": {
+      "name": "Lung Squamous Cell Carcinoma",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C3493"
+    },
+    "LXSC": {
+      "name": "Larynx Squamous Cell Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C4044"
+    },
+    "LYG": {
+      "name": "Lymphomatoid Granulomatosis",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7930"
+    },
+    "LYMPH": {
+      "name": "Lymphoid",
+      "main_type": "Lymphatic Cancer",
+      "tissue": "Lymphoid",
+      "ncit": "C13252"
+    },
+    "LYP": {
+      "name": "Lymphomatoid Papulosis",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3721"
+    },
+    "MAAP": {
+      "name": "Mucinous Adenocarcinoma of the Appendix",
+      "main_type": "Appendiceal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C43558"
+    },
+    "MAC": {
+      "name": "Microcystic Adnexal Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C7581"
+    },
+    "MACR": {
+      "name": "Mucinous Adenocarcinoma of the Colon and Rectum",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C43585"
+    },
+    "MAMPCA": {
+      "name": "Mixed Ampullary Carcinoma",
+      "main_type": "Ampullary Cancer",
+      "tissue": "Ampulla of Vater",
+      "ncit": null
+    },
+    "MASC": {
+      "name": "Metaplastic Adenosquamous Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C40361"
+    },
+    "MASCC": {
+      "name": "Metaplastic Adenocarcinoma with Spindle Cell Differentiation",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C40358"
+    },
+    "MATPL": {
+      "name": "Myeloid Atypical",
+      "main_type": "Blood Cancer, NOS",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MBC": {
+      "name": "Metaplastic Breast Cancer",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C5164"
+    },
+    "MBEN": {
+      "name": "Medulloblastoma with Extensive Nodularity",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C5407"
+    },
+    "MBENNOS": {
+      "name": "Medulloblastoma with Extensive Nodularity, NOS",
+      "main_type": "Medulloblastoma with Extensive Nodularity",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBENSHH": {
+      "name": "Medulloblastoma with Extensive Nodularity, SHH Subtype",
+      "main_type": "Medulloblastoma with Extensive Nodularity",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBGN": {
+      "name": "Myeloid Benign",
+      "main_type": "Blood Cancer, NOS",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MBL": {
+      "name": "Medulloblastoma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3222"
+    },
+    "MBLG3": {
+      "name": "Medulloblastoma, Group 3",
+      "main_type": "Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBLG4": {
+      "name": "Medulloblastoma, Group 4",
+      "main_type": "Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBLNOS": {
+      "name": "Medulloblastoma, NOS",
+      "main_type": "Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBLNWS": {
+      "name": "Medulloblastoma, Non-WNT, Non-SHH",
+      "main_type": "Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBLSHH": {
+      "name": "Medulloblastoma, SHH Subtype",
+      "main_type": "Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBLWNT": {
+      "name": "Medulloblastoma, WNT Subtype",
+      "main_type": "Medulloblastoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MBN": {
+      "name": "Mature B-Cell Neoplasms",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3457"
+    },
+    "MBOV": {
+      "name": "Mucinous Borderline Ovarian Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C40036"
+    },
+    "MBT": {
+      "name": "Miscellaneous Brain Tumor",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C6974"
+    },
+    "MCBCL": {
+      "name": "Monoclonal B-Cell Lymphocytosis",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80310"
+    },
+    "MCC": {
+      "name": "Merkel Cell Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C9231"
+    },
+    "MCCE": {
+      "name": "Mixed Cervical Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": null
+    },
+    "MCCHL": {
+      "name": "Mixed Cellularity Classical Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "MCD": {
+      "name": "Mastocytosis",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C84269"
+    },
+    "MCHS": {
+      "name": "Mesenchymal Chondrosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C53493"
+    },
+    "MCHSCNS": {
+      "name": "Mesenchymal Chondrosarcoma of the CNS",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3737"
+    },
+    "MCL": {
+      "name": "Mantle Cell Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4337"
+    },
+    "MCN": {
+      "name": "Mucinous Cystic Neoplasm",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C41247"
+    },
+    "MCS": {
+      "name": "Metaplastic Carcinosarcoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": null
+    },
+    "MCSL": {
+      "name": "Mast Cell Sarcoma",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C9348"
+    },
+    "MDEP": {
+      "name": "Medulloepithelioma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4327"
+    },
+    "MDLC": {
+      "name": "Breast Mixed Ductal and Lobular Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C5160"
+    },
+    "MDS": {
+      "name": "Myelodysplastic Syndromes",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C3247"
+    },
+    "MDS/MPN": {
+      "name": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C27262"
+    },
+    "MDSEB": {
+      "name": "MDS with Excess Blasts",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C7506"
+    },
+    "MDSEB1": {
+      "name": "MDS with excess blasts-1",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C7167"
+    },
+    "MDSEB2": {
+      "name": "MDS with excess blasts-2",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C7168"
+    },
+    "MDSID5Q": {
+      "name": "MDS with Isolated Del(5q)",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C6867"
+    },
+    "MDSMD": {
+      "name": "MDS with Multilineage Dysplasia",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C8574"
+    },
+    "MDSMPNRST": {
+      "name": "MDS/MPN with Ring Sideroblasts and Thrombocytosis",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C82616"
+    },
+    "MDSMPNU": {
+      "name": "MDS/MPN, Unclassifiable",
+      "main_type": "Myelodysplastic/Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C27780"
+    },
+    "MDSRS": {
+      "name": "MDS with Ring Sideroblasts",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MDSRSMD": {
+      "name": "MDS with Ring Sideroblasts and Multilineage Dysplasia",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C27726"
+    },
+    "MDSRSSLD": {
+      "name": "MDS with Ring Sideroblasts and Single Lineage Dysplasia",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C130037"
+    },
+    "MDSSLD": {
+      "name": "MDS with Single Lineage Dysplasia",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C82591"
+    },
+    "MDSU": {
+      "name": "MDS, Unclassifiable",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C8648"
+    },
+    "MDSWP": {
+      "name": "Myelodysplastic Workup",
+      "main_type": "Myelodysplastic Workup",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MEITL": {
+      "name": "Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C96058"
+    },
+    "MEL": {
+      "name": "Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": "C3224"
+    },
+    "MELC": {
+      "name": "Melanocytoma",
+      "main_type": "Melanocytoma",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "MF": {
+      "name": "Myofibroma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C7052"
+    },
+    "MFH": {
+      "name": "Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C4247"
+    },
+    "MFS": {
+      "name": "Myxofibrosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C6496"
+    },
+    "MGCT": {
+      "name": "Mixed Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": "C6347"
+    },
+    "MGST": {
+      "name": "Malignant Glomus Tumor",
+      "main_type": "Malignant Glomus Tumor",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "MGUS": {
+      "name": "Monoclonal Gammopathy of Undetermined Significance",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3996"
+    },
+    "MGUSIGA": {
+      "name": "IgA",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "MGUSIGG": {
+      "name": "IgG",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "MGUSIGM": {
+      "name": "IgM",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "MHCD": {
+      "name": "Mu Heavy-Chain Disease",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3892"
+    },
+    "MIDD": {
+      "name": "Monoclonal Immunoglobulin Deposition Diseases",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7151"
+    },
+    "MIDDA": {
+      "name": "Amyloidosis",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C2868"
+    },
+    "MIDDO": {
+      "name": "Monoclonal Immunoglobulin Deposition Diseases, Other",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "MIXED": {
+      "name": "Mixed Cancer Types",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "MLADS": {
+      "name": "Myeloid Leukemia Associated with Down Syndrome",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C43223"
+    },
+    "MLNER": {
+      "name": "Myeloid/Lymphoid Neoplasms with Eosinophilia and Rearrangement of  PDGFRA/PDGFRB or FGFR1 or with PCM1-JAK2",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C84270"
+    },
+    "MLNFGFR1": {
+      "name": "Myeloid/Lymphoid Neoplasms with FGFR1 Rearrangement",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C84277"
+    },
+    "MLNPCM1JAK2": {
+      "name": "Myeloid/Lymphoid Neoplasms with PCM1-JAK2",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C129853"
+    },
+    "MLNPDGFRA": {
+      "name": "Myeloid/Lymphoid Neoplasms with PDGFRA Rearrangement",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C84275"
+    },
+    "MLNPDGFRB": {
+      "name": "Myeloid/Lymphoid Neoplasms with PDGFRB Rearrangement",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C84276"
+    },
+    "MLYM": {
+      "name": "Malignant Lymphoma",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3208"
+    },
+    "MMB": {
+      "name": "Medullomyoblastoma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3706"
+    },
+    "MMBC": {
+      "name": "Mixed Type Metaplastic Breast Cancer",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C40364"
+    },
+    "MMBL": {
+      "name": "Melanotic Medulloblastoma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C9497"
+    },
+    "MNET": {
+      "name": "Miscellaneous Neuroepithelial Tumor",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C7172"
+    },
+    "MNG": {
+      "name": "Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C3230"
+    },
+    "MNGLP": {
+      "name": "Myeloid Neoplasms with Germ Line Predisposition",
+      "main_type": "Myeloid Neoplasms with Germ Line Predisposition",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MNGT": {
+      "name": "Meningothelial Tumor",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C3229"
+    },
+    "MNM": {
+      "name": "Myeloid Neoplasm",
+      "main_type": "Blood Cancer, NOS",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MOV": {
+      "name": "Mucinous Ovarian Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C5242"
+    },
+    "MP": {
+      "name": "Molar Pregnancy",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C3110"
+    },
+    "MPALBCRABL1": {
+      "name": "Mixed Phenotype Acute Leukemia with t(9;22)(q34.1;q11.2); BCR-ABL1",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82192"
+    },
+    "MPALBNOS": {
+      "name": "Mixed Phenotype Acute Leukemia, B/Myeloid, NOS",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82212"
+    },
+    "MPALKMT2A": {
+      "name": "Mixed Phenotype Acute Leukemia with t(v;11q23.3); KMT2A Rearranged",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82203"
+    },
+    "MPALTNOS": {
+      "name": "Mixed Phenotype Acute Leukemia, T/Myeloid, NOS",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82213"
+    },
+    "MPC": {
+      "name": "Myopericytoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C50401"
+    },
+    "MPE": {
+      "name": "Myxopapillary Ependymoma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C3697"
+    },
+    "MPN": {
+      "name": "Myeloproliferative Neoplasms",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C4345"
+    },
+    "MPNST": {
+      "name": "Malignant Peripheral Nerve Sheath Tumor",
+      "main_type": "Nerve Sheath Tumor",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C3798"
+    },
+    "MPNU": {
+      "name": "Myeloproliferative Neoplasms, Unclassifiable",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C27350"
+    },
+    "MPNWP": {
+      "name": "Myeloproliferative Workup",
+      "main_type": "Myeloproliferative Workup",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "MPRDS": {
+      "name": "Myeloid Proliferations Related to Down Syndrome",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C82338"
+    },
+    "MPT": {
+      "name": "Malignant Phyllodes Tumor of the Breast",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C4504"
+    },
+    "MPTLD": {
+      "name": "Monomorphic PTLD (B- and T-/NK-cell types)",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "MRC": {
+      "name": "Renal Medullary Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "MRLS": {
+      "name": "Myxoid/Round-Cell Liposarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C27781"
+    },
+    "MRT": {
+      "name": "Rhabdoid Cancer",
+      "main_type": "Rhabdoid Cancer",
+      "tissue": "Kidney",
+      "ncit": "C3808"
+    },
+    "MRTL": {
+      "name": "Malignant Rhabdoid Tumor of the Liver",
+      "main_type": "Malignant Rhabdoid Tumor of the Liver",
+      "tissue": "Liver",
+      "ncit": null
+    },
+    "MS": {
+      "name": "Myeloid Sarcoma",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C3520"
+    },
+    "MSCC": {
+      "name": "Metaplastic Squamous Cell Carcinoma",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C5177"
+    },
+    "MSCHW": {
+      "name": "Melanotic Schwannoma",
+      "main_type": "Nerve Sheath Tumor",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C6970"
+    },
+    "MSTAD": {
+      "name": "Mucinous Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5248"
+    },
+    "MT": {
+      "name": "Malignant Tumor",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C9305"
+    },
+    "MTNN": {
+      "name": "Mature T and NK Neoplasms",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3466"
+    },
+    "MTSCC": {
+      "name": "Renal Mucinous Tubular Spindle Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C39807"
+    },
+    "MUCC": {
+      "name": "Mucoepidermoid Carcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C3772"
+    },
+    "MUP": {
+      "name": "Melanoma of Unknown Primary",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": null
+    },
+    "MXOV": {
+      "name": "Mixed Ovarian Carcinoma",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C40090"
+    },
+    "MYCF": {
+      "name": "Mycosis Fungoides",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3246"
+    },
+    "MYCHS": {
+      "name": "Myxoid Chondrosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C4303"
+    },
+    "MYEC": {
+      "name": "Myoepithelial Carcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C35700"
+    },
+    "MYELOID": {
+      "name": "Myeloid",
+      "main_type": "Blood Cancer",
+      "tissue": "Myeloid",
+      "ncit": "C12434"
+    },
+    "MYXO": {
+      "name": "Myxoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C6577"
+    },
+    "MZL": {
+      "name": "Marginal Zone Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4341"
+    },
+    "NBL": {
+      "name": "Neuroblastoma",
+      "main_type": "Peripheral Nervous System",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C3270"
+    },
+    "NCCRCC": {
+      "name": "Renal Non-Clear Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "NECNOS": {
+      "name": "Neuroendocrine Carcinoma, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "NETNOS": {
+      "name": "Neuroendocrine Tumor, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "NFIB": {
+      "name": "Neurofibroma",
+      "main_type": "Nerve Sheath Tumor",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C3272"
+    },
+    "NHL": {
+      "name": "Non-Hodgkin Lymphoma",
+      "main_type": "Non-Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C3211"
+    },
+    "NKCLL": {
+      "name": "Natural Killer (NK) Cell Lymphoblastic Leukemia/Lymphoma",
+      "main_type": "T-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C82217"
+    },
+    "NLPHL": {
+      "name": "Nodular Lymphocyte-Predominant Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C7258"
+    },
+    "NMCHN": {
+      "name": "NUT Midline Carcinoma of the Head and Neck",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C45716"
+    },
+    "NMZL": {
+      "name": "Nodal Marginal Zone Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C8863"
+    },
+    "NPC": {
+      "name": "Nasopharyngeal Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C3871"
+    },
+    "NPTLTFH": {
+      "name": "Nodal Peripheral T-Cell Lymphoma with TFH Phenotype",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C168778"
+    },
+    "NRCC": {
+      "name": "NUTM1 Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "NSCHL": {
+      "name": "Nodular Sclerosis Classical Hodgkin Lymphoma",
+      "main_type": "Hodgkin Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "NSCLC": {
+      "name": "Non-Small Cell Lung Cancer",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C2926"
+    },
+    "NSCLCPD": {
+      "name": "Poorly Differentiated Non-Small Cell Lung Cancer",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": null
+    },
+    "NSGCT": {
+      "name": "Non-Seminomatous Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": null
+    },
+    "NST": {
+      "name": "Nerve Sheath Tumor",
+      "main_type": "Nerve Sheath Tumor",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C4972"
+    },
+    "NUTCL": {
+      "name": "NUT Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": null
+    },
+    "NVRINT": {
+      "name": "Neoplastic Vs Reactive",
+      "main_type": "Neoplastic Vs Reactive",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "OAT": {
+      "name": "Oncocytic Adenoma of the Thyroid",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": null
+    },
+    "OCNOS": {
+      "name": "Ovarian Choriocarcinoma, NOS",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "OCS": {
+      "name": "Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C9192"
+    },
+    "OCSC": {
+      "name": "Oral Cavity Squamous Cell Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C4833"
+    },
+    "ODG": {
+      "name": "Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C3288"
+    },
+    "ODG2": {
+      "name": "Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Grade 2",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ODG3": {
+      "name": "Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Grade 3",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "ODGC": {
+      "name": "Odontogenic Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C4812"
+    },
+    "ODYS": {
+      "name": "Dysgerminoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C8106"
+    },
+    "OEC": {
+      "name": "Embryonal Carcinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C8108"
+    },
+    "OFMT": {
+      "name": "Ossifying Fibromyxoid Tumor",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C6582"
+    },
+    "OGBL": {
+      "name": "Gonadoblastoma",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C39985"
+    },
+    "OGCT": {
+      "name": "Ovarian Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C3873"
+    },
+    "OHNCA": {
+      "name": "Head and Neck Carcinoma, Other",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "OIMT": {
+      "name": "Immature Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C8111"
+    },
+    "OM": {
+      "name": "Ocular Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Eye",
+      "ncit": "C8562"
+    },
+    "OMGCT": {
+      "name": "Mixed Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C8114"
+    },
+    "OMT": {
+      "name": "Mature Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C8112"
+    },
+    "ONBL": {
+      "name": "Olfactory Neuroblastoma",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3789"
+    },
+    "OOVC": {
+      "name": "Ovarian Cancer, Other",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "OPE": {
+      "name": "Polyembryoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C39990"
+    },
+    "OPHSC": {
+      "name": "Oropharynx Squamous Cell Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "OS": {
+      "name": "Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C9145"
+    },
+    "OSACA": {
+      "name": "Salivary Carcinoma, Other",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "OSGCT": {
+      "name": "Osteoclastic Giant Cell Tumor",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": null
+    },
+    "OSMAD": {
+      "name": "Ovarian Seromucinous Adenoma",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "OSMBT": {
+      "name": "Ovarian Seromucinous Borderline Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C40038"
+    },
+    "OSMCA": {
+      "name": "Ovarian Seromucinous Carcinoma",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C40090"
+    },
+    "OSOS": {
+      "name": "Osteoblastic Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C53953"
+    },
+    "OTHER": {
+      "name": "Other",
+      "main_type": "Other Cancer",
+      "tissue": "Other",
+      "ncit": "C17649"
+    },
+    "OUSARC": {
+      "name": "Uterine Sarcoma, Other",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "OUTT": {
+      "name": "Other Uterine Tumor",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "OVARY": {
+      "name": "Ovary/Fallopian Tube",
+      "main_type": "Ovarian/Fallopian Tube Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C12404"
+    },
+    "OVT": {
+      "name": "Ovarian Epithelial Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C4381"
+    },
+    "OYST": {
+      "name": "Yolk Sac Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C8107"
+    },
+    "PAAC": {
+      "name": "Acinar Cell Carcinoma of the Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C7977"
+    },
+    "PAAD": {
+      "name": "Pancreatic Adenocarcinoma",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C8294"
+    },
+    "PAASC": {
+      "name": "Adenosquamous Carcinoma of the Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C5721"
+    },
+    "PAC": {
+      "name": "Polymorphous Adenocarcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "PACT": {
+      "name": "Cystic Tumor of the Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C41247"
+    },
+    "PADA": {
+      "name": "Pleomorphic Adenoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "PAMPCA": {
+      "name": "Pancreatobiliary Ampullary Carcinoma",
+      "main_type": "Ampullary Cancer",
+      "tissue": "Ampulla of Vater",
+      "ncit": null
+    },
+    "PANCREAS": {
+      "name": "Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C12393"
+    },
+    "PANEC": {
+      "name": "Pancreatic Neuroendocrine Carcinoma",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": null
+    },
+    "PANET": {
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C27720"
+    },
+    "PAOS": {
+      "name": "Parosteal Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C8969"
+    },
+    "PAST": {
+      "name": "Pilocytic Astrocytoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C4047"
+    },
+    "PB": {
+      "name": "Pancreatoblastoma",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C4265"
+    },
+    "PBL": {
+      "name": "Pineoblastoma",
+      "main_type": "Pineal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C9344"
+    },
+    "PBS": {
+      "name": "Breast Sarcoma",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C4670"
+    },
+    "PBT": {
+      "name": "Primary Brain Tumor",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4952"
+    },
+    "PCAECTCL": {
+      "name": "Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C45339"
+    },
+    "PCALCL": {
+      "name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C6860"
+    },
+    "PCATCL": {
+      "name": "Primary Cutaneous Acral CD8 Positive T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C139023"
+    },
+    "PCFCL": {
+      "name": "Primary Cutaneous Follicle Center Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7217"
+    },
+    "PCGDTCL": {
+      "name": "Primary Cutaneous Gamma Delta T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C45340"
+    },
+    "PCGP": {
+      "name": "Craniopharyngioma, Papillary Type",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "PCLBCLLT": {
+      "name": "Primary Cutaneous DLBCL, Leg Type",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C45194"
+    },
+    "PCLPD": {
+      "name": "Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "PCM": {
+      "name": "Plasma Cell Myeloma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3242"
+    },
+    "PCNSL": {
+      "name": "Primary DLBCL of the central nervous system",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C9301"
+    },
+    "PCNSM": {
+      "name": "Primary CNS Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "CNS/Brain",
+      "ncit": "C5505"
+    },
+    "PCNSMT": {
+      "name": "Primary CNS Melanocytic Tumors",
+      "main_type": "Primary CNS Melanocytic Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "PCSMTPLD": {
+      "name": "Primary Cutaneous CD4 Positive Small/Medium T-Cell Lymphoproliferative Disorder",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C45366"
+    },
+    "PD": {
+      "name": "Paget Disease of the Nipple",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C3301"
+    },
+    "PDC": {
+      "name": "Poorly Differentiated Carcinoma, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "PDIFHG": {
+      "name": "Pediatric-Type Diffuse High-Grade Glioma",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "PDIFLG": {
+      "name": "Pediatric-Type Diffuse Low-Grade Glioma",
+      "main_type": "Gliomas, Glioneuronal Tumors, and Neuronal Tumors",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "PECOMA": {
+      "name": "Perivascular Epithelioid Cell Tumor",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C38150"
+    },
+    "PEL": {
+      "name": "Primary Effusion Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C6915"
+    },
+    "PEMESO": {
+      "name": "Peritoneal Mesothelioma",
+      "main_type": "Mesothelioma",
+      "tissue": "Peritoneum",
+      "ncit": "C7633"
+    },
+    "PENIS": {
+      "name": "Penis",
+      "main_type": "Penile Cancer",
+      "tissue": "Penis",
+      "ncit": "C12409"
+    },
+    "PEOS": {
+      "name": "Periosteal Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C8970"
+    },
+    "PERITONEUM": {
+      "name": "Peritoneum",
+      "main_type": "Peritoneal Cancer",
+      "tissue": "Peritoneum",
+      "ncit": "C12770"
+    },
+    "PERL": {
+      "name": "Pure Erythroid Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C7467"
+    },
+    "PGNG": {
+      "name": "Paraganglioma",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "Soft Tissue",
+      "ncit": "C3308"
+    },
+    "PGNT": {
+      "name": "Papillary Glioneuronal Tumor",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C92554"
+    },
+    "PHC": {
+      "name": "Pheochromocytoma",
+      "main_type": "Pheochromocytoma",
+      "tissue": "Adrenal Gland",
+      "ncit": "C3326"
+    },
+    "PHCH": {
+      "name": "Perihilar Cholangiocarcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": "C96804"
+    },
+    "PHM": {
+      "name": "Partial Hydatidiform Mole",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C4293"
+    },
+    "PHPTLD": {
+      "name": "Plasmacytic Hyperplasia PTLD",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "PINC": {
+      "name": "Pineocytoma",
+      "main_type": "Pineal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C6966"
+    },
+    "PINT": {
+      "name": "Pineal Tumor",
+      "main_type": "Pineal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3328"
+    },
+    "PLBL": {
+      "name": "Plasmablastic Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7224"
+    },
+    "PLBMESO": {
+      "name": "Pleural Mesothelioma, Biphasic Type",
+      "main_type": "Mesothelioma",
+      "tissue": "Pleura",
+      "ncit": null
+    },
+    "PLEMESO": {
+      "name": "Pleural Mesothelioma, Epithelioid Type",
+      "main_type": "Mesothelioma",
+      "tissue": "Pleura",
+      "ncit": null
+    },
+    "PLEURA": {
+      "name": "Pleura",
+      "main_type": "Pleural Cancer",
+      "tissue": "Pleura",
+      "ncit": "C12469"
+    },
+    "PLLS": {
+      "name": "Pleomorphic Liposarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3705"
+    },
+    "PLMESO": {
+      "name": "Pleural Mesothelioma",
+      "main_type": "Mesothelioma",
+      "tissue": "Pleura",
+      "ncit": "C9351"
+    },
+    "PLRMS": {
+      "name": "Pleomorphic Rhabdomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C4258"
+    },
+    "PLSMESO": {
+      "name": "Pleural Mesothelioma, Sarcomatoid Type",
+      "main_type": "Mesothelioma",
+      "tissue": "Pleura",
+      "ncit": null
+    },
+    "PMA": {
+      "name": "Pilomyxoid Astrocytoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C40315"
+    },
+    "PMBL": {
+      "name": "Primary Mediastinal (Thymic) Large B-Cell Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C9280"
+    },
+    "PMF": {
+      "name": "Primary Myelofibrosis",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C2862"
+    },
+    "PMFOFS": {
+      "name": "Primary Myelofibrosis,Overt Fibrotic Stage",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C41238"
+    },
+    "PMFPES": {
+      "name": "Primary Myelofibrosis, Prefibrotic/Early Stage",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C41237"
+    },
+    "PMHE": {
+      "name": "Pseudomyogenic Hemangioendothelioma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "PNET": {
+      "name": "Primitive Neuroectodermal Tumor",
+      "main_type": "Embryonal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3716"
+    },
+    "PNS": {
+      "name": "Peripheral Nervous System",
+      "main_type": "Peripheral Nervous System Cancer",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C12465"
+    },
+    "POCA": {
+      "name": "Porocarcinoma/Spiroadenocarcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C5560"
+    },
+    "PORO": {
+      "name": "Poroma/Acrospiroma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C27273"
+    },
+    "PPB": {
+      "name": "Pleuropulmonary Blastoma",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C5669"
+    },
+    "PPCT": {
+      "name": "Proliferating Pilar Cystic Tumor",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": null
+    },
+    "PPM": {
+      "name": "Papillary Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C3904"
+    },
+    "PPTID": {
+      "name": "Pineal Parenchymal Tumor of Intermediate Differentiation",
+      "main_type": "Pineal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C6967"
+    },
+    "PPTLD": {
+      "name": "Polymorphic PTLD",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "PRAD": {
+      "name": "Prostate Adenocarcinoma",
+      "main_type": "Prostate Cancer",
+      "tissue": "Prostate",
+      "ncit": "C2919"
+    },
+    "PRCC": {
+      "name": "Papillary Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C6975"
+    },
+    "PRNE": {
+      "name": "Prostate Neuroendocrine Carcinoma",
+      "main_type": "Prostate Cancer",
+      "tissue": "Prostate",
+      "ncit": "C5545"
+    },
+    "PRNET": {
+      "name": "Primary Neuroepithelial Tumor",
+      "main_type": "Miscellaneous Brain Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3787"
+    },
+    "PROSTATE": {
+      "name": "Prostate",
+      "main_type": "Prostate Cancer",
+      "tissue": "Prostate",
+      "ncit": "C12410"
+    },
+    "PRSC": {
+      "name": "Prostate Squamous Cell Carcinoma",
+      "main_type": "Prostate Cancer",
+      "tissue": "Prostate",
+      "ncit": "C5536"
+    },
+    "PRSCC": {
+      "name": "Prostate Small Cell Carcinoma",
+      "main_type": "Prostate Cancer",
+      "tissue": "Prostate",
+      "ncit": "C6766"
+    },
+    "PSC": {
+      "name": "Serous Cystadenoma of the Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C5712"
+    },
+    "PSCC": {
+      "name": "Penile Squamous Cell Carcinoma",
+      "main_type": "Penile Cancer",
+      "tissue": "Penis",
+      "ncit": "C7729"
+    },
+    "PSEC": {
+      "name": "Peritoneal Serous Carcinoma",
+      "main_type": "Peritoneal Cancer, NOS",
+      "tissue": "Peritoneum",
+      "ncit": null
+    },
+    "PSTAD": {
+      "name": "Papillary Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5472"
+    },
+    "PSTT": {
+      "name": "Placental Site Trophoblastic Tumor",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C3757"
+    },
+    "PT": {
+      "name": "Phyllodes Tumor of the Breast",
+      "main_type": "Breast Sarcoma",
+      "tissue": "Breast",
+      "ncit": "C7575"
+    },
+    "PTAD": {
+      "name": "Pituitary Adenoma",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C3329"
+    },
+    "PTCA": {
+      "name": "Pituitary Carcinoma",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4536"
+    },
+    "PTCL": {
+      "name": "Peripheral T-Cell lymphoma, NOS",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4340"
+    },
+    "PTCY": {
+      "name": "Pituicytoma",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C94524"
+    },
+    "PTES": {
+      "name": "Proximal-Type Epithelioid Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C27472"
+    },
+    "PTFL": {
+      "name": "Pediatric-Type Follicular Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80297"
+    },
+    "PTH": {
+      "name": "Parathyroid Cancer",
+      "main_type": "Parathyroid Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "PTHC": {
+      "name": "Parathyroid Carcinoma",
+      "main_type": "Parathyroid Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "PTLD": {
+      "name": "Posttransplant Lymphoproliferative Disorders",
+      "main_type": "Posttransplant Lymphoproliferative Disorders",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "PTPR": {
+      "name": "Papillary Tumor of the Pineal Region",
+      "main_type": "Pineal Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C92624"
+    },
+    "PV": {
+      "name": "Polycythemia Vera",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": "C3336"
+    },
+    "PVMF": {
+      "name": "Polycythaemia Vera Myelofibrosis",
+      "main_type": "Myeloproliferative Neoplasms",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "PXA": {
+      "name": "Pleomorphic Xanthoastrocytoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C4323"
+    },
+    "RAML": {
+      "name": "Renal Angiomyolipoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C3888"
+    },
+    "RAS": {
+      "name": "Radiation-Associated Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C93125"
+    },
+    "RBL": {
+      "name": "Retinoblastoma",
+      "main_type": "Retinoblastoma",
+      "tissue": "Eye",
+      "ncit": "C7541"
+    },
+    "RCC": {
+      "name": "Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C9385"
+    },
+    "RCSNOS": {
+      "name": "Round Cell Sarcoma, NOS",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "RCYC": {
+      "name": "Refractory Cytopenia of Childhood",
+      "main_type": "Myelodysplastic Syndromes",
+      "tissue": "Myeloid",
+      "ncit": "C82596"
+    },
+    "RDD": {
+      "name": "Rosai-Dorfman Disease",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C36075"
+    },
+    "READ": {
+      "name": "Rectal Adenocarcinoma",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C9383"
+    },
+    "RGNT": {
+      "name": "Rosette-forming Glioneuronal Tumor of the Fourth Ventricle",
+      "main_type": "Miscellaneous Neuroepithelial Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C67559"
+    },
+    "RHM": {
+      "name": "Rhabdoid Meningioma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C6909"
+    },
+    "RLCLC": {
+      "name": "Large Cell Lung Carcinoma With Rhabdoid Phenotype",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C6876"
+    },
+    "RMS": {
+      "name": "Rhabdomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3359"
+    },
+    "RNET": {
+      "name": "Renal Neuroendocrine Tumor",
+      "main_type": "Renal Neuroendocrine Tumor",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "ROCY": {
+      "name": "Renal Oncocytoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C4526"
+    },
+    "RSCC": {
+      "name": "Renal Small Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "RWDNET": {
+      "name": "Well-Differentiated Neuroendocrine Tumor of the Rectum",
+      "main_type": "Gastrointestinal Neuroendocrine Tumor",
+      "tissue": "Bowel",
+      "ncit": "C96159"
+    },
+    "SAAD": {
+      "name": "Salivary Adenocarcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C8021"
+    },
+    "SACA": {
+      "name": "Salivary Carcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C9272"
+    },
+    "SARCL": {
+      "name": "Sarcomatoid Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C45540"
+    },
+    "SARCNOS": {
+      "name": "Sarcoma, NOS",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "SBC": {
+      "name": "Small Bowel Cancer",
+      "main_type": "Small Bowel Cancer",
+      "tissue": "Bowel",
+      "ncit": "C7724"
+    },
+    "SBL": {
+      "name": "Sialoblastoma",
+      "main_type": "Sialoblastoma",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "SBLU": {
+      "name": "Splenic B-Cell Lymphoma/Leukemia, Unclassifiable",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80308"
+    },
+    "SBMOV": {
+      "name": "Serous Borderline Ovarian Tumor, Micropapillary",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "SBOV": {
+      "name": "Serous Borderline Ovarian Tumor",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "SBWDNET": {
+      "name": "Small Bowel Well-Differentiated Neuroendocrine Tumor",
+      "main_type": "Gastrointestinal Neuroendocrine Tumor",
+      "tissue": "Bowel",
+      "ncit": "C9461"
+    },
+    "SCB": {
+      "name": "Sarcomatoid Carcinoma of the Urinary Bladder",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C39824"
+    },
+    "SCBC": {
+      "name": "Small Cell Bladder Cancer",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C9461"
+    },
+    "SCCE": {
+      "name": "Small Cell Carcinoma of the Cervix",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C7982"
+    },
+    "SCCNOS": {
+      "name": "Squamous Cell Carcinoma, NOS",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "SCCO": {
+      "name": "Small Cell Carcinoma of the Ovary",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C27390"
+    },
+    "SCCRCC": {
+      "name": "Renal Clear Cell Carcinoma with Sarcomatoid Features",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "SCEMU": {
+      "name": "Signet Ring Mucinous Carcinoma",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40205"
+    },
+    "SCGBC": {
+      "name": "Small Cell Gallbladder Carcinoma",
+      "main_type": "Hepatobiliary Cancer",
+      "tissue": "Biliary Tract",
+      "ncit": null
+    },
+    "SCGBM": {
+      "name": "Small Cell Glioblastoma",
+      "main_type": "Glioma",
+      "tissue": "CNS/Brain",
+      "ncit": "C125890"
+    },
+    "SCHW": {
+      "name": "Schwannoma",
+      "main_type": "Nerve Sheath Tumor",
+      "tissue": "Peripheral Nervous System",
+      "ncit": "C3269"
+    },
+    "SCLC": {
+      "name": "Small Cell Lung Cancer",
+      "main_type": "Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C4917"
+    },
+    "SCLG": {
+      "name": "Squamous Cell Carcinoma of the Lacrimal Gland",
+      "main_type": "Lacrimal Gland Tumor",
+      "tissue": "Eye",
+      "ncit": null
+    },
+    "SCOAH": {
+      "name": "Spindle Cell Oncocytoma of the Adenohypophysis",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C94537"
+    },
+    "SCOS": {
+      "name": "Small Cell Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C4023"
+    },
+    "SCRMS": {
+      "name": "Spindle Cell Rhabdomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C6519"
+    },
+    "SCSRMS": {
+      "name": "Spindle Cell/Sclerosing Rhabdomyosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": null
+    },
+    "SCST": {
+      "name": "Sex Cord Stromal Tumor",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C4862"
+    },
+    "SCT": {
+      "name": "Steroid Cell Tumor, NOS",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": null
+    },
+    "SCUP": {
+      "name": "Small Cell Carcinoma of Unknown Primary",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": null
+    },
+    "SDCA": {
+      "name": "Salivary Duct Carcinoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C5904"
+    },
+    "SDRPL": {
+      "name": "Splenic Diffuse Red Pulp Small B-Cell Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80309"
+    },
+    "SEBA": {
+      "name": "Sebaceous Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C40310"
+    },
+    "SEBVTLC": {
+      "name": "Systemic EBV Positive T-Cell Lymphoma of Childhood",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "SECOS": {
+      "name": "Secondary Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C53704"
+    },
+    "SEF": {
+      "name": "Sclerosing Epithelioid Fibrosarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C49027"
+    },
+    "SELT": {
+      "name": "Sellar Tumor",
+      "main_type": "Sellar Tumor",
+      "tissue": "CNS/Brain",
+      "ncit": "C4944"
+    },
+    "SEM": {
+      "name": "Seminoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": "C9309"
+    },
+    "SFT": {
+      "name": "Solitary Fibrous Tumor/Hemangiopericytoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C7634"
+    },
+    "SFTCNS": {
+      "name": "Solitary Fibrous Tumor of the Central Nervous System",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": null
+    },
+    "SGAD": {
+      "name": "Sweat Gland Adenocarcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C3682"
+    },
+    "SGO": {
+      "name": "Salivary Gland Oncocytoma",
+      "main_type": "Salivary Gland Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C5932"
+    },
+    "SGTTL": {
+      "name": "Salivary Gland-Type Tumor of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": null
+    },
+    "SIC": {
+      "name": "Small Intestinal Carcinoma",
+      "main_type": "Small Bowel Cancer",
+      "tissue": "Bowel",
+      "ncit": "C7724"
+    },
+    "SKAC": {
+      "name": "Skin Adnexal Carcinoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C3775"
+    },
+    "SKCM": {
+      "name": "Cutaneous Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": "C3510"
+    },
+    "SKCN": {
+      "name": "Congenital Nevus",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": "C3944"
+    },
+    "SKIN": {
+      "name": "Skin",
+      "main_type": "Skin Cancer",
+      "tissue": "Skin",
+      "ncit": "C12470"
+    },
+    "SKLMM": {
+      "name": "Lentigo Maligna Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": "C9151"
+    },
+    "SLCT": {
+      "name": "Sertoli-Leydig Cell Tumor",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C2880"
+    },
+    "SM": {
+      "name": "Systemic Mastocytosis",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C9235"
+    },
+    "SMAHN": {
+      "name": "Systemic Mastocytosis with an Associated Hematological Neoplasm",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "SMMCL": {
+      "name": "Mast Cell Leukemia",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C3169"
+    },
+    "SMN": {
+      "name": "Smooth Muscle Neoplasm, NOS",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "SMZL": {
+      "name": "Splenic Marginal Zone Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4663"
+    },
+    "SNA": {
+      "name": "Sinonasal Adenocarcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": null
+    },
+    "SNSC": {
+      "name": "Sinonasal Squamous Cell Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C54287"
+    },
+    "SNUC": {
+      "name": "Sinonasal Undifferentiated Carcinoma",
+      "main_type": "Head and Neck Cancer",
+      "tissue": "Head and Neck",
+      "ncit": "C54294"
+    },
+    "SOC": {
+      "name": "Serous Ovarian Cancer",
+      "main_type": "Ovarian Cancer",
+      "tissue": "Ovary/Fallopian Tube",
+      "ncit": "C7550"
+    },
+    "SOFT_TISSUE": {
+      "name": "Soft Tissue",
+      "main_type": "Soft Tissue Cancer",
+      "tissue": "Soft Tissue",
+      "ncit": "C12471"
+    },
+    "SPB": {
+      "name": "Solitary Plasmacytoma of Bone",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C7812"
+    },
+    "SPC": {
+      "name": "Solid Papillary Carcinoma of the Breast",
+      "main_type": "Breast Cancer",
+      "tissue": "Breast",
+      "ncit": "C6870"
+    },
+    "SPCC": {
+      "name": "Spindle Cell Carcinoma of the Lung",
+      "main_type": "Non-Small Cell Lung Cancer",
+      "tissue": "Lung",
+      "ncit": "C45541"
+    },
+    "SPDAC": {
+      "name": "Poorly Differentiated Carcinoma of the Stomach",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": null
+    },
+    "SPIR": {
+      "name": "Spiroma/Spiradenoma",
+      "main_type": "Skin Cancer, Non-Melanoma",
+      "tissue": "Skin",
+      "ncit": "C4170"
+    },
+    "SPN": {
+      "name": "Solid Pseudopapillary Neoplasm of the Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C37212"
+    },
+    "SPTCL": {
+      "name": "Subcutaneous Panniculitis-Like T-Cell Lymphoma",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C6918"
+    },
+    "SPZM": {
+      "name": "Spitzoid Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Skin",
+      "ncit": null
+    },
+    "SRAP": {
+      "name": "Signet Ring Cell Type of the Appendix",
+      "main_type": "Appendiceal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C43554"
+    },
+    "SRCBC": {
+      "name": "Plasmacytoid/Signet Ring Cell Bladder Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C39823"
+    },
+    "SRCC": {
+      "name": "Sarcomatoid Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C27893"
+    },
+    "SRCCR": {
+      "name": "Signet Ring Cell Adenocarcinoma of the Colon and Rectum",
+      "main_type": "Colorectal Cancer",
+      "tissue": "Bowel",
+      "ncit": "C9168"
+    },
+    "SS": {
+      "name": "Sezary Syndrome",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C3366"
+    },
+    "SSM": {
+      "name": "Smoldering Systemic Mastocytosis",
+      "main_type": "Mastocytosis",
+      "tissue": "Myeloid",
+      "ncit": "C115460"
+    },
+    "SSRCC": {
+      "name": "Signet Ring Cell Carcinoma of the Stomach",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5250"
+    },
+    "STAD": {
+      "name": "Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C4004"
+    },
+    "STAS": {
+      "name": "Adenosquamous Carcinoma of the Stomach",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5474"
+    },
+    "STMYEC": {
+      "name": "Soft Tissue Myoepithelial Carcinoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C7596"
+    },
+    "STOMACH": {
+      "name": "Esophagus/Stomach",
+      "main_type": "Esophageal/Stomach Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C12391"
+    },
+    "STSC": {
+      "name": "Small Cell Carcinoma of the Stomach",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C6764"
+    },
+    "SUBE": {
+      "name": "Subependymoma",
+      "main_type": "CNS Cancer",
+      "tissue": "CNS/Brain",
+      "ncit": "C3795"
+    },
+    "SWDNET": {
+      "name": "Well-Differentiated Neuroendocrine Tumors of the Stomach",
+      "main_type": "Gastrointestinal Neuroendocrine Tumor",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C95871"
+    },
+    "SYNS": {
+      "name": "Synovial Sarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3400"
+    },
+    "TAC": {
+      "name": "Tubular Adenoma of the Colon",
+      "main_type": "Tubular Adenoma of the Colon",
+      "tissue": "Bowel",
+      "ncit": null
+    },
+    "TAM": {
+      "name": "Transient Abnormal Myelopoiesis",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": null
+    },
+    "TAML": {
+      "name": "Therapy-Related Acute Myeloid Leukemia",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C8252"
+    },
+    "TCCA": {
+      "name": "Choriocarcinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": "C7733"
+    },
+    "TEOS": {
+      "name": "Telangiectatic Osteosarcoma",
+      "main_type": "Bone Cancer",
+      "tissue": "Bone",
+      "ncit": "C3902"
+    },
+    "TESTIS": {
+      "name": "Testis",
+      "main_type": "Testicular Cancer",
+      "tissue": "Testis",
+      "ncit": "C12412"
+    },
+    "TET": {
+      "name": "Thymic Epithelial Tumor",
+      "main_type": "Thymic Tumor",
+      "tissue": "Thymus",
+      "ncit": "C6450"
+    },
+    "TGCT": {
+      "name": "Tenosynovial Giant Cell Tumor Diffuse Type",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C3401"
+    },
+    "THAP": {
+      "name": "Anaplastic Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C3878"
+    },
+    "THFO": {
+      "name": "Follicular Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C8054"
+    },
+    "THHC": {
+      "name": "Hurthle Cell Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C4946"
+    },
+    "THME": {
+      "name": "Medullary Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C3879"
+    },
+    "THPA": {
+      "name": "Papillary Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C4035"
+    },
+    "THPD": {
+      "name": "Poorly Differentiated Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C6040"
+    },
+    "THRLBCL": {
+      "name": "T-Cell/Histiocyte-Rich Large B-Cell Lymphoma",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": null
+    },
+    "THYC": {
+      "name": "Thymic Carcinoma",
+      "main_type": "Thymic Tumor",
+      "tissue": "Thymus",
+      "ncit": "C7569"
+    },
+    "THYM": {
+      "name": "Thymoma",
+      "main_type": "Thymic Tumor",
+      "tissue": "Thymus",
+      "ncit": "C3411"
+    },
+    "THYMUS": {
+      "name": "Thymus",
+      "main_type": "Thymic Cancer",
+      "tissue": "Thymus",
+      "ncit": "C12433"
+    },
+    "THYROID": {
+      "name": "Thyroid",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C12400"
+    },
+    "TLGL": {
+      "name": "T-Cell Large Granular Lymphocytic Leukemia",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4664"
+    },
+    "TLL": {
+      "name": "T-Lymphoblastic Leukemia/Lymphoma",
+      "main_type": "T-Lymphoblastic Leukemia/Lymphoma",
+      "tissue": "Lymphoid",
+      "ncit": "C8694"
+    },
+    "TLYM": {
+      "name": "Testicular Lymphoma",
+      "main_type": "Non-Hodgkin Lymphoma",
+      "tissue": "Testis",
+      "ncit": "C6810"
+    },
+    "TMDS": {
+      "name": "Therapy-Related Myelodysplastic Syndrome",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C27722"
+    },
+    "TMESO": {
+      "name": "Testicular Mesothelioma",
+      "main_type": "Mesothelioma",
+      "tissue": "Testis",
+      "ncit": null
+    },
+    "TMN": {
+      "name": "Therapy-Related Myeloid Neoplasms",
+      "main_type": "Leukemia",
+      "tissue": "Myeloid",
+      "ncit": "C27912"
+    },
+    "TNET": {
+      "name": "Thymic Neuroendocrine Tumor",
+      "main_type": "Thymic Tumor",
+      "tissue": "Thymus",
+      "ncit": null
+    },
+    "TPLL": {
+      "name": "T-Cell Prolymphocytic Leukemia",
+      "main_type": "Mature T and NK Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C4752"
+    },
+    "TRCC": {
+      "name": "Translocation-Associated Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C27891"
+    },
+    "TSCST": {
+      "name": "Sex Cord Stromal Tumor",
+      "main_type": "Sex Cord Stromal Tumor",
+      "tissue": "Testis",
+      "ncit": null
+    },
+    "TSTAD": {
+      "name": "Tubular Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5473"
+    },
+    "TT": {
+      "name": "Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": "C3877"
+    },
+    "TYST": {
+      "name": "Yolk Sac Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Testis",
+      "ncit": "C8000"
+    },
+    "UA": {
+      "name": "Urachal Adenocarcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C39843"
+    },
+    "UAD": {
+      "name": "Urethral Adenocarcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C6167"
+    },
+    "UAS": {
+      "name": "Uterine Adenosarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C6336"
+    },
+    "UASC": {
+      "name": "Uterine Adenosquamous Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C4519"
+    },
+    "UCA": {
+      "name": "Urethral Cancer",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C9106"
+    },
+    "UCCA": {
+      "name": "Choriocarcinoma",
+      "main_type": "Gestational Trophoblastic Disease",
+      "tissue": "Uterus",
+      "ncit": "C27246"
+    },
+    "UCCC": {
+      "name": "Uterine Clear Cell Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C6344"
+    },
+    "UCEC": {
+      "name": "Endometrial Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C7558"
+    },
+    "UCP": {
+      "name": "Undifferentiated Carcinoma of the Pancreas",
+      "main_type": "Pancreatic Cancer",
+      "tissue": "Pancreas",
+      "ncit": "C5722"
+    },
+    "UCS": {
+      "name": "Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C42700"
+    },
+    "UCU": {
+      "name": "Urethral Urothelial Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": null
+    },
+    "UDDC": {
+      "name": "Uterine Dedifferentiated Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "UDMN": {
+      "name": "Undifferentiated Malignant Neoplasm",
+      "main_type": "Cancer of Unknown Primary",
+      "tissue": "Other",
+      "ncit": "C36051"
+    },
+    "UEC": {
+      "name": "Uterine Endometrioid Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C6287"
+    },
+    "UELMS": {
+      "name": "Uterine Epithelioid Leiomyosarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C40174"
+    },
+    "UESL": {
+      "name": "Undifferentiated Embryonal Sarcoma of the Liver",
+      "main_type": "Undifferentiated Embryonal Sarcoma of the Liver",
+      "tissue": "Liver",
+      "ncit": null
+    },
+    "ULM": {
+      "name": "Uterine Leiomyoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C3434"
+    },
+    "ULMS": {
+      "name": "Uterine Leiomyosarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C6340"
+    },
+    "UM": {
+      "name": "Uveal Melanoma",
+      "main_type": "Melanoma",
+      "tissue": "Eye",
+      "ncit": "C7712"
+    },
+    "UMC": {
+      "name": "Uterine Mucinous Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C40144"
+    },
+    "UMEC": {
+      "name": "Uterine Mixed Endometrial Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "UMLMS": {
+      "name": "Uterine Myxoid Leiomyosarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C40175"
+    },
+    "UMNC": {
+      "name": "Uterine Mesonephric Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "UNEC": {
+      "name": "Uterine Neuroendocrine Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "UPA": {
+      "name": "Urothelial Papilloma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": null
+    },
+    "UPDC": {
+      "name": "Poorly Differentiated Carcinoma of the Uterus",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": null
+    },
+    "UPECOMA": {
+      "name": "Uterine Perivascular Epithelioid Cell Tumor",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C40180"
+    },
+    "URCA": {
+      "name": "Urachal Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C39842"
+    },
+    "URCC": {
+      "name": "Unclassified Renal Cell Carcinoma",
+      "main_type": "Renal Cell Carcinoma",
+      "tissue": "Kidney",
+      "ncit": "C27892"
+    },
+    "URMM": {
+      "name": "Mucosal Melanoma of the Urethra",
+      "main_type": "Melanoma",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": null
+    },
+    "USARC": {
+      "name": "Uterine Sarcoma/Mesenchymal",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C6339"
+    },
+    "USC": {
+      "name": "Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C27838"
+    },
+    "USCC": {
+      "name": "Urethral Squamous Cell Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C6165"
+    },
+    "USMT": {
+      "name": "Uterine Smooth Muscle Tumor",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C40176"
+    },
+    "USTAD": {
+      "name": "Undifferentiated Stomach Adenocarcinoma",
+      "main_type": "Esophagogastric Cancer",
+      "tissue": "Esophagus/Stomach",
+      "ncit": "C5476"
+    },
+    "USTUMP": {
+      "name": "Uterine Smooth Muscle Tumor of Uncertain Malignant Potential",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C40177"
+    },
+    "UTERUS": {
+      "name": "Uterus",
+      "main_type": "Uterine Cancer",
+      "tissue": "Uterus",
+      "ncit": "C12405"
+    },
+    "UTUC": {
+      "name": "Upper Tract Urothelial Carcinoma",
+      "main_type": "Bladder Cancer",
+      "tissue": "Bladder/Urinary Tract",
+      "ncit": "C7716"
+    },
+    "UUC": {
+      "name": "Uterine Undifferentiated Carcinoma",
+      "main_type": "Endometrial Cancer",
+      "tissue": "Uterus",
+      "ncit": "C6345"
+    },
+    "UUS": {
+      "name": "Undifferentiated Uterine Sarcoma",
+      "main_type": "Uterine Sarcoma",
+      "tissue": "Uterus",
+      "ncit": "C8972"
+    },
+    "VA": {
+      "name": "Vaginal Adenocarcinoma",
+      "main_type": "Vaginal Cancer",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C7981"
+    },
+    "VDYS": {
+      "name": "Dysgerminoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C8106"
+    },
+    "VGCE": {
+      "name": "Villoglandular Adenocarcinoma of the Cervix",
+      "main_type": "Cervical Cancer",
+      "tissue": "Cervix",
+      "ncit": "C40208"
+    },
+    "VGCT": {
+      "name": "Germ Cell Tumor of the Vulva",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": null
+    },
+    "VIMT": {
+      "name": "Immature Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C4286"
+    },
+    "VMA": {
+      "name": "Mucinous Adenocarcinoma of the Vulva/Vagina",
+      "main_type": "Vulvar Carcinoma",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C40252"
+    },
+    "VMGCT": {
+      "name": "Mixed Germ Cell Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C4290"
+    },
+    "VMM": {
+      "name": "Mucosal Melanoma of the Vulva/Vagina",
+      "main_type": "Melanoma",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C27394"
+    },
+    "VMT": {
+      "name": "Mature Teratoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C9015"
+    },
+    "VOEC": {
+      "name": "Embryonal Carcinoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": null
+    },
+    "VPDC": {
+      "name": "Poorly Differentiated Vaginal Carcinoma",
+      "main_type": "Vaginal Cancer",
+      "tissue": "Vulva/Vagina",
+      "ncit": null
+    },
+    "VPE": {
+      "name": "Polyembryoma",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": null
+    },
+    "VPSCC": {
+      "name": "Verrucous Penile Squamous Cell Carcinoma",
+      "main_type": "Penile Cancer",
+      "tissue": "Penis",
+      "ncit": "C6982"
+    },
+    "VSC": {
+      "name": "Squamous Cell Carcinoma of the Vulva/Vagina",
+      "main_type": "Vaginal Cancer",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C7736"
+    },
+    "VULVA": {
+      "name": "Vulva/Vagina",
+      "main_type": "Vulvar/Vaginal Cancer",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C12408"
+    },
+    "VYST": {
+      "name": "Yolk Sac Tumor",
+      "main_type": "Germ Cell Tumor",
+      "tissue": "Vulva/Vagina",
+      "ncit": "C6379"
+    },
+    "WDLS": {
+      "name": "Well-Differentiated Liposarcoma",
+      "main_type": "Soft Tissue Sarcoma",
+      "tissue": "Soft Tissue",
+      "ncit": "C4250"
+    },
+    "WDTC": {
+      "name": "Well-Differentiated Thyroid Cancer",
+      "main_type": "Thyroid Cancer",
+      "tissue": "Thyroid",
+      "ncit": "C7153"
+    },
+    "WM": {
+      "name": "Waldenstrom Macroglobulinemia",
+      "main_type": "Mature B-Cell Neoplasms",
+      "tissue": "Lymphoid",
+      "ncit": "C80307"
+    },
+    "WPSCC": {
+      "name": "Warty Penile Squamous Cell Carcinoma",
+      "main_type": "Penile Cancer",
+      "tissue": "Penis",
+      "ncit": "C6981"
+    },
+    "WT": {
+      "name": "Wilms' Tumor",
+      "main_type": "Wilms Tumor",
+      "tissue": "Kidney",
+      "ncit": null
+    },
+    "XGA": {
+      "name": "Xanthogranuloma",
+      "main_type": "Histiocytosis",
+      "tissue": "Myeloid",
+      "ncit": null
+    }
+  }
+}

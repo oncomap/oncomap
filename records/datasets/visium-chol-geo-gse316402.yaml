@@ -1,0 +1,22 @@
+id: visium-chol-geo-gse316402
+title: "Visium spatial transcriptomics of biliary tract cancer in a phase II pembrolizumab plus GM-CSF trial"
+cancer_type: CHOL
+cancer_type_ncit: C4436
+tissue: "UBERON:0002394"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+accession:
+  - GSE316402
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed at sample level ("10x Genomics Visium spatial gene
+  expression slide v1", Space Ranger) - the series record names only the
+  sequencer. FFPE biliary tract cancer, paired pre/post immunotherapy biopsies;
+  GEO labels the samples generically "biliary tract cancer (BTC)" with no
+  gallbladder/bile-duct/intrahepatic distinction; CHOL (Cholangiocarcinoma) +
+  bile duct is used as the representative BTC mapping.
+  n_samples omitted pending the pre/post split.
+deposition_year: 2026
+curation_status: human_reviewed

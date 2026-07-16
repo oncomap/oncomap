@@ -1,0 +1,13 @@
+id: visium-luad-htan-htapp
+title: "HTAN HTAPP visium spatial transcriptomics of LUAD"
+cancer_type: LUAD
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: visium
+n_patients: 8
+accession:
+  - SYNAPSE:syn26017060
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN HTAPP visium spatial transcriptomics; cancer_type LUAD derived from the ICD-O organ + morphology of 8 participant(s) / 27 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

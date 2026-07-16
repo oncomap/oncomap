@@ -1,0 +1,17 @@
+id: xenium-mcc-geo-gse326660
+title: "Xenium in situ gene expression profiling of Merkel cell carcinoma under engineered T-cell therapy"
+cancer_type: MCC
+cancer_type_ncit: C9231
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: xenium
+n_samples: 6
+accession:
+  - GSE326660
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Xenium from Series_overall_design ("Xenium in situ
+  gene expression profiling ... FFPE tumor sections from MCC patients").
+deposition_year: 2026
+curation_status: human_reviewed

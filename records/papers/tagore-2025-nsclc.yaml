@@ -1,0 +1,8 @@
+id: tagore-2025-nsclc
+doi: 10.1038/s41591-025-03530-z
+pmid: "40016452"
+title: "Single-cell and spatial genomic landscape of non-small cell lung cancer brain metastases"
+year: 2025
+venue: "Nature medicine"
+datasets:
+  - slide-seq-nsclc-geo-gse223501

@@ -1,0 +1,13 @@
+id: mxif-es-biad-s-biad1597
+title: "Proteomic landscape of Ewing sarcoma primary tumors and metastases"
+cancer_type: ES
+tissue: "UBERON:0001474"
+modality: spatial_proteomics
+platform: mxif
+accession:
+  - S-BIAD1597
+access: open
+reuse_notes: >-
+  Machine-drafted by the BioImage Archive/BioStudies harvester. S-BIAD accession; study Biosample Organism is Homo sapiens. Platform detected as mxif and cancer_type classified as ES from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail, histology and data licence, and link the source paper before promoting past machine_draft.
+deposition_year: 2025
+curation_status: machine_draft

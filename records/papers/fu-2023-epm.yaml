@@ -1,0 +1,8 @@
+id: fu-2023-epm
+doi: 10.1093/neuonc/noac219
+pmid: "36215273"
+title: "Spatial transcriptomic analysis delineates epithelial and mesenchymal subpopulations and transition stages in childhood ependymoma"
+year: 2023
+venue: "Neuro-oncology"
+datasets:
+  - visium-epm-geo-gse195661

@@ -1,0 +1,13 @@
+id: xenium-coadread-biad-s-biad2208
+title: "Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neutrophils in colorectal cancer"
+cancer_type: COADREAD
+tissue: "UBERON:0001155"
+modality: spatial_transcriptomics
+platform: xenium
+accession:
+  - S-BIAD2208
+access: open
+reuse_notes: >-
+  Machine-drafted by the BioImage Archive/BioStudies harvester. S-BIAD accession; study Biosample Organism is Homo sapiens. Platform detected as xenium and cancer_type classified as COADREAD from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail, histology and data licence, and link the source paper before promoting past machine_draft.
+deposition_year: 2025
+curation_status: machine_draft

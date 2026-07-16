@@ -1,0 +1,8 @@
+id: wu-2021-brca
+doi: 10.1038/s41588-021-00911-1
+pmid: "34493872"
+title: A single-cell and spatially resolved atlas of human breast cancers
+year: 2021
+venue: Nature genetics
+datasets:
+  - visium-brca-cxg-wu-2021

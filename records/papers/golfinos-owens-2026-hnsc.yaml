@@ -1,0 +1,8 @@
+id: golfinos-owens-2026-hnsc
+doi: 10.1158/1078-0432.CCR-25-2300
+pmid: "41837744"
+title: "Integrated Single-Cell and Spatial Analysis Reveals Context-Dependent Myeloid-T Cell Interactions in Response to Immune Checkpoint Blockade in Head and Neck Cancer"
+year: 2026
+venue: "Clinical cancer research : an official journal of the American Association for Cancer Research"
+datasets:
+  - cosmx-hnsc-geo-gse301720

@@ -1,0 +1,15 @@
+id: xenium-blca-geo-gse305629
+title: "Neutrophils and CD8+ T cells in Muscle-invasive Bladder Cancer (MIBC)"
+cancer_type: BLCA
+cancer_type_ncit: C39851
+tissue: "UBERON:0001255"
+modality: spatial_transcriptomics
+platform: xenium
+n_samples: 2
+accession:
+  - GSE305629
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as xenium from the GEO series title/summary ("bladder cancer" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

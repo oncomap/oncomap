@@ -1,0 +1,16 @@
+id: visium-bcc-cxg-ganier-2024
+title: Multiscale spatial mapping of cell populations across anatomical sites in healthy human skin and basal cell carcinoma
+cancer_type: BCC
+cancer_type_ncit: C2921
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 8
+accession:
+  - "CELLxGENE:34f12de7-c5e5-4813-a136-832677f98ac8"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover: tissue (UBERON), assay (EFO) and disease are CELLxGENE-curated. 8 spatial datasets on Visium. cancer_type mapped from CELLxGENE disease 'basal cell carcinoma' to OncoTree BCC.
+source_paper: ganier-2024-bcc
+last_verified: "2026-07-09"
+curation_status: verified

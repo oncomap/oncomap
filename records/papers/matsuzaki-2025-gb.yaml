@@ -1,0 +1,8 @@
+id: matsuzaki-2025-gb
+doi: 10.1111/cas.70014
+pmid: "39921277"
+title: "Abnormal Vessels Potentially Accelerate Glioblastoma Proliferation by Inducing the Protumor Activation of Macrophages"
+year: 2025
+venue: "Cancer science"
+datasets:
+  - visium-gb-geo-gse273432

@@ -1,0 +1,21 @@
+id: cosmx-stad-geo-gse308624
+title: "CosMx spatial single-cell dissection of cancer-associated-fibroblast-mediated immune modulation in gastric cancer"
+cancer_type: STAD
+cancer_type_ncit: C4004
+tissue: "UBERON:0000945"
+modality: spatial_transcriptomics
+platform: cosmx
+n_samples: 71
+accession:
+  - GSE308624
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as NanoString CosMx SMI from Series_overall_design ("All
+  spatial single-cell mRNA profiles were generated with NanoString CosMx SMI
+  from 71 tumour tissue sections"). cancer_type STAD (Stomach Adenocarcinoma) is
+  the standard mapping for gastric cancer; confirm histology at review.
+source_paper: chen-2025-stad
+last_verified: "2026-07-09"
+deposition_year: 2025
+curation_status: verified

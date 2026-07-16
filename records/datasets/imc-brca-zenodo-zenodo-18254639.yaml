@@ -1,0 +1,15 @@
+id: imc-brca-zenodo-zenodo-18254639
+title: "Imaging mass cytometry data from: Stromal-based proteome data improve stratification of hormone receptor-positive breast cancer"
+cancer_type: BRCA
+tissue: "UBERON:0000310"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - 10.5281/zenodo.18254639
+access: on_request
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as imc and cancer_type classified as BRCA from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft. NOTE: the Zenodo files are restricted (record metadata is public but the data itself is gated at source); cataloged as a pointer, access on_request.
+source_paper: finne-2026-brca
+last_verified: "2026-07-13"
+deposition_year: 2026
+curation_status: verified

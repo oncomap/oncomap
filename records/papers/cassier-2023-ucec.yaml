@@ -1,0 +1,8 @@
+id: cassier-2023-ucec
+doi: 10.1038/s41586-023-06367-z
+pmid: "37532934"
+title: "Netrin-1 blockade inhibits tumour growth and EMT features in endometrial cancer"
+year: 2023
+venue: "Nature"
+datasets:
+  - visium-ucec-geo-gse225690

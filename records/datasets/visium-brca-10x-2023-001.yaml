@@ -1,0 +1,21 @@
+id: visium-brca-10x-2023-001
+title: "Human Breast Cancer, Block A Section 1: 10x Visium reference dataset"
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 1
+n_patients: 1
+accession:
+  - "10X:human-breast-cancer-block-a-section-1-1-standard-1-1-0"
+access: open
+reuse_notes: >-
+  Canonical 10x Genomics Visium reference dataset (Human Breast Cancer, Block A
+  Section 1). Also serves as the schema/pipeline example that exercises the
+  Method and Group node types. Accession is the resolvable 10x dataset-library
+  URL rather than a GEO/Zenodo ID; license per 10x dataset terms.
+pipeline_ref: spaceranger
+source_paper: tenx-visium-brca-demo
+lab: tenx-genomics
+curation_status: machine_draft

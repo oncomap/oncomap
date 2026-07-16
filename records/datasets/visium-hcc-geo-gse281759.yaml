@@ -1,0 +1,17 @@
+id: visium-hcc-geo-gse281759
+title: "Multiomics and multi-region spatial transcriptome analysis reveal cellular networks and pathways associated with HCC recurrence"
+cancer_type: HCC
+cancer_type_ncit: C3099
+tissue: "UBERON:0002107"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 17
+accession:
+  - GSE281759
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; platform confirmed at sample level). Visium multi-region spatial transcriptomics of hepatocellular carcinoma (multiple sectors per primary tumour). Depth record for liver, complementing the Xenium xenium-hcc-geo-gse332850.
+source_paper: seshachalam-2026-hcc
+last_verified: "2026-07-09"
+deposition_year: 2025
+curation_status: verified

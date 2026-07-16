@@ -1,0 +1,48 @@
+# Curated seed of UBERON tissue/organ terms relevant to human solid-tumour
+# spatial-transcriptomics (the Phase 1 beachhead). One CURIE per line; text
+# after '#' is a comment. build_vocab.py validates each against the EBI OLS4
+# API and freezes the canonical label into vocab/uberon.json - labels here are
+# only hints. Add a term when a real dataset needs a tissue not yet listed.
+UBERON:0000310  # breast
+UBERON:0002048  # lung
+UBERON:0001155  # colon
+UBERON:0000059  # large intestine
+UBERON:0002108  # small intestine
+UBERON:0001043  # esophagus
+UBERON:0000945  # stomach
+UBERON:0001264  # pancreas
+UBERON:0002107  # liver
+UBERON:0002394  # bile duct
+UBERON:0001264  # pancreas (dup tolerated; dedup on freeze)
+UBERON:0002367  # prostate gland
+UBERON:0000995  # uterus
+UBERON:0000002  # uterine cervix
+UBERON:0000992  # ovary
+UBERON:0003889  # fallopian tube
+UBERON:0001255  # urinary bladder
+UBERON:0002113  # kidney
+UBERON:0000473  # testis
+UBERON:0000955  # brain
+UBERON:0002097  # skin of body
+UBERON:0002046  # thyroid gland
+UBERON:0001235  # adrenal cortex
+UBERON:0001044  # saliva-secreting gland
+UBERON:0000029  # lymph node
+UBERON:0002106  # spleen
+UBERON:0002371  # bone marrow
+UBERON:0001013  # adipose tissue
+UBERON:0000167  # oral cavity
+UBERON:0001728  # nasopharynx
+UBERON:0001723  # tongue
+UBERON:0003688  # omentum
+UBERON:0002185  # bronchus
+UBERON:0001987  # placenta
+UBERON:0000178  # blood
+UBERON:0001474  # bone element
+UBERON:0002384  # connective tissue (soft-tissue sarcoma)
+UBERON:0000977  # pleura (mesothelioma)
+UBERON:0001768  # uvea (uveal melanoma)
+UBERON:0002370  # thymus
+UBERON:0002110  # gallbladder
+UBERON:0002358  # peritoneum
+UBERON:0000007  # pituitary gland

@@ -1,0 +1,8 @@
+id: li-2022-ccrcc
+doi: 10.1016/j.ccell.2022.11.001
+pmid: "36423636"
+title: Mapping single-cell transcriptomes in the intra-tumoral and associated territories of kidney cancer
+year: 2022
+venue: Cancer cell
+datasets:
+  - visium-ccrcc-cxg-li-2022

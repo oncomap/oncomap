@@ -1,0 +1,14 @@
+id: stereo-seq-coadread-zenodo-zenodo-10560906
+title: "Neoadjuvant radiochemotherapy triggers a feedback loop between CD8+ T cells and endothelial cells in colorectal cancer"
+cancer_type: COADREAD
+cancer_type_ncit: C5105
+tissue: "UBERON:0001155"
+modality: spatial_transcriptomics
+platform: stereo_seq
+accession:
+  - 10.5281/zenodo.10560906
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as stereo_seq and cancer_type classified as COADREAD from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2024
+curation_status: machine_draft

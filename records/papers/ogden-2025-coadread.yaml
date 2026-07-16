@@ -1,0 +1,8 @@
+id: ogden-2025-coadread
+doi: 10.1016/j.xgen.2025.100881
+pmid: "40393458"
+title: "Phenotypic heterogeneity and plasticity in colorectal cancer metastasis"
+year: 2025
+venue: "Cell genomics"
+datasets:
+  - visium-coadread-ae-e-mtab-13655

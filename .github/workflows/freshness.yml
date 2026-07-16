@@ -1,0 +1,56 @@
+name: freshness
+
+# Weekly freshness sweep. Three checks:
+#  - link rot: resolve every dataset accession into a report.
+#  - health: monitor.py evaluates SLOs against that report and FAILS on link rot
+#    or an SLO breach (this is the alert).
+#  - promote-when-published: surface papers now citing a reviewed-but-unlinked
+#    record's accession (informational; a curator verifies + links).
+# Network-dependent, so it is separate from the offline validate CI.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    env:
+      # One run id ties check_accessions -> monitor together in logs/runs.jsonl.
+      ONCOMAP_RUN_ID: gha-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Resolve every dataset accession
+        # continue-on-error: the report is written even when a link is dead;
+        # monitor.py (next step) raises the consolidated SLO alert.
+        continue-on-error: true
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: uv run --locked python build/check_accessions.py --json accession-report.json
+
+      - name: Evaluate catalog health (link-rot + SLO alert)
+        if: always()
+        run: uv run --locked python build/monitor.py --accession-report accession-report.json
+
+      - name: Surface newly-published papers (promote-when-published)
+        if: always()
+        run: uv run --locked python build/find_publications.py
+
+      - name: Upload run logs & health report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: freshness-run
+          path: |
+            logs/runs.jsonl
+            accession-report.json
+            build/dist/health.json
+          if-no-files-found: ignore

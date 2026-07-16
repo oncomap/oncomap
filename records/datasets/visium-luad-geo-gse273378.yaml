@@ -1,0 +1,23 @@
+id: visium-luad-geo-gse273378
+title: "Visium FFPE spatial transcriptomics of vascular-invasion-associated expression in lung adenocarcinoma"
+cancer_type: LUAD
+cancer_type_ncit: C3512
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "NextSeq 2000"
+n_samples: 16
+n_patients: 14
+accession:
+  - GSE273378
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Visium for FFPE from Series_overall_design ("10x
+  Genomics Visium for FFPE"). 16 samples from 14 LUAD patient tumours. Depth
+  record for lung on Visium, complementing the Stereo-seq
+  stereo-seq-luad-geo-gse328481 and the Visium HD NSCLC record.
+source_paper: steiner-2026-luad
+last_verified: "2026-07-09"
+deposition_year: 2026
+curation_status: verified

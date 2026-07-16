@@ -1,0 +1,8 @@
+id: klughammer-2024-brca
+doi: 10.1038/s41591-024-03215-z
+pmid: "39478111"
+title: A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features
+year: 2024
+venue: Nature medicine
+datasets:
+  - slide-seq-brca-cxg-klughammer-2024

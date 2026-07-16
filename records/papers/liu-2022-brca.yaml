@@ -1,0 +1,8 @@
+id: liu-2022-brca
+doi: 10.1038/s41467-022-34581-2
+pmid: "36357424"
+title: "Single cell profiling of primary and paired metastatic lymph node tumors in breast cancer patients"
+year: 2022
+venue: "Nature communications"
+datasets:
+  - visium-brca-geo-gse190811

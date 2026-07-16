@@ -1,0 +1,22 @@
+id: visium-npc-geo-gse200310
+title: "Visium spatial transcriptome sequencing of the primary nasopharyngeal carcinoma microenvironment"
+cancer_type: NPC
+cancer_type_ncit: C3871
+tissue: "UBERON:0001728"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+n_samples: 2
+accession:
+  - GSE200310
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed at sample level ("Visium Spatial Gene Expression Slide &
+  Reagents Kit") - the series record names only the sequencer. Two primary NPC
+  patient tissues. Tissue set to nasopharynx (UBERON:0001728), added to the
+  UBERON seed for this record.
+source_paper: gong-2023-npc
+last_verified: "2026-07-09"
+deposition_year: 2023
+curation_status: verified

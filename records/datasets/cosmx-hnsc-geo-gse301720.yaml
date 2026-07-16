@@ -1,0 +1,17 @@
+id: cosmx-hnsc-geo-gse301720
+title: "Integrated single-cell and spatial analysis identifies context-dependent myeloid-T cell interactions in head and neck cancer immune checkpoint blockade response"
+cancer_type: HNSC
+cancer_type_ncit: C34447
+tissue: "UBERON:0000167"
+modality: spatial_transcriptomics
+platform: cosmx
+n_samples: 8
+accession:
+  - GSE301720
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as cosmx from the GEO series title/summary ("head and neck squamous cell carcinoma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: golfinos-owens-2026-hnsc
+last_verified: "2026-07-10"
+deposition_year: 2026
+curation_status: verified

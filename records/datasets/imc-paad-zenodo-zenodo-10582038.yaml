@@ -1,0 +1,13 @@
+id: imc-paad-zenodo-zenodo-10582038
+title: "Datasets: Natural killer cells associate with malignant epithelial cells in the pancreatic ductal adenocarcinoma tumor microenvironment"
+cancer_type: PAAD
+tissue: "UBERON:0001264"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - 10.5281/zenodo.10582038
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as imc and cancer_type classified as PAAD from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+deposition_year: 2024
+curation_status: machine_draft

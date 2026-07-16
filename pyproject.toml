@@ -1,0 +1,41 @@
+[project]
+name = "oncomap"
+version = "0.0.1"
+description = "A curated, literature-grounded metadata map of oncology omics datasets."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "jsonschema>=4.25",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit>=3.7",
+    "ruff>=0.6",
+    "certifi>=2024.0",
+    "pytest>=8.0",
+]
+# `uv run --extra build python build/compile.py` to also emit datasets.parquet;
+# the compiler runs fine without it (parquet is skipped with a note).
+build = [
+    "pyarrow>=14",
+]
+# `uv run --extra figures python paper/figures/make_figures.py` to regenerate the
+# paper's coverage figures from build/dist/summary.json. Not needed by the core
+# build or CI.
+figures = [
+    "matplotlib>=3.8",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["extract", "build"]

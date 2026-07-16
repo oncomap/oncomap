@@ -1,0 +1,17 @@
+id: visium-hnsc-geo-gse220978
+title: "Spatial Multi-omics Reveals the Heterogeneity of Tumor Microenvironment in the OSF-Associated OSCC"
+cancer_type: HNSC
+cancer_type_ncit: C34447
+tissue: "UBERON:0000167"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 4
+accession:
+  - GSE220978
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO platform sweep. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium and cancer_type classified as HNSC from a distinctive disease term in the GEO series title/summary. n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: zhi-2024-hnsc
+last_verified: "2026-07-10"
+deposition_year: 2024
+curation_status: verified

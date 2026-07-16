@@ -1,0 +1,8 @@
+id: gong-2023-npc
+doi: 10.1038/s41467-023-37614-6
+pmid: '37024479'
+title: Nasopharyngeal carcinoma cells promote regulatory T cell development and suppressive activity via CD70-CD27 interaction
+year: 2023
+venue: Nature communications
+datasets:
+- visium-npc-geo-gse200310

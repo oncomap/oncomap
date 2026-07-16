@@ -1,0 +1,17 @@
+id: visium-luad-geo-gse270431
+title: "Neutrophils recruited by NKX2-1 suppression via activation of CXCLs/CXCR2 axis promote lung adenocarcinoma progression"
+cancer_type: LUAD
+cancer_type_ncit: C3512
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 12
+accession:
+  - GSE270431
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("lung adenocarcinoma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: la-ah-2024-luad
+last_verified: "2026-07-10"
+deposition_year: 2025
+curation_status: verified

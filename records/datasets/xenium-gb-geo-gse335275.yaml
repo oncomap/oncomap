@@ -1,0 +1,20 @@
+id: xenium-gb-geo-gse335275
+title: "Mapping the spatial architecture of glioblastoma from core to edge delineates niche-specific tumor cell states"
+cancer_type: GB
+cancer_type_ncit: C3058
+tissue: "UBERON:0000955"
+modality: spatial_transcriptomics
+platform: xenium
+n_samples: 6
+accession:
+  - GSE335275
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Xenium from Series_overall_design (targeted panel of
+  362 genes, 10X Genomics human brain-and-glioblastoma panel + 96 custom genes).
+  n_samples is the GEO series total.
+source_paper: khan-2025-gb
+last_verified: "2026-07-09"
+deposition_year: 2026
+curation_status: verified

@@ -1,0 +1,8 @@
+id: kiviaho-2024-prad
+doi: 10.1038/s41467-024-54364-1
+pmid: '39550375'
+title: Single cell and spatial transcriptomics highlight the interaction of club-like cells with immunosuppressive myeloid cells in prostate cancer
+year: 2024
+venue: Nature communications
+datasets:
+- visium-prad-geo-gse278936

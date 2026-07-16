@@ -1,0 +1,16 @@
+id: visium-wt-geo-gse178349
+title: "Transcriptome profiling between unfavorable and favorable Wilms Tumors and against human fetal kidney"
+cancer_type: WT
+tissue: "UBERON:0002113"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 3
+accession:
+  - GSE178349
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("Wilms tumor" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: petrosyan-2023-wt
+last_verified: "2026-07-10"
+deposition_year: 2023
+curation_status: verified

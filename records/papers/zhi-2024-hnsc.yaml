@@ -1,0 +1,8 @@
+id: zhi-2024-hnsc
+doi: 10.1002/advs.202306515
+pmid: "38229179"
+title: "Spatial Transcriptomic and Metabolomic Landscapes of Oral Submucous Fibrosis-Derived Oral Squamous Cell Carcinoma and its Tumor Microenvironment"
+year: 2024
+venue: "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+datasets:
+  - visium-hnsc-geo-gse220978

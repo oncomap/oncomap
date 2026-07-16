@@ -1,0 +1,8 @@
+id: cheng-2022-hnsc
+doi: 10.1136/jitc-2022-004832
+pmid: "36002186"
+title: "Snail-regulated exosomal microRNA-21 suppresses NLRP3 inflammasome activity to enhance cisplatin resistance"
+year: 2022
+venue: "Journal for immunotherapy of cancer"
+datasets:
+  - visium-hnsc-geo-gse181300

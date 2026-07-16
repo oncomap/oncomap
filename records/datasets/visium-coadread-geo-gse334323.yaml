@@ -1,0 +1,15 @@
+id: visium-coadread-geo-gse334323
+title: "Custom Probe-Based Spatial Transcriptomics Enables Microbiome Detection in FFPE Colorectal Cancer Tissue"
+cancer_type: COADREAD
+cancer_type_ncit: C5105
+tissue: "UBERON:0001155"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 6
+accession:
+  - GSE334323
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("colorectal cancer" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

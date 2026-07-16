@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oncomap.org/schema/dataset.schema.json",
+  "title": "OncoMap Dataset",
+  "description": "A public spatial-omics dataset of human cancer tissue (spatial transcriptomics or proteomics). See docs/OncoMap-SPEC.md §3.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "cancer_type",
+    "tissue",
+    "modality",
+    "platform",
+    "access",
+    "curation_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug primary key, e.g. visium-brca-10x-2023-001",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "cancer_type": {
+      "type": "string",
+      "description": "OncoTree code (primary). NCIt cross-map optional via cancer_type_ncit."
+    },
+    "cancer_type_ncit": {
+      "type": "string",
+      "description": "Optional NCIt code cross-mapping the OncoTree cancer_type.",
+      "pattern": "^C[0-9]+$"
+    },
+    "tissue": {
+      "type": "string",
+      "description": "UBERON term id, e.g. UBERON:0000310 (breast).",
+      "pattern": "^UBERON:[0-9]{7}$"
+    },
+    "modality": {
+      "type": "string",
+      "enum": ["spatial_transcriptomics", "spatial_proteomics"]
+    },
+    "platform": {
+      "type": "string",
+      "description": "The spatial assay. Transcriptomics: st_array (the original spot-based Spatial Transcriptomics array, Stahl et al. 2016, precursor to Visium) through stereo_seq. Proteomics: codex/cycif/mxif/mihc = multiplexed antibody imaging, mibi/imc = mass-spectrometry imaging, orion = RareCyte Orion, geomx = NanoString GeoMx DSP.",
+      "enum": [
+        "st_array",
+        "visium",
+        "visium_hd",
+        "xenium",
+        "merfish",
+        "merscope",
+        "cosmx",
+        "slide_seq",
+        "stereo_seq",
+        "codex",
+        "cycif",
+        "mxif",
+        "mihc",
+        "mibi",
+        "imc",
+        "orion",
+        "geomx"
+      ]
+    },
+    "sequencer": {
+      "type": "string",
+      "description": "Sequencing instrument (GEO GPL / instrument_model), for sequencing-based platforms (Visium, Slide-seq, Stereo-seq, ST array). Distinct from `platform`, which is the spatial assay. Omit for imaging platforms (Xenium, MERFISH/MERSCOPE, CosMx)."
+    },
+    "n_samples": { "type": "integer", "minimum": 1 },
+    "n_patients": { "type": "integer", "minimum": 1 },
+    "accession": {
+      "type": "array",
+      "description": "GEO / SRA / Zenodo / HTAN / ArrayExpress IDs. Required to reach verified status (enforced in build/validate.py, not schema).",
+      "items": { "type": "string", "minLength": 3 },
+      "uniqueItems": true
+    },
+    "access": {
+      "type": "string",
+      "enum": ["open", "controlled", "on_request"]
+    },
+    "reuse_notes": {
+      "type": "string",
+      "description": "Format quirks, missing metadata, license caveats. Record dataset license here."
+    },
+    "pipeline_ref": {
+      "type": "string",
+      "description": "id of a Method node (records/methods/<id>.yaml)."
+    },
+    "source_paper": {
+      "type": "string",
+      "description": "id of a Paper node (records/papers/<id>.yaml)."
+    },
+    "lab": {
+      "type": "string",
+      "description": "id of a Group node (records/groups/<id>.yaml)."
+    },
+    "curation_status": {
+      "type": "string",
+      "enum": ["machine_draft", "human_reviewed", "verified"]
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO-8601 date the accession was last confirmed resolvable."
+    },
+    "deposition_year": {
+      "type": "integer",
+      "minimum": 1990,
+      "maximum": 2100,
+      "description": "Year the dataset was deposited/released at its source repository (from the registry's release/publication date). Optional; used for growth-over-time stats."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "curation_status": { "const": "verified" } } },
+      "then": {
+        "required": ["accession", "last_verified", "source_paper"],
+        "properties": {
+          "accession": { "minItems": 1 }
+        }
+      }
+    }
+  ]
+}

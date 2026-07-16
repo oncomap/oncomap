@@ -1,0 +1,22 @@
+id: cosmx-coadread-geo-gse293124
+title: "CosMx spatial profiling of genetic and non-genetic resistance to KRAS inhibition in colorectal cancer"
+cancer_type: COADREAD
+cancer_type_ncit: C5105
+tissue: "UBERON:0001155"
+modality: spatial_transcriptomics
+platform: cosmx
+n_samples: 14
+accession:
+  - GSE293124
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as NanoString CosMx (design mentions CosMx). Study design
+  is matched pre-treatment / on-treatment (day 7) biopsies under KRAS
+  inhibition; n_samples is the GEO series total - confirm the spatial-section
+  vs bulk split at review. cancer_type COADREAD (colorectal); tissue set to
+  colon (UBERON:0001155) - refine to rectum if the subsite is rectal.
+source_paper: alonso-2026-coadread
+last_verified: "2026-07-09"
+deposition_year: 2026
+curation_status: verified

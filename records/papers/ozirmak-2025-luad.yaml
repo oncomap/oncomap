@@ -1,0 +1,10 @@
+id: ozirmak-2025-luad
+doi: 10.1038/s41467-025-63414-1
+pmid: "41006245"
+title: "Comparison of imaging based single-cell resolution spatial transcriptomics profiling platforms using formalin-fixed paraffin-embedded tumor samples"
+year: 2025
+venue: "Nature communications"
+datasets:
+  - xenium-luad-geo-gse299786
+  - xenium-luad-geo-gse299886
+  - xenium-luad-geo-gse300007

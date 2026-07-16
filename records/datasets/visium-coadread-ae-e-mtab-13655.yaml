@@ -1,0 +1,16 @@
+id: visium-coadread-ae-e-mtab-13655
+title: "Spatial transcriptomics of human colorectal cancer liver metastatic samples"
+cancer_type: COADREAD
+cancer_type_ncit: C5105
+tissue: "UBERON:0001155"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - E-MTAB-13655
+access: open
+reuse_notes: >-
+  Machine-drafted by the ArrayExpress/BioStudies harvester. E-MTAB accession; study Organism attribute is Homo sapiens. Platform detected as visium and cancer_type classified as COADREAD from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: ogden-2025-coadread
+last_verified: "2026-07-12"
+deposition_year: 2025
+curation_status: verified

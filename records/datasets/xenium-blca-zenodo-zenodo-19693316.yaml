@@ -1,0 +1,16 @@
+id: xenium-blca-zenodo-zenodo-19693316
+title: "DUTRENEO: bulk biomarker-guided therapy selection and spatially resolved profiling of immunotherapy response in muscle-invasive bladder cancer. Xenium Data."
+cancer_type: BLCA
+cancer_type_ncit: C39851
+tissue: "UBERON:0001255"
+modality: spatial_transcriptomics
+platform: xenium
+accession:
+  - 10.5281/zenodo.19693316
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as xenium and cancer_type classified as BLCA from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: grande-2025-blca
+last_verified: "2026-07-12"
+deposition_year: 2026
+curation_status: verified

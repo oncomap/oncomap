@@ -1,0 +1,8 @@
+id: valdeolivas-2024-coadread
+doi: 10.1038/s41698-023-00488-4
+pmid: "38200223"
+title: Profiling the heterogeneity of colorectal cancer consensus molecular subtypes using spatial transcriptomics
+year: 2024
+venue: NPJ precision oncology
+datasets:
+  - visium-coadread-cxg-valdeolivas-2024

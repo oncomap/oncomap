@@ -1,0 +1,22 @@
+id: visium-prad-geo-gse278936
+title: "Visium spatial transcriptomics of prostate tumors highlighting club-like cell interactions with immunosuppressive niches"
+cancer_type: PRAD
+cancer_type_ncit: C2919
+tissue: "UBERON:0002367"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+n_samples: 52
+accession:
+  - GSE278936
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Visium from Series_overall_design ("Visium Spatial
+  Transcriptomics assay ... 52 prostate tumors"). Spans benign, treatment-naive,
+  neoadjuvant-treated, castration-resistant and metastatic disease; n_samples is
+  the GEO series total across those states.
+source_paper: kiviaho-2024-prad
+last_verified: "2026-07-09"
+deposition_year: 2024
+curation_status: verified

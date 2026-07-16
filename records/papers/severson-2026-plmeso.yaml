@@ -1,0 +1,8 @@
+id: severson-2026-plmeso
+doi: 10.1016/j.jtho.2025.11.019
+pmid: "41319863"
+title: "Multiomic, Histologic, and scRNA-seq Profiling of Pleural Mesothelioma Reveals Negative Prognosis Associated With a Novel Uncommitted Molecular Phenotype"
+year: 2026
+venue: "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer"
+datasets:
+  - xenium-plmeso-geo-gse327347

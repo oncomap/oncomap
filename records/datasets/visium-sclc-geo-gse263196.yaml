@@ -1,0 +1,18 @@
+id: visium-sclc-geo-gse263196
+title: "Visium spatial transcriptomics of human small cell lung cancer"
+cancer_type: SCLC
+cancer_type_ncit: C4917
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: visium
+sequencer: "Illumina NovaSeq 6000"
+n_samples: 5
+accession:
+  - GSE263196
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as 10x Visium from Series_overall_design ("spatial
+  transcriptomic sequencing (10X Visium)"). Human small cell lung cancer tissue.
+deposition_year: 2026
+curation_status: human_reviewed

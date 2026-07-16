@@ -1,0 +1,8 @@
+id: la-ah-2024-luad
+doi: 10.1002/advs.202400370
+pmid: "39113226"
+title: "Neutrophils Recruited by NKX2-1 Suppression via Activation of CXCLs/CXCR2 Axis Promote Lung Adenocarcinoma Progression"
+year: 2024
+venue: "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+datasets:
+  - visium-luad-geo-gse270431

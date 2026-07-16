@@ -1,0 +1,8 @@
+id: bowley-2025-skcm
+doi: 10.1158/2767-9764.CRC-24-0498
+pmid: "39831781"
+title: "A Melanoma Brain Metastasis CTC Signature and CTC:B-cell Clusters Associate with Secondary Liver Metastasis: A Melanoma Brain-Liver Metastasis Axis"
+year: 2025
+venue: "Cancer research communications"
+datasets:
+  - xenium-skcm-geo-gse280741

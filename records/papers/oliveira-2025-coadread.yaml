@@ -1,0 +1,12 @@
+id: oliveira-2025-coadread
+doi: 10.1038/s41588-025-02193-3
+pmid: "40473992"
+title: "High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer"
+year: 2025
+venue: "Nature genetics"
+datasets:
+  - visium-hd-coadread-geo-gse280311
+  - visium-hd-coadread-geo-gse280312
+  - visium-hd-coadread-geo-gse280313
+  - visium-hd-coadread-geo-gse280314
+  - visium-hd-coadread-geo-gse280315

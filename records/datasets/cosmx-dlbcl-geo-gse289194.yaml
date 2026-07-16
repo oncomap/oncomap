@@ -1,0 +1,22 @@
+id: cosmx-dlbcl-geo-gse289194
+title: "CosMx 6K-plex spatial transcriptomics of diffuse large B-cell lymphoma sections"
+cancer_type: DLBCLNOS
+cancer_type_ncit: C45231
+tissue: "UBERON:0000029"
+modality: spatial_transcriptomics
+platform: cosmx
+n_samples: 83
+accession:
+  - GSE289194
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform confirmed as NanoString/Bruker CosMx from Series_overall_design
+  ("CosMx Human Universal Cell Characterization RNA Panel (1000-plex) + 20
+  custom genes"). cancer_type DLBCLNOS (Diffuse Large B-Cell Lymphoma, NOS);
+  tissue set to lymph node (UBERON:0000029) - confirm nodal vs extranodal
+  sites at review.
+source_paper: dai-2025-dlbclnos
+last_verified: "2026-07-09"
+deposition_year: 2025
+curation_status: verified

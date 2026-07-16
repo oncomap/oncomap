@@ -1,0 +1,8 @@
+id: choo-2026-coadread
+doi: 10.1038/s41467-026-72204-2
+pmid: '42034603'
+title: Spatial predictors of response to chemo-immunotherapy in microsatellite stable metastatic colorectal cancer
+year: 2026
+venue: Nature communications
+datasets:
+- visium-coadread-geo-gse326101

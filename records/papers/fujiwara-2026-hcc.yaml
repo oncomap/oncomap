@@ -1,0 +1,8 @@
+id: fujiwara-2026-hcc
+doi: 10.1097/HEP.0000000000001360
+pmid: "40262132"
+title: "AI-based phenotyping of hepatic fiber morphology to inform molecular alterations in metabolic dysfunction-associated steatotic liver disease"
+year: 2026
+venue: "Hepatology (Baltimore, Md.)"
+datasets:
+  - cosmx-hcc-geo-gse292268

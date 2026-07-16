@@ -1,0 +1,8 @@
+id: cerapio-2024-mzl
+doi: 10.1002/path.6296
+pmid: "38828498"
+title: "Integrated spatial and multimodal single-cell transcriptomics reveal patient-dependent cell heterogeneity in splenic marginal zone lymphoma"
+year: 2024
+venue: "The Journal of pathology"
+datasets:
+  - visium-mzl-geo-gse228056

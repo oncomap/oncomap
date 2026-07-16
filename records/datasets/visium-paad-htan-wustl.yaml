@@ -1,0 +1,13 @@
+id: visium-paad-htan-wustl
+title: "HTAN WUSTL visium spatial transcriptomics of PAAD"
+cancer_type: PAAD
+tissue: "UBERON:0001264"
+modality: spatial_transcriptomics
+platform: visium
+n_patients: 16
+accession:
+  - SYNAPSE:syn29282141
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN WUSTL visium spatial transcriptomics; cancer_type PAAD derived from the ICD-O organ + morphology of 16 participant(s) / 23 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

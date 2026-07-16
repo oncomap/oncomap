@@ -1,0 +1,15 @@
+id: cosmx-skcm-geo-gse221390
+title: "Comparative skin cancer atlas and interactome: A multi-modal spatial approach to uncovering the cells  and interactions underlying skin cancer diversity"
+cancer_type: SKCM
+cancer_type_ncit: C3510
+tissue: "UBERON:0002097"
+modality: spatial_transcriptomics
+platform: cosmx
+n_samples: 8
+accession:
+  - GSE221390
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as cosmx from the GEO series title/summary ("melanoma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2022
+curation_status: machine_draft

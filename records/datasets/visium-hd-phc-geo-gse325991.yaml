@@ -1,0 +1,15 @@
+id: visium-hd-phc-geo-gse325991
+title: "High-resolution spatial transcriptomics of human adrenal neoplasms"
+cancer_type: PHC
+cancer_type_ncit: C3326
+tissue: "UBERON:0001235"
+modality: spatial_transcriptomics
+platform: visium_hd
+n_samples: 1
+accession:
+  - GSE325991
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium_hd from the GEO series title/summary ("pheochromocytoma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2026
+curation_status: machine_draft

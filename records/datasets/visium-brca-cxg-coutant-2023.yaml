@@ -1,0 +1,16 @@
+id: visium-brca-cxg-coutant-2023
+title: Spatial Transcriptomics Reveal Pitfalls and Opportunities for the Detection of Rare High-Plasticity Breast Cancer Subtypes
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 11
+accession:
+  - "CELLxGENE:bfd55632-15e2-4dde-a1b9-02ade511fc4d"
+access: open
+reuse_notes: >-
+  Sourced from CZ CELLxGENE Discover: tissue (UBERON), assay (EFO) and disease are CELLxGENE-curated. 11 spatial datasets on Visium. cancer_type mapped from CELLxGENE disease 'triple-negative breast carcinoma' to OncoTree BRCA.
+source_paper: coutant-2023-brca
+last_verified: "2026-07-09"
+curation_status: verified

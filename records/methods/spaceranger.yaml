@@ -1,0 +1,5 @@
+id: spaceranger
+name: "Space Ranger"
+type: pipeline
+version: "2.1.0"
+repo_url: "https://www.10xgenomics.com/support/software/space-ranger"

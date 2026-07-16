@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OncoMap</title>
+    <meta
+      name="description"
+      content="A curated, literature-grounded metadata catalog of oncology spatial-omics datasets (transcriptomics and proteomics). Find what public spatial data exists for your cancer type, platform, and modality - and whether you can reuse it."
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <form
+      name="contact"
+      data-netlify="true"
+      data-netlify-honeypot="botcheck"
+      hidden
+    >
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="organization" />
+      <input type="text" name="role" />
+      <input type="text" name="inquiry_type" />
+      <input type="text" name="dataset" />
+      <textarea name="message"></textarea>
+      <input type="text" name="consent" />
+      <input type="text" name="botcheck" />
+    </form>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

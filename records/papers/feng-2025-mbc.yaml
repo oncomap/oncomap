@@ -1,0 +1,8 @@
+id: feng-2025-mbc
+doi: 10.1038/s41523-025-00807-x
+pmid: '40790295'
+title: Integrated profiling of metaplastic breast cancer identifies putative master regulators of intratumoral heterogeneity
+year: 2025
+venue: NPJ breast cancer
+datasets:
+- visium-mbc-geo-gse283412

@@ -1,0 +1,15 @@
+id: visium-hgsoc-zenodo-zenodo-17418856
+title: "Single cell copy number and spatial transcriptomics of ovarian cancer specimens"
+cancer_type: HGSOC
+tissue: "UBERON:0000992"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - 10.5281/zenodo.17418856
+access: open
+reuse_notes: >-
+  Machine-drafted by the Zenodo harvester. Citable DOI (resolvable via doi.org). Zenodo carries no organism/assay fields, so platform was detected as visium and cancer_type classified as HGSOC from the record title/description, non-human organism markers were screened out, and the type term is required in the title. Confirm the sample count, tissue detail, histology and human provenance, and link the source paper before promoting past machine_draft.
+source_paper: bassiouni-2026-hgsoc
+last_verified: "2026-07-12"
+deposition_year: 2025
+curation_status: verified

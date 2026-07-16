@@ -1,0 +1,13 @@
+id: imc-os-biad-s-biad833
+title: "MAGEA antigens as immunotherapeutic targets for advanced osteosarcoma."
+cancer_type: OS
+tissue: "UBERON:0001474"
+modality: spatial_proteomics
+platform: imc
+accession:
+  - S-BIAD833
+access: open
+reuse_notes: >-
+  Machine-drafted by the BioImage Archive/BioStudies harvester. S-BIAD accession; study Biosample Organism is Homo sapiens. Platform detected as imc and cancer_type classified as OS from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail, histology and data licence, and link the source paper before promoting past machine_draft.
+deposition_year: 2025
+curation_status: machine_draft

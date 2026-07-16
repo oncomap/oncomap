@@ -1,0 +1,13 @@
+id: cycif-skcm-htan-hms
+title: "HTAN HMS cycif spatial proteomics of SKCM"
+cancer_type: SKCM
+tissue: "UBERON:0002097"
+modality: spatial_proteomics
+platform: cycif
+n_patients: 13
+accession:
+  - SYNAPSE:syn25882965
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN HMS cycif spatial proteomics; cancer_type SKCM derived from the ICD-O organ + morphology of 13 participant(s) / 22 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

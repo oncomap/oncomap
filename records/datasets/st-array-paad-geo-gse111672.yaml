@@ -1,0 +1,23 @@
+id: st-array-paad-geo-gse111672
+title: "Microarray-based spatial transcriptomics of primary pancreatic ductal adenocarcinoma (Moncada et al.)"
+cancer_type: PAAD
+cancer_type_ncit: C8294
+tissue: "UBERON:0001264"
+modality: spatial_transcriptomics
+platform: st_array
+sequencer: "Illumina NextSeq 500"
+n_patients: 6
+accession:
+  - GSE111672
+access: open
+reuse_notes: >-
+  Machine-drafted, then reviewed against the GEO series record (accession resolves; organism human; sample count matches GEO).
+  Platform is the original spot-based Spatial Transcriptomics array (design:
+  "microarray-based spatial transcriptomics"), the precursor to Visium.
+  n_samples omitted: GSE111672 mixes scRNA-seq and ST across 6 patients - the
+  ST-section count must be extracted at review. OncoTree PAAD (Pancreatic
+  Adenocarcinoma) is the standard mapping for pancreatic ductal adenocarcinoma.
+source_paper: moncada-2020-pdac-st
+last_verified: "2026-07-09"
+deposition_year: 2020
+curation_status: verified

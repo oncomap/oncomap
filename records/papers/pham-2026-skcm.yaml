@@ -1,0 +1,8 @@
+id: pham-2026-skcm
+doi: 10.1136/jitc-2025-014030
+pmid: "42315253"
+title: "Melanoma cell states shape spatial tumor-immune ecosystems to dictate the efficacy of anti-PD1 immunotherapy"
+year: 2026
+venue: "Journal for immunotherapy of cancer"
+datasets:
+  - visium-skcm-geo-gse300793

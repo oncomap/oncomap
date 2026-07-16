@@ -1,0 +1,13 @@
+id: slide-seq-brca-htan-htapp
+title: "HTAN HTAPP slide_seq spatial transcriptomics of BRCA"
+cancer_type: BRCA
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: slide_seq
+n_patients: 15
+accession:
+  - SYNAPSE:syn25981441
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN HTAPP slide_seq spatial transcriptomics; cancer_type BRCA derived from the ICD-O organ + morphology of 15 participant(s) / 26 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

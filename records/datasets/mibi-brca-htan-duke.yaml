@@ -1,0 +1,13 @@
+id: mibi-brca-htan-duke
+title: "HTAN Duke mibi spatial proteomics of BRCA"
+cancer_type: BRCA
+tissue: "UBERON:0000310"
+modality: spatial_proteomics
+platform: mibi
+n_patients: 102
+accession:
+  - SYNAPSE:syn26937645
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN Duke mibi spatial proteomics; cancer_type BRCA derived from the ICD-O organ + morphology of 102 participant(s) / 125 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

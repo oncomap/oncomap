@@ -1,0 +1,8 @@
+id: rademacher-2025-mbl
+doi: 10.1186/s13059-025-03624-4
+pmid: "40542418"
+title: "Comparison of spatial transcriptomics technologies using tumor cryosections"
+year: 2025
+venue: "Genome biology"
+datasets:
+  - xenium-mbl-geo-gse291688

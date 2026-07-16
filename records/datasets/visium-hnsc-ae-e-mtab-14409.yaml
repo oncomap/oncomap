@@ -1,0 +1,16 @@
+id: visium-hnsc-ae-e-mtab-14409
+title: "Trem2-expressing multinucleated giant macrophages are a biomarker of good prognosis in head and neck squamous cell carcinoma"
+cancer_type: HNSC
+cancer_type_ncit: C34447
+tissue: "UBERON:0000167"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - E-MTAB-14409
+access: open
+reuse_notes: >-
+  Machine-drafted by the ArrayExpress/BioStudies harvester. E-MTAB accession; study Organism attribute is Homo sapiens. Platform detected as visium and cancer_type classified as HNSC from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: gessain-2024-hnsc
+last_verified: "2026-07-12"
+deposition_year: 2024
+curation_status: verified

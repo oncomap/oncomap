@@ -1,0 +1,17 @@
+id: visium-mng-geo-gse313694
+title: "Spatial transcriptomic profiling (Visium) of meningioma"
+cancer_type: MNG
+cancer_type_ncit: C3230
+tissue: "UBERON:0000955"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 42
+accession:
+  - GSE313694
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("meningioma" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: maas-2026-mng
+last_verified: "2026-07-10"
+deposition_year: 2025
+curation_status: verified

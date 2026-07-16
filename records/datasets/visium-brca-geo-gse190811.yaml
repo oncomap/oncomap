@@ -1,0 +1,17 @@
+id: visium-brca-geo-gse190811
+title: "Single cell profiling of primary and paired metastatic lymph node tumors in breast cancer patients (10x Visium)"
+cancer_type: BRCA
+cancer_type_ncit: C9245
+tissue: "UBERON:0000310"
+modality: spatial_transcriptomics
+platform: visium
+n_samples: 4
+accession:
+  - GSE190811
+access: open
+reuse_notes: >-
+  Machine-drafted by the GEO spatial harvester. Accession returned live by NCBI E-utilities (organism Homo sapiens). Platform detected as visium from the GEO series title/summary ("breast cancer" query). n_samples is the GEO series total and may include non-spatial assays; confirm the spatial-only count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+source_paper: liu-2022-brca
+last_verified: "2026-07-10"
+deposition_year: 2022
+curation_status: verified

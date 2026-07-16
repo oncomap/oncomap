@@ -1,0 +1,8 @@
+id: iwane-2025-coadread
+doi: 10.1038/s41467-025-66485-2
+pmid: "41276505"
+title: "Targeting fibroblast derived thrombospondin 2 disrupts an immune-exclusionary environment at the tumor front in colorectal cancer"
+year: 2025
+venue: "Nature communications"
+datasets:
+  - visium-coadread-geo-gse285505

@@ -1,0 +1,8 @@
+id: ganier-2024-bcc
+doi: 10.1073/pnas.2313326120
+pmid: "38165934"
+title: Multiscale spatial mapping of cell populations across anatomical sites in healthy human skin and basal cell carcinoma
+year: 2024
+venue: Proceedings of the National Academy of Sciences of the United States of America
+datasets:
+  - visium-bcc-cxg-ganier-2024

@@ -1,0 +1,13 @@
+id: codex-coadread-htan-wustl
+title: "HTAN WUSTL codex spatial proteomics of COADREAD"
+cancer_type: COADREAD
+tissue: "UBERON:0001155"
+modality: spatial_proteomics
+platform: codex
+n_patients: 5
+accession:
+  - SYNAPSE:syn61463021
+access: controlled
+reuse_notes: >-
+  Machine-drafted from the public HTAN Data Portal metadata (data.humantumoratlas.org). HTAN WUSTL codex spatial proteomics; cancer_type COADREAD derived from the ICD-O organ + morphology of 5 participant(s) / 7 biospecimen(s). The HTAN data files are largely access-controlled (dbGaP), so this is a pointer: the accession is a resolvable Synapse entity, obtain data via HTAN. Confirm the spatial-only sample count and any subtype before promoting.
+curation_status: machine_draft

@@ -1,0 +1,14 @@
+id: visium-nsclc-ae-e-mtab-13530
+title: "Spatial transcriptomics (10x Visium) of human NSCLC lesions and non-involved tissue"
+cancer_type: NSCLC
+cancer_type_ncit: C2926
+tissue: "UBERON:0002048"
+modality: spatial_transcriptomics
+platform: visium
+accession:
+  - E-MTAB-13530
+access: open
+reuse_notes: >-
+  Machine-drafted by the ArrayExpress/BioStudies harvester. E-MTAB accession; study Organism attribute is Homo sapiens. Platform detected as visium and cancer_type classified as NSCLC from a distinctive disease term in the study title/description. Confirm the spatial-only sample count, tissue detail and histology, and link the source paper before promoting past machine_draft.
+deposition_year: 2024
+curation_status: machine_draft

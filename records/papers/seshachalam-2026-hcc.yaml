@@ -1,0 +1,8 @@
+id: seshachalam-2026-hcc
+doi: 10.1016/j.jhepr.2026.101790
+pmid: "41950768"
+title: "Multiomics and multi-region spatial transcriptome analysis reveal cellular networks and pathways associated with HCC recurrence"
+year: 2026
+venue: "JHEP reports : innovation in hepatology"
+datasets:
+  - visium-hcc-geo-gse281759
